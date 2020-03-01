@@ -7,6 +7,18 @@
 
 ## Introduction
 
+This minimal computing project is an introduction to digital humanities course to be taught
+in prison, using a fairly simple computer network with no internet connection. Incarcerated
+college students will learn digital skills as well as tools and methods for exploring humanities
+ subjects and doing humanistic research. Students will learn version control (git), HTML and CSS,
+Python, and to create static sites with Jekyll. Students may be interested in doing software
+design, mapping, data visualization, artificial intelligence, text mining and UX design labs in
+subsequent semesters. The digital classroom we propose to create will be able to accommodate all
+of that. This course and the minimal computing projects students develop in this course can be
+used, adapted and/or enjoyed in communities that have shaky (or no) internet connections and  
+other similar constraints such as hardware, software, digital literacy and monetary contstraints,
+in other parts of the world.
+
 Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on
 [minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility,
 durability, ease and flexibility.
