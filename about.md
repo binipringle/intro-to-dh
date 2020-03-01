@@ -3,6 +3,10 @@ layout: page
 title: About
 ---
 
+This capstone project for the Master of Arts in Digital Humanities at The Graduate Center - CUNY (maybe screenshot of DH program page) grew out of a conversations in the intro to DH course in Fall 2018 about how digital humanities had shifted from seeing itself as a big tent (reference) to becoming an expanded field (ref). (quote and summarize Matt)
+
+At the same time that I was learning new skills that gave me a lot of freedom to criss cross academic fields, I became increasingly aware that the tools I was learning could be much more widely shared. 
+
 One of our most pressing and ever-evolving needs as scholars is to pass on our textual artifacts
 from one generation to another. The art of textual editing, among other practices, has helped many
 cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its
