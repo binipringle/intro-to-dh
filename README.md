@@ -1,9 +1,4 @@
-# Ed: A Jekyll Theme for Minimal Editions
-
-[![Build Status](https://travis-ci.org/minicomp/ed.svg?branch=master)](https://travis-ci.org/minicomp/ed) [![Gem Version](https://badge.fury.io/rb/ed..svg)](https://badge.fury.io/rb/ed.)
-
-![Sample Ed screenshot](https://github.com/minicomp/ed/blob/master/assets/screenshot-home.png)
-
+# DH in Prison: a minimal computing project for helping incarcerated people learn digital humanities theory, skills and methods
 
 ## Introduction
 
@@ -16,25 +11,16 @@ design, mapping, data visualization, artificial intelligence, text mining and UX
 subsequent semesters. The digital classroom we propose to create will be able to accommodate all
 of that. This course and the minimal computing projects students develop in this course can be
 used, adapted and/or enjoyed in communities that have shaky (or no) internet connections and  
-other similar constraints such as hardware, software, digital literacy and monetary contstraints,
+other similar constraints such as hardware, software, digital literacy and monetary constraints,
 in other parts of the world.
 
-Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on
-[minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility,
-durability, ease and flexibility.
+All course materials and resources are on a static site built with Jekyll (a static site generator) written in Ruby (a programming language) using Ed (a Jekyll theme designed for textual editors based on minimal computing (hyperlink to page with pasted text from go::dh) principles, and focused on legibility, durability, ease and flexibility).
 
-One of our most pressing and ever-evolving needs as scholars is to pass on our textual artifacts
-from one generation to another. The art of textual editing, among other practices, has helped many
-cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its
-highest form by a dwindling number of scholars. In a digital environment the problem is compounded
-by the difficulties of the medium. While vast repositories and "e-publications" appear on the
-online scene yearly, very few manifest a textual scholar's disciplined attention to detail. In
-contrast, most textual scholars who have made the leap to a rigorous digital practice have focused
-on markup, relying on technical teams to deploy and maintain their work. This makes your average
-scholarly digital edition a very costly and therefore limited affair.
+One of the reasons why we are excited about using Ed is because instead of using markup (a markup language is a way of annotating text inline to determine what it will look like; for example, HTML and XML are markup languages), Ed uses markdown, which has a much more gentle learning curve.
+While markup languages rely on technical teams to be deployed and maintained, markdown helps reduce the size and complexity of the back and
+front end while flattening the learning curves for the user and the producer.
 
-As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and
-front end while flattening the learning curves for the user and the producer. Out of the box, the Ed
+Out of the box, the Ed
 theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes
 and a bibliography, without breaking the bank. In our estimate, these are the two most immediately
 useful type of editions for editors and readers. An edition produced with Ed consists of static
