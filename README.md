@@ -1,18 +1,9 @@
-# DH in Prison: a minimal computing project for helping incarcerated people learn digital humanities theory, skills and methods
+# DH in Prison
+## a minimal computing project for teaching digital humanities theory, skills and methods to incarcerated people
 
-## Introduction
+## About
 
-This minimal computing project is an introduction to digital humanities course to be taught
-in prison, using a fairly simple computer network with no internet connection. Incarcerated
-college students will learn digital skills as well as tools and methods for exploring humanities
- subjects and doing humanistic research. Students will learn version control (git), HTML and CSS,
-Python, and to create static sites with Jekyll. Students may be interested in doing software
-design, mapping, data visualization, artificial intelligence, text mining and UX design labs in
-subsequent semesters. The digital classroom we propose to create will be able to accommodate all
-of that. This course and the minimal computing projects students develop in this course can be
-used, adapted and/or enjoyed in communities that have shaky (or no) internet connections and  
-other similar constraints such as hardware, software, digital literacy and monetary constraints,
-in other parts of the world.
+This minimal computing project is an introduction to digital humanities course to be taught in prison, using a fairly simple computer network with no internet connection. Students will learn digital skills as well as tools and methods for exploring humanities subjects and doing humanistic research. Students will learn version control (git), HTML and CSS, Python, and Ruby. Students may be interested in doing software design, mapping, data visualization, artificial intelligence, text mining and UX design labs in subsequent semesters. The digital classroom we propose to create will be able to accommodate all of that. This course and the minimal computing projects students develop in this course can be used, adapted and/or enjoyed in communities that have shaky (or no) internet connections and other similar constraints such as hardware, software, digital literacy and monetary constraints, in other parts of the world.
 
 All course materials and resources are on a static site built with Jekyll (a static site generator) written in Ruby (a programming language) using Ed (a Jekyll theme designed for textual editors based on minimal computing (hyperlink to page with pasted text from go::dh) principles, and focused on legibility, durability, ease and flexibility).
 
