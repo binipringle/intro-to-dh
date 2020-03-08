@@ -3,23 +3,13 @@
 
 ## About
 
-"Introduction to Digital Humanities" is the first course in a year-long, two-course sequence of classes that aims to introduce students to the landscape of digital humanities tools and methods through readings and classroom and online discussions, lectures offered by prominent scholars and technologists, hands-on workshops, and collaborative projects. Students enrolled in the two-course sequence will complete their first year at the GC having been introduced to a broad range of ways to critically evaluate and incorporate digital technologies into their academic research and teaching. In addition, they will have explored both the general field and a particular area of digital scholarship and/or pedagogy of interest to them, produced a digital project in collaboration with fellow students, and learned how to present their digital work effectively.
+"Introduction to Digital Humanities" is a one semester 3-credit course that aims to introduce students to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects. Students will explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research. In addition, they will explore both the general field and a particular area of interest to them, produce a series of digital projects individually and in collaboration with fellow students, and learn how to present their digital work effectively.
 
-This minimal computing project is an introduction to digital humanities course to be taught in prison, using a fairly simple computer network with no internet connection. Students will learn digital skills as well as tools and methods for exploring humanities subjects and doing humanistic research. Students will learn version control (git), HTML and CSS, Python, and Ruby. Students may be interested in doing software design, mapping, data visualization, artificial intelligence, text mining and UX design labs in subsequent semesters. The digital classroom we propose to create will be able to accommodate all of that. This course and the minimal computing projects students develop in this course can be used, adapted and/or enjoyed in communities that have shaky (or no) internet connections and other similar constraints such as hardware, software, digital literacy and monetary constraints, in other parts of the world.
+As a minimal computing project this course is designed to run on a fairly simple computer network with no internet connection. Students will learn digital skills as well as tools and methods for exploring humanities subjects and doing humanistic research under significant constraints particular to prisons. Students will learn version control (git), HTML and CSS, Python, and Jekyll (Ruby). These technical skills can be foundational for gaining expertise in software design, mapping, data visualization, games, artificial intelligence, text mining, UX design and other specializations in subsequent semesters.
 
-All course materials and resources are on a static site built with Jekyll (a static site generator) written in Ruby (a programming language) using Ed (a Jekyll theme designed for textual editors based on minimal computing (hyperlink to page with pasted text from go::dh) principles, and focused on legibility, durability, ease and flexibility).
+A lot of the course materials and resources are on this static website. Other resources such as digital editions of texts, datasets and images can be brought in by the instructor if you request them for a project. All requests have to be screened and approved by the prison education office so it is a good idea to request them as soon as you know what you might need.
 
-One of the reasons why we are excited about using Ed is because instead of using markup (a markup language is a way of annotating text inline to determine what it will look like; for example, HTML and XML are markup languages), Ed uses markdown, which has a much more gentle learning curve.
-While markup languages rely on technical teams to be deployed and maintained, markdown helps reduce the size and complexity of the back and
-front end while flattening the learning curves for the user and the producer.
-
-Out of the box, the Ed
-theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes
-and a bibliography, without breaking the bank. In our estimate, these are the two most immediately
-useful type of editions for editors and readers. An edition produced with Ed consists of static
-pages whose rate of decay is substantially lower than database-driven systems. As an added bonus,
-these static pages require less bandwidth. Our hope is that our approach can help beginners and
-veterans deploy beautiful editions with less effort, and that it can help us teach a 'full stack'
+Out of the box, the Ed... and that it can help us teach a 'full stack'
 [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md),
 while allowing us to care for our projects at less cost, and perhaps, just perhaps, to generate
 high-quality editions on github.io in large quantities based on the
