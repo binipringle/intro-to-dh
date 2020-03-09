@@ -2,7 +2,7 @@
 
 # Setup
 title:               'Intro to DH'
-tagline:             'a minimal computing introduction to digital humanities course on a static site'
+tagline:             'an introductory digital humanities course on a static site'
 description:         'This minimal computing project is an introduction to digital humanities course to be taught in prison using a fairly simple computer network with no internet connection. This course is designed for incarcerated college students, based on minimal computing principles, and focused on legibility, flexibility and minimizing cost.'
 url:                 'https://github.com/binipringle'
 baseurl:             '/dh-in-prison'
