@@ -9,7 +9,7 @@ As a minimal computing project this course is designed to run on a fairly simple
 
 A lot of the course materials and resources are on this static website. Other resources such as digital editions of texts, datasets and images can be brought in by the instructor if you request them for a project. All requests have to be screened and approved by the prison education office so it is a good idea to request them as soon as you know what you might need.
 
-Out of the box, the Ed... and that it can help us teach a 'full stack'
+I am keeping the following stuff because I might want to use the code to hyperlink other static pages or something ... and that it can help us teach a 'full stack'
 [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md),
 while allowing us to care for our projects at less cost, and perhaps, just perhaps, to generate
 high-quality editions on github.io in large quantities based on the
