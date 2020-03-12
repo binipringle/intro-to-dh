@@ -23,4 +23,4 @@ In this session, we will:
     search text files using the grep command
     create and sort cheat sheets for the commands we learn
 
-  [Get started >>>](./_texts/delayed.md)
+  [Get started >>>](./what-is-the-command-line.md)
