@@ -1,8 +1,26 @@
 ---
 layout: narrative
-title: Abstract
-author:
+title: Introduction to the Command Line
+author: Based on work by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY Graduate Center Digital Humanities Research Institute
 editor: Sabina Pringle
 source: Capstone project, MA in Digital Humanities, The Graduate Center - CUNY
 ---
-This paper proposes to develop an undergraduate college-level course in digital humanities to be taught in prison in the United States. At present, no digital humanities course is taught in any prison college program, partly because prison restrictions on the use of technology make digital courses complicated to teach. The solution this paper proposes is to work with minimal computing methods in order to set up and maintain a digital classroom under prison-specific constraints of hardware, software, connectivity and cost, as well as to develop digital literacy and digital content resources. With a fairly simple computer network and without an internet connection, incarcerated students can learn digital skills as well as tools and methods for exploring humanities subjects in a first introductory course. Subsequent courses could focus on specific areas of expertise such as software development, mapping, data visualization, artificial intelligence, text mining, and UX design. Students may also be interested in developing minimal computing projects for use in communities that have shaky (or no) internet connections and other constraints (such as economic constraints) in other parts of the world. An assessment of reading lists from a representative sample of prison college programs in New York State suggests that students will have no trouble reading digital humanities theory and engaging in its praxis. The purposes of the pedagogical initiative this thesis outlines are to empower incarcerated students by giving them tools to perform and publish humanities research, create digital artifacts, and teaching them digital skills including but not limited to proficiency in the command line, HTML and CSS and Python, that will be of use to them in finding employment when they are released from prison. 
+By this point in our lives, most of us have had some interaction with computers. Whether that involved avoiding them as much as possible or constantly testing new software, we likely have some ideas about how we feel comfortable getting things done.
+
+Many of us would be able to explain what a screen and a cursor are, and then show how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
+
+Today we're going to explore another way to make a computer do things: through the command line. Instead of pointing and clicking, we'll be typing in the laptop's terminal to tell the computer directly what task we'd like it to perform.
+
+While this new technique can seem intimidating if you haven't used text-based interfaces before, luckily, you can use 90% of the functionality of the command line by becoming comfortable with a very small set of the most common commands.
+
+In this session, we will:
+
+    learn common commands to create files (touch and echo)
+    learn commands to create directories (mkdir)
+    navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
+    move content from one place to another using redirects (>) and pipes (|)
+    explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
+    search text files using the grep command
+    create and sort cheat sheets for the commands we learn
+
+  [Get started >>>] (delayed.md)
