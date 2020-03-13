@@ -23,4 +23,4 @@ In this session, we will:
     search text files using the grep command
     create and sort cheat sheets for the commands we learn
 
-[Get started >>>]({{ site.baseurl }}{% _texts/what-is-the-command-line.md %})
+[Get started >>>]({{ site.baseurl }}{% texts/what-is-the-command-line.md %})
