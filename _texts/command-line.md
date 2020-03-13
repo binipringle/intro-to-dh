@@ -1,9 +1,9 @@
 ---
 layout: narrative
 title: Introduction to the Command Line
-author: Based on work by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY Graduate Center Digital Humanities Research Institute
+author:
 editor: Sabina Pringle
-source: Capstone project, MA in Digital Humanities, The Graduate Center - CUNY
+source: Graduate Center Digital Humanities Research Institute
 ---
 By this point in our lives, most of us have had some interaction with computers. Whether that involved avoiding them as much as possible or constantly testing new software, we likely have some ideas about how we feel comfortable getting things done.
 
@@ -24,3 +24,5 @@ In this session, we will:
     create and sort cheat sheets for the commands we learn
 
 [Get started >>>]({{ site.baseurl }}{% link _texts/what-is-the-command-line.md %})
+
+This tutorial is based on previous work by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY Graduate Center Digital Humanities Research Institute

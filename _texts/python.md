@@ -1,41 +1,27 @@
 ---
-layout: poem
-title: "O Captain! My Captain!"
-author: Walt Whitman
-editor: Alex Gil
-source: Poetry Foundation
+layout: Narrative
+title: Introduction to Python
+author:
+editor: Sabina Pringle
+source: CUNY Graduate Center Digital Humanities Research Institute
 ---
+Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
 
-- O Captain! my Captain! our fearful trip is done;[^fn1]
-- The ship has weather’d every rack, the prize we sought is won,
-- The port is near, the bells I hear, the people all exulting,
-- While follow eyes the steady keel, the vessel grim and daring;
-- {:.indent-3}But O heart! heart! heart!
-- {:.indent-4}O the bleeding drops of red,
-- {:.indent-5}Where on the deck my Captain lies,
-- {:.indent-6}Fallen cold and dead.
+By the end of this workshop, participants will:
 
-- O Captain! my Captain! rise up and hear the bells;
-- Rise up—for you the flag is flung—for you the bugle[^fn2] trills,
-- For you bouquets and ribbon’d wreaths—for you the shores a-crowding,
-- For you they call, the swaying mass, their eager faces turning;
-- {:.indent-3}Here Captain! dear father!
-- {:.indent-4}This arm beneath your head!
-- {:.indent-5}It is some dream that on the deck,
-- {:.indent-6}You’ve fallen cold and dead.
+    Understand what Python is and, in general terms, what it can do.
+    Run Python programs, both by interacting directly with the interpreter and by preparing and running scripts.
+    Distinguish among five core data types—integers, floats, strings, booleans, and lists.
+    Become familiar with core programming concepts, including variables, loops, and conditionals.
+    Engage with error output and use the internet and documentation to independently research language features.
+    Learn how to find and import code from external sources to solve more complex problems.
 
+Get Started >>>
+Glossary >>>
 
-- My Captain does not answer, his lips are pale and still,[^fn3]
-- My father does not feel my arm, he has no pulse nor will,
-- The ship is anchor’d safe and sound, its voyage closed and done,
-- From fearful trip the victor ship comes in with object won;
-- {:.indent-3}Exult O shores, and ring O bells!
-- {:.indent-4}But I with mournful tread,
-- {:.indent-5}Walk the deck my Captain lies,
-- {:.indent-6}Fallen cold and dead.
+This session is based on previous work by Patrick Smyth for the CUNY Graduate Center Digital Research Institute.
 
-<br>
-
+These are Alex's footnotes [^fn1]. I am keeping footnotes in case I want to have footnotes [^fn2] so that I remember how to make footnotes [^fn3]
 ---
 
 ## Footnotes

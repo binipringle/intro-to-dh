@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Git
-author: Based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute
+author:
 editor: Sabina Pringle
 source: Graduate Center Digital Humanities Research Institute
 ---
@@ -14,3 +14,5 @@ To complete this workshop, you will need to have VS Code and Git installed on yo
 
 Get Started >>>
 Glossary >>>
+
+This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute
