@@ -1,9 +1,9 @@
 ---
-layout: poem
-title: Delayed till she had ceased to know
-author: Emily Dickinson
-editor: Alex Gil
-source: "Bartleby.com"
+layout: narrative
+title: 1. Education in Prison
+author:
+editor:
+source:
 ---
 
 - DELAYED till she had ceased to know,
@@ -15,7 +15,7 @@ source: "Bartleby.com"
 
 
 - Could she have guessed that it would be;
-- Could but a crier of the glee	
+- Could but a crier of the glee
 - {:.indent-2}Have climbed the distant hill;
 - Had not the bliss so slow a pace,—
 - Who knows but this surrendered face

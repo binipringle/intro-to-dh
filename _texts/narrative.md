@@ -1,11 +1,11 @@
 ---
 layout: narrative
-title: "Narrative of the Life of Frederick Douglass"
-author: Frederick Douglass
-editor: Alex Gil
-rights: Public Domain
-source: Project Guttenberg
-publication-date: 2016
+title: 4. Minimal computing
+author:
+editor:
+rights:
+source:
+publication-date: 
 toc:
 - Title Page
 - Preface

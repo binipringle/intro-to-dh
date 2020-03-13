@@ -1,9 +1,9 @@
 ---
-layout: poem
-title: "O Captain! My Captain!"
-author: Walt Whitman
-editor: Alex Gil
-source: Poetry Foundation
+layout: narrative
+title: PSCP at Otisville: a case study and possible proposal
+author:
+editor:
+source: 
 ---
 
 - O Captain! my Captain! our fearful trip is done;[^fn1]

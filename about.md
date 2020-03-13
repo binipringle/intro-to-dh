@@ -3,61 +3,8 @@ layout: page
 title: About
 ---
 
-This capstone project for the Master of Arts in Digital Humanities at The Graduate Center - CUNY (maybe screenshot of DH program page) grew out of a conversations in the intro to DH course in Fall 2018 about how digital humanities had shifted from seeing itself as a big tent (reference) to becoming an expanded field (ref). (quote and summarize Matt)
+This capstone project for the Master of Arts in Digital Humanities at The Graduate Center - CUNY grew out of a conversations in the intro to DH course in Fall 2018 about how digital humanities had shifted from, in its early days, seeing itself as a big tent (link to Patrick Svensson, "Beyond the Big Tent") to becoming an expanded field (Link to Lauren F. Klein and Matthew K. Gold, "Digital Humanities: The Expanded Field"), to ally itself with activists, organizers, and others to bring about social change (link to Matthew K. Gold and Lauren F. Klein, "A DH That Matters").
 
-At the same time that I was learning new skills that gave me a lot of freedom to criss cross academic fields, I became increasingly aware that the tools I was learning could be much more widely shared. 
+At the same time that I was learning new skills that gave me a lot of freedom to criss cross academic fields, I became increasingly aware that this criss-crossing was making the boundaries between academic communities and other public spheres more fluid and less clearly defined. Excited by the vitality new voices were injecting into academic conversations and convinced that all the reshuffling we were doing was good, I wanted to help further expand the field of digital humanities by sharing the tools I was learning with the most underserved. At the time, I was tutoring in a federal prison in New York City, where I was struck by the complete absence of digital technologies used to pursue educational goals. I saw that on one hand digital literacy would be super important to my students when they left prison and set out to seek jobs. In addition to this, I found getting into the back end of a computer and getting it to do what I wanted it to do - instead of being scared I'd break the damn thing because I didn't know how it worked - so mesmerizing, fun and empowering that I wanted to employ these practices in prison as pedagogical tools. When we have fun, we engage and we learn. Meeting the challenge of just the right amount of difficulty creates appetite for more. There was no doubt in my mind that the freedom and freshness of digital humanities theory and practice would appeal to incarcerated students. The question was never why, only how.
 
-One of our most pressing and ever-evolving needs as scholars is to pass on our textual artifacts
-from one generation to another. The art of textual editing, among other practices, has helped many
-cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its
-highest form by a dwindling number of scholars. In a digital environment the problem is compounded
-by the difficulties of the medium. While vast repositories and "e-publications" appear on the
-online scene yearly, very few manifest a textual scholar's disciplined attention to detail. In
-contrast, most textual scholars who have made the leap to a rigorous digital practice have focused
-on markup, relying on technical teams to deploy and maintain their work. This makes your average
-scholarly digital edition a very costly and therefore limited affair.
-
-As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and
-front end while flattening the learning curves for the user and the producer. Out of the box, the Ed
-theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes
-and a bibliography, without breaking the bank. In our estimate, these are the two most immediately
-useful type of editions for editors and readers. An edition produced with Ed consists of static
-pages whose rate of decay is substantially lower than database-driven systems. As an added bonus,
-these static pages require less bandwidth. Our hope is that our approach can help beginners and
-veterans deploy beautiful editions with less effort, and that it can help us teach a 'full stack'
-[in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md),
-while allowing us to care for our projects at less cost, and perhaps, just perhaps, to generate
-high-quality editions on github.io in large quantities based on the
-[git-lit](http://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming
-for you, Kindle!
-
-
-## Sample Ed editions.
-
-- [Our sample site](http://minicomp.github.io/ed/) is the first edition built with Ed.
-- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
-- [mini lazarillo](http://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
-- [Making and Knowing](https://cu-mkp.github.io/GR8975-edition/): The BnF Ms Fr 640 in Translation
-- [Daisy Miller: A Comedy in Three Acts](https://britaneeelizabeth.github.io/ed/texts/DaisyMillerPlay/)
-
-
-## Current Features
-
-- Templates for narrative, drama and poetry
-- Responsive design for mobile phones, tablets and PCs.
-- Relatively easy to learn and teach
-- Works well in high- or low- bandwidth scenarios
-- Easier for digital archives and libraries to preserve
-- Open source, open access
-- Unobtrusive footnotes
-- Metadata in Dublin Core and OpenGraph to play nice with Zotero, libraries and social media.
-- Automatic table of content generation
-- Simple search functionality
-- Annotations via [hypothes.is](https://hypothes.is/)
-- Optional: Ability to generate well-formatted bibliographies and linked citations
-
-
-## Installing and using Ed
-
-To learn how to install and begin using Ed, please visit our
-[documentation page](http://minicomp.github.io/ed/documentation).
+Minimal computing work done by digital humanists provided the answer to this question. Minimal computing is an emerging conversation in digital humanities about the need for computing solutions in parts of the world with little or no internet connectivity and limited access to digital technologies. This lack of access to digital technologies as well as the steep learning curve generally required by these excludes a huge part of the world population from being able to participate in digital work. The goal of minimal computing is to seek ways to use computers under some set of significant constraints of hardware, software, education, network capacity, power, or other factors.  Minimal computing’s search for solutions revolves around the central question of what is needed and explores how to meet these needs at minimal cost. It aims to be sustainable, reasonably easy to program and able to preserve digital work at low cost and independently. To my excitement, I found that these goals exactly meet this project's needs.

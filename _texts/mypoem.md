@@ -1,9 +1,9 @@
 ---
-layout: poem
-title: My poem
-author: Alex Gil
-editor: Alex Gil
-source: My imagination
+layout: narrative
+title: 3. Prison constraints
+author:
+editor:
+source:
 ---
 
 - The library is pretty

@@ -1,9 +1,9 @@
 ---
-layout: poem
-title: Dreams
-author: Langston Hughes
-editor: Alex Gil
-source: Project Guttenberg
+layout: narrative
+title: 2. Prison college programs in New York State and beyond
+author:
+editor:
+source: 
 ---
 
 - Hold fast to dreams
