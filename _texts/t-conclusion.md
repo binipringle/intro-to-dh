@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: Conclusion
+title: 7. Conclusion
 author:
 editor:
 source:

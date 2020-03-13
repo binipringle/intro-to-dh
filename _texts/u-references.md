@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: References
+title: 8. References
 author:
 editor:
 source:
