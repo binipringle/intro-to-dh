@@ -1,5 +1,5 @@
 ---
-layout: Narrative
+layout: narrative
 title: Introduction to Python
 author:
 editor: Sabina Pringle
