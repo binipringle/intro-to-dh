@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: Maintenance and sustainability
+title: 6. Maintenance and sustainability
 author:
 editor:
 source:
