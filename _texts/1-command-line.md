@@ -23,6 +23,6 @@ In this session, we will:
 
 [Get started >>>]({{ site.baseurl }}{% link _texts/what-is-the-command-line.md %})
 
-[Get started >>>]({{ site.baseurl }}{% link documentation.md %})
+[Get started >>>]({{ site.baseurl }}{% link _texts/what-is-the-command-line.md %})
 
 This tutorial is based on previous work by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY Graduate Center Digital Humanities Research Institute
