@@ -1,15 +1,15 @@
 ---
 layout: narrative
 title: Command Line
-author: Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin
+author:
 editor: Sabina Pringle
 rights: License (specify)
 source: Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction to the command line
 - What is the command line?
-- Letter from Wendell Phillips, Esq.
-- Chapter I
+- Text editors
+- Why is the command line useful?
 - Chapter II
 - Chapter III
 - Chapter IV
@@ -28,7 +28,7 @@ toc:
 
 ## Editor's note
 
-This session was adapted from *Introduction to the Command LIne* session created by Kelsey Chatlosh for the Graduate Center Digital Research Institute in January 2020, and based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. The [Guttenberg file](http://www.gutenberg.org/) does not tell us which witness was used in making their digital edition. You will find the link to the GitHub repository in the [Documentation]({{ site.baseurl }}/documentation/). I might want to say in the bibliography or references.
+This session was adapted from *Introduction to the Command LIne* session created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GCDHI) in January 2020, and based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GC website and GitHub repositories are in the [Documentation]({{ site.baseurl }}/documentation/). I want to say in the bibliography or references but I have to get this together.
 
 ---
 
@@ -42,17 +42,13 @@ While this new technique can seem intimidating if you have not used text-based i
 
 In this session, we will:
 
-* learn common commands to create files (touch and echo)
-* learn commands to create directories (mkdir)
-* navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
-* move content from one place to another using redirects (>) and pipes (|)
+- learn common commands to create files (touch and echo)
+- learn commands to create directories (mkdir)
+- navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
+- move content from one place to another using redirects (>) and pipes (|)
 * explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
 * search text files using the grep command
 * create and sort cheat sheets for the commands we learn
-
-[Get started >>>]({{ site.baseurl }}{% link _texts/what-is-the-command-line.md %})
-
-This tutorial is based on previous work by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY Graduate Center Digital Humanities Research Institute
 
 ---
 
@@ -66,4 +62,68 @@ For those of us comfortable reading and writing, the idea of "text-based" in the
 
 Let's take a quick moment to discuss text and text editors.
 
-<<< Previous | Next >>>
+---
+
+## Text editors
+
+# What is text?
+
+Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields David Greetham lays out in Textual Scholarship (I could maybe add this to the resources page - see also the text referred to in the introduction - Kelshey's not my adaptation), "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+
+INSERT command-line-1-worddoc.png
+
+If you ask the command line to read that file, this Word .docx file will look something like this
+
+INSERT command-line-2-catworddoc.png
+
+Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
+
+# Plain Text
+
+For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
+
+According to the Unicode Standard,
+
+   "Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes."
+
+FOOTNOTE: See Wikipedia definition of Unicode in "further reading"
+
+Plain text has two main properties with regard to rich text:
+
+   "plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable."
+
+Plain text shows its cards-- if it is marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
+
+A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format ".rtf" file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
+
+# Text editors
+
+An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
+
+While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor.
+
+# Default text editor for this course
+
+Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program. For our workshops, we will be using Visual Studio Code (VS Code). Not only is VS Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
+
+Visual Studio Code has been preinstalled on your laptop. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which VS Code supports. For now we will get back to working in the command line itself.
+
+---
+
+## Why is the command line useful?
+
+Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
+
+The command line allows you to...
+
+* Easily automate tasks such as creating, copying, and converting files.
+* Set up your programming environment.
+* Run programs you create.
+* Access the (many) programs and utilities that do not have graphical equivalents.
+* Control other computers remotely.
+
+In addition to being a useful tool in itself, the command line gives you access to a second set of programs and utilities and is a complement to learning programming.
+
+What if all these cool possibilities seem a bit abstract to you right now? That's all right! On a very basic level, most uses of the command line are about showing information that the computer has, or modifying or making things (files, programs, etc.) on the computer.
+
+In the next section, we'll make this a little more clear by getting started with the command line.
