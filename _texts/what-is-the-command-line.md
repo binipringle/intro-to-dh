@@ -1,17 +1,11 @@
 ---
 layout: narrative
 title: What is the Command Line?
-author: Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin
+author:
 editor: Sabina Pringle
 source: Graduate Center Digital Humanities Research Institute
 ---
-## What is the command line?
-{:.no_toc}
 
-* ToC
-{:toc}
-
----
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
 What does "text-based" mean?
@@ -21,3 +15,5 @@ For those of us comfortable reading and writing, the idea of "text-based" in the
 Let's take a quick moment to discuss text and text editors.
 
 <<< Previous | Next >>>
+
+This resource is an adaptation of a session by Kelsey Chatlosh, based on work by Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for the CUNY GC Digital Humanities Research Institute
