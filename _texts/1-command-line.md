@@ -72,6 +72,8 @@ Before we explain which program we will use for editing text, we want to give a 
 
 INSERT command-line-1-worddoc.png
 
+![image-title-here](/images/command-line-1-worddoc.jpg){:class="img-responsive"}
+
 If you ask the command line to read that file, this Word .docx file will look something like this
 
 INSERT command-line-2-catworddoc.png
