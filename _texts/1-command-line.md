@@ -134,16 +134,25 @@ In the next section, we'll make this a little more clear by getting started with
 
 ## Ubuntu
 
-The operating system you are using is Ubuntu. To get to the command line in Ubuntu:
+The operating system you are using is Ubuntu. FOOTNOTE: Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. (all definitions from Wikipedia)
 
-FOOTNOTE: Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. (all definitions from Wikipedia)
+There are two ways to get to the command line in Ubuntu.
+
+First way:
+
+Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
+
+INSERT command-line-3-terminal-icon.png
+
+Second way:
 
 1. Double-click on the word "Activities" in the top left corner of your screen.
 2. Type "terminal" into the bar that appears.
 3. Select the first item that appears in the list.
-4. The terminal will look like this:
 
-INSERT command-line-3-terminal.png
+The terminal will look like this:
+
+INSERT command-line-4-terminal.png
 
 When you see the $, you're in the right place. We call the $ the command prompt; the $ lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
