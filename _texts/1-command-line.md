@@ -10,8 +10,8 @@ toc:
 - What is the command line?
 - Text editors
 - Why is the command line useful?
-- Chapter II
-- Chapter III
+- Getting to the command line
+- Navigation
 - Chapter IV
 - Chapter V
 - Chapter VI
@@ -32,7 +32,7 @@ This session was adapted from *Introduction to the Command LIne* session created
 
 ---
 
-## Introduction to the command line
+# Introduction to the command line
 
 Many of us have had some interaction with computers, and would be able to explain what a screen and a cursor are, and then show how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
 
@@ -42,17 +42,17 @@ While this new technique can seem intimidating if you have not used text-based i
 
 In this session, we will:
 
-- learn common commands to create files (touch and echo)
-- learn commands to create directories (mkdir)
-- navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
-- move content from one place to another using redirects (>) and pipes (|)
+* learn common commands to create files (touch and echo)
+* learn commands to create directories (mkdir)
+* navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
+* move content from one place to another using redirects (>) and pipes (|)
 * explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
 * search text files using the grep command
 * create and sort cheat sheets for the commands we learn
 
 ---
 
-## What is the command line?
+# What is the command line?
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
@@ -64,9 +64,9 @@ Let's take a quick moment to discuss text and text editors.
 
 ---
 
-## Text editors
+# Text editors
 
-# What is text?
+## What is text?
 
 Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields David Greetham lays out in Textual Scholarship (I could maybe add this to the resources page - see also the text referred to in the introduction - Kelshey's not my adaptation), "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
@@ -78,7 +78,7 @@ INSERT command-line-2-catworddoc.png
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
-# Plain Text
+## Plain Text
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
@@ -96,13 +96,13 @@ Plain text shows its cards-- if it is marked up, the markup will be human readab
 
 A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format ".rtf" file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
 
-# Text editors
+## Text editors
 
 An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
 
 While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor.
 
-# Default text editor for this course
+## Default text editor for this course
 
 Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program. For our workshops, we will be using Visual Studio Code (VS Code). Not only is VS Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
 
@@ -110,7 +110,7 @@ Visual Studio Code has been preinstalled on your laptop. We won't be using the e
 
 ---
 
-## Why is the command line useful?
+# Why is the command line useful?
 
 Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
 
@@ -127,3 +127,42 @@ In addition to being a useful tool in itself, the command line gives you access 
 What if all these cool possibilities seem a bit abstract to you right now? That's all right! On a very basic level, most uses of the command line are about showing information that the computer has, or modifying or making things (files, programs, etc.) on the computer.
 
 In the next section, we'll make this a little more clear by getting started with the command line.
+
+---
+
+# Getting to the command line
+
+## Ubuntu
+
+The operating system you are using is Ubuntu. To get to the command line in Ubuntu:
+
+FOOTNOTE: Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. (all definitions from Wikipedia)
+
+1. Double-click on the word "Activities" in the top left corner of your screen.
+2. Type "terminal" into the bar that appears.
+3. Select the first item that appears in the list.
+4. The terminal will look like this:
+
+INSERT command-line-3-terminal.png
+
+When you see the $, you're in the right place. We call the $ the command prompt; the $ lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
+
+In the next section, we'll learn how to navigate the filesystem in the command line.
+
+---
+
+# Navigation
+
+## Prefatory pro tips
+
+Go slow at first and check your spelling!
+
+One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind today, this week, and your whole life. If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check Johanna Drucker on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+
+Keep in mind that the command line and file systems on Mac OS and Unix are usually pre-configured as cAsE-pReSeRvInG--so capitalizations also matter when typing commands and file and folder names.
+
+Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+
+THERE IS A LOT MORE IN THIS section
+
+---
