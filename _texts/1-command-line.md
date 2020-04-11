@@ -219,5 +219,17 @@ OK, we know where we are. But what if we want to know what files and folders are
 
 Try entering:
 
+```
+$ pwd
+```
 
+You should get output like `/Users/jojo`. That means you're in the `jojo` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/jojo`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+
+The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
+
+OK, we know where we are. But what if we want to know what files and folders are in the `jojo` directory, a.k.a. the working directory?
+
+Try entering:
+
+```
 ---
