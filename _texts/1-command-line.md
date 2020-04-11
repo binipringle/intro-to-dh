@@ -76,7 +76,7 @@ Before we explain which program we will use for editing text, we want to give a 
 
 ![no-assets-path-no-images-path](/command-line-1-worddoc.jpg)
 
-or
+or this is the html
 
 <img src="/assets/images/command-line-1-worddoc.jpg" alt="">
 
