@@ -39,7 +39,7 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-#  parse_block_html: true (SP added this in an attempt to embed image with html)
+  parse_block_html: true
 
 # Exclusions from the final site
 exclude:
