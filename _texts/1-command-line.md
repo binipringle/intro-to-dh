@@ -42,13 +42,13 @@ While this new technique can seem intimidating if you have not used text-based i
 
 In this session, we will:
 
-* learn common commands to create files (touch and echo)
-* learn commands to create directories (mkdir)
-* navigate our file structure using change directory (cd), print working directory (pwd), and list (ls)
-* move content from one place to another using redirects (>) and pipes (|)
-* explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
-* search text files using the grep command
-* create and sort cheat sheets for the commands we learn
+- learn common commands to create files (touch and echo)
+- learn commands to create directories (mkdir)
+- navigate our file structure using change directory (cd), print working directory (pwd), -and list (ls)
+- move content from one place to another using redirects (>) and pipes (|)
+- explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
+- search text files using the grep command
+- create and sort cheat sheets for the commands we learn
 
 ---
 
@@ -84,7 +84,7 @@ According to the Unicode Standard,
 
    "Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes."
 
-FOOTNOTE: See Wikipedia definition of Unicode in "further reading"
+FOOTNOTE: See Wikipedia definition of Unicode in the Glossary
 
 Plain text has two main properties with regard to rich text:
 
@@ -170,6 +170,37 @@ Keep in mind that the command line and file systems on Mac OS and Unix are usual
 
 Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
-THERE IS A LOT MORE IN THIS section
+## Getting started: know thyself
+
+You may also see your username to the left of the command prompt $. Let's try our first command. Type the following and press the enter key:
+
+    $ whoami
+
+The whoami command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
+
+## Orienting yourself in the command line: folders
+
+OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
+
+Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or "root" folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
+
+    Users
+    |
+    -- binipringle
+      |
+      -- Applications
+      -- Desktop
+      -- Documents
+
+The root or highest-level folder on Linux and OSX is just called /. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called C:
+
+Note that we are using the word "directory" interchangeably with "folder"--they both refer to the same thing.
+
+OK, let's try a command that tells us where we are in the filesystem:
+
+    $ pwd
+
+You should get
+
 
 ---
