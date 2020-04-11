@@ -45,7 +45,7 @@ In this session, we will:
 - learn common commands to create files (touch and echo)
 - learn commands to create directories (mkdir)
 - navigate our file structure using change directory (cd), print working directory (pwd), -and list (ls)
-- move content from one place to another using redirects (>) and pipes (|)
+- move content from one place to another using redirects (>) and pipes
 - explore a comma separated values (.csv) dataset using word and line counts, head and tail, and the concatenate command cat
 - search text files using the grep command
 - create and sort cheat sheets for the commands we learn
@@ -205,7 +205,7 @@ OK, let's try a command that tells us where we are in the filesystem:
 
     $ pwd
 
-You should get MORE TO COME 
+You should get MORE TO COME
 
 
 ---
