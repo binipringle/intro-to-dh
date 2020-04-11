@@ -74,16 +74,9 @@ INSERT command-line-1-worddoc.png
 
 ![longer-path](/intro-to-dh/_images/command-line-1-worddoc.jpg){:class="img-responsive"}
 
-![shorter-path](/images/command-line-1-worddoc.jpg){:class="img-responsive"}
+![shorter-path](/_images/command-line-1-worddoc.jpg){:class="img-responsive"}
 
-# I got this from stackoverflow
-# <div class="img_container">
-# ![Me]({{site.baseurl}}/img/me.jpg){: height="36px" width="36px"}
-# </div>
-
-<div class="img_container">
-![Me]({{127.0.0.1:4000/intro-to-dh}}/images/command-line-1-worddoc.jpg){: height="36px" width="36px"}
-</div>
+![shorter-path-no-underscore](/images/command-line-1-worddoc.jpg){:class="img-responsive"}
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
