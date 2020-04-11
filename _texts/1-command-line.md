@@ -205,7 +205,7 @@ OK, let's try a command that tells us where we are in the filesystem:
 
     $ pwd
 
-You should get
+You should get MORE TO COME 
 
 
 ---
