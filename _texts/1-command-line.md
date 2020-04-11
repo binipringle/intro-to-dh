@@ -203,7 +203,7 @@ Your computer's files are organized in what's known as a hierarchical filesystem
       -- Desktop
       -- Documents
 
-The root or highest-level folder on Linux and OSX is just called /. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called C:
+The root or highest-level folder on Linux is just called /. We won't need to go in there, though, since it mostly just contains files for the operating system.
 
 Note that we are using the word "directory" interchangeably with "folder"--they both refer to the same thing.
 
@@ -211,7 +211,13 @@ OK, let's try a command that tells us where we are in the filesystem:
 
     $ pwd
 
-You should get MORE TO COME
+You should get output like `/Users/bini`. That means you're in the `bini` directory in the `Users` folder inside the `/` or root directory. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+
+The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
+
+OK, we know where we are. But what if we want to know what files and folders are in the `bini` directory, a.k.a. the working directory?
+
+Try entering:
 
 
 ---
