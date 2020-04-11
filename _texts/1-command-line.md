@@ -76,6 +76,10 @@ INSERT command-line-1-worddoc.png
 
 ![shorter-path](/_images/command-line-1-worddoc.jpg){:class="img-responsive"}
 
+![png-in-texts](/_texts/command-line-1-worddoc.png){:class="img-responsive"}
+
+![png-in-texts-no-underscore](/_texts/command-line-1-worddoc.png){:class="img-responsive"}
+
 ![shorter-path-no-underscore](/images/command-line-1-worddoc.jpg){:class="img-responsive"}
 
 If you ask the command line to read that file, this Word .docx file will look something like this
