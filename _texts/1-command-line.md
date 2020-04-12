@@ -91,11 +91,11 @@ Word documents which look like "just words!" are actually comprised of an archiv
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
-According to the Unicode Standard,
+According to the Unicode Standard,[^1].
+
+[^1]: There is a definition of Unicode in the glossary in case you are wondering what Unicode is and want to look it up.
 
    "Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes."
-
-FOOTNOTE: See Wikipedia definition of Unicode in the Glossary
 
 Plain text has two main properties with regard to rich text:
 
@@ -163,7 +163,7 @@ The terminal will look like this:
 
 INSERT command-line-4-terminal.png
 
-When you see the $, you're in the right place. We call the $ the command prompt; the $ lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
+When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
 In the next section, we'll learn how to navigate the filesystem in the command line.
 
@@ -175,9 +175,9 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 Go slow at first and check your spelling!
 
-One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind today, this week, and your whole life. If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check Johanna Drucker on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind today, this week, and your whole life. If at first something doesn't work, check your spelling! Unlike in human reading, where letters can simultaneously have different uses and meanings, in coding, each character has a discrete function including (especially!) spaces.
 
-Keep in mind that the command line and file systems on Mac OS and Unix are usually pre-configured as cAsE-pReSeRvInG--so capitalizations also matter when typing commands and file and folder names.
+Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG -- so capitalizations also matter when typing commands and file and folder names.
 
 Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
