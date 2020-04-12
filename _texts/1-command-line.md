@@ -143,7 +143,9 @@ In the next section, we'll make this a little more clear by getting started with
 
 ## Ubuntu
 
-The operating system you are using is Ubuntu. FOOTNOTE: Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. (all definitions from Wikipedia)
+The operating system you are using is Ubuntu.[^2].
+
+[^2]:  Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. (all definitions from Wikipedia)
 
 There are two ways to get to the command line in Ubuntu.
 
