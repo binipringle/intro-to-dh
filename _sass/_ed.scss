@@ -188,14 +188,12 @@ blockquote p:last-child {
 }
 
 /* Images */
-img[alt="minipic"] {
-  max-width:  20px; 
+img {
   display: block;
-  max-width: 100%;
+  max-width: 100px;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
-
 
 /* Tables */
 table {
