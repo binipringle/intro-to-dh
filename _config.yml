@@ -41,6 +41,14 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
 
+# For inclusion of Images
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Exclusions from the final site
 exclude:
   - optional
