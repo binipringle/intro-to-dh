@@ -188,12 +188,14 @@ blockquote p:last-child {
 }
 
 /* Images */
-img {
+img[alt="minipic"] {
+  max-width:  20px; 
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+
 
 /* Tables */
 table {
@@ -801,9 +803,4 @@ li.prose-indent {
 .theme-base-brown .sidebar-toggle,
 .theme-base-brown .related-posts li a:hover {
   color: #8f5536;
-}
-
-.foo {
-  text-align: center;
-  width: 100px;
 }
