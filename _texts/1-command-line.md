@@ -89,17 +89,17 @@ Word documents which look like "just words!" are actually comprised of an archiv
 
 ## Plain Text
 
-For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
+For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text includes characters of readable material but not graphical representation.
 
 According to the Unicode Standard,[^1].
 
 [^1]: There is a definition of Unicode in the glossary in case you are wondering what Unicode is and want to look it up.
 
-   "Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes."
+> Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
 Plain text has two main properties with regard to rich text:
 
-   "plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable."
+> Plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
 Plain text shows its cards-- if it is marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
 

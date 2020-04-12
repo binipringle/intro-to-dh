@@ -41,7 +41,7 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
 
-# For inclusion of Images
+# For inclusion of Images (added 4-11 and it does not work)
 
 defaults:
   - scope:
