@@ -183,11 +183,11 @@ Also, while copying and pasting from this handy tutorial may be tempting to avoi
 
 ## Getting started: know thyself
 
-You may also see your username to the left of the command prompt $. Let's try our first command. Type the following and press the enter key:
+You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the enter key:
 
     $ whoami
 
-The whoami command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
+The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
 
 ## Orienting yourself in the command line: folders
 
@@ -203,7 +203,7 @@ Your computer's files are organized in what's known as a hierarchical filesystem
       -- Desktop
       -- Documents
 
-The root or highest-level folder on Linux is just called /. We won't need to go in there, though, since it mostly just contains files for the operating system.
+The root or highest-level folder on Linux is just called `/`. We won't need to go in there, though, since it mostly just contains files for the operating system.
 
 Note that we are using the word "directory" interchangeably with "folder"--they both refer to the same thing.
 
@@ -211,7 +211,7 @@ OK, let's try a command that tells us where we are in the filesystem:
 
     $ pwd
 
-You should get output like <p>/Users/bini<p>. That means you're in the <pre><code>bini<code><pre> directory in the ~Users~ folder inside the `/` or root directory. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+You should get output like `bini`. That means you're in the `bini` directory in the `Users` folder inside the `/` or root directory. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
 
 The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
 
@@ -219,17 +219,45 @@ OK, we know where we are. But what if we want to know what files and folders are
 
 Try entering:
 
-```
-$ pwd
-```
+    $ ls
 
-You should get output like `/Users/jojo`. That means you're in the `jojo` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/jojo`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+You should see a number of folders, probably including Documents, Desktop, and so on. You may also see some files. These are the contents of the current working directory. `ls` will "list" the contents of the directory you are in.
 
-The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
+Wonder what's in the Desktop folder? Let's try navigating to it with the following command:
 
-OK, we know where we are. But what if we want to know what files and folders are in the `jojo` directory, a.k.a. the working directory?
+    $ cd Desktop
 
-Try entering:
+The `cd` command lets us "change directory." (Make sure the "D" in "Desktop" is capitalized.) If the command was successful, you won't see any output. This is normal —- often, the command line will succeed silently.
 
-```
+So how do we know it worked? That's right, let's use our `pwd` command again. We should get:
+
+    $ pwd
+    /Users/bini/Desktop
+
+Now try `ls` again to see what's on your desktop. These three commands — `pwd`, `ls`, and `cd` — are the most commonly used in the terminal. Between them, you can orient yourself and move around.
+
+Before we move on, let's take a minute to navigate through our computer's file system using the command line.
+
+---
+
+## Challenge
+
+Use the three commands you've just learned — `pwd`, `ls` and `cd` — eight (8) times each. Go poking around your Pictures folder, or see what's so special about that root `/` directory. When you're done, come back to the home folder with
+
+    cd ~
+
+(That's a tilde, on the top left of your keyboard.) One more command you might find useful is
+
+    cd ..
+
+which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
+
+---
+
+## Compare with the GUI
+
+It's important to note that this is the same old information you can get by pointing and clicking displayed to you in a different way.
+
+Go ahead and use pointing and clicking to navigate to your working directory--you can get there a few ways, but try starting from "Files" and clicking down from there. You'll notice that the folder names should match the ones that the command line spits out for you, since it's the same information! We're just using a different mode of navigation around your computer to see it.
+
 ---
