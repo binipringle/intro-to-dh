@@ -70,15 +70,15 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields David Greetham lays out in Textual Scholarship (I could maybe add this to the resources page - see also the text referred to in the introduction - Kelshey's not my adaptation), "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![assets-and-images-path](/assets/images/command-line-1-worddoc.jpg)
+![assets-and-img-path](/assets/img/command-line-1-worddoc.jpg)
 
-![no-assets-path](/images/command-line-1-worddoc.jpg)
+![no-assets-path](/img/command-line-1-worddoc.jpg)
 
 ![no-assets-path-no-images-path](/command-line-1-worddoc.jpg)
 
 or this is the html
 
-<img src="/assets/images/command-line-1-worddoc.jpg" alt="" >
+<img src="/assets/img/command-line-1-worddoc.jpg" alt="" >
 
 
 If you ask the command line to read that file, this Word .docx file will look something like this
