@@ -14,7 +14,7 @@ author:
   email:             sabina.pringle@gmail.com
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+color-scheme: blue
 
 # Permalinks
 permalink: pretty
@@ -41,11 +41,11 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
 
-# For inclusion of Images (added 4-11 and it does not work)
+# For inclusion of Images (added 4-11)
 
 defaults:
   - scope:
-      path: "assets/images"
+      path: "assets/img"
     values:
       image: true
 
