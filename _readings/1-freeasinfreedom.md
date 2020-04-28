@@ -3,7 +3,7 @@ layout: narrative
 title: Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution
 author: Sam Williams
 editor: Sabina Pringle
-source: sagitter.fedorapeople.org/faif-2.0.pdf
+source:
 ---
 
 ## Preface by Sam Williams
