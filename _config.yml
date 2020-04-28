@@ -28,6 +28,11 @@ collections:
   texts:
     output: true
 
+# Collections for readings
+collections:
+  readings:
+    output: true
+
 # Markdown specs
 markdown: kramdown
 
