@@ -1,11 +1,10 @@
 ---
 layout: narrative
-title: Introduction to Git
-author:
+title: Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution
+author: Sam Williams
 editor: Sabina Pringle
-source: Graduate Center Digital Humanities Research Institute
+source: sagitter.fedorapeople.org/faif-2.0.pdf
 ---
-# Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution
 
 ## Preface by Sam Williams
 
