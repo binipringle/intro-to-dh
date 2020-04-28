@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution
-author: Sam Williams
+author:
 editor: Sabina Pringle
 source:
 ---
