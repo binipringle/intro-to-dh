@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: A DH That Matters
-author: and other selections from Debates in the Digital Humanities
+author: and other selections from *Debates in the Digital Humanities*
 editor: Sabina Pringle
 source: Debates in the Digital Humanities
 ---
