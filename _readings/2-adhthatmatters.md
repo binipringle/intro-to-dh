@@ -1,12 +1,12 @@
 ---
 layout: narrative
 title: Selections from Debates in the Digital Humanities
-author: Matthew K. Gold and Lauren F. Klein, Editors
+author:
 editor: Sabina Pringle
 source: Debates in the Digital Humanities 2019
 ---
 
-Note: because incarcerated students usually do not have access to the internet, they will not be able to access these selected readings on Manifold. We are therefore writing to the University of Minnesota Press to request permission to reproduce the full text in the course site for college-in-prison, so that students can read it offline.
+Note: because incarcerated students usually do not have access to the internet, they will not be able to access the readings we selected from Debates in the Digital Humanities (Matthew K. Gold and Lauren F. Klein, Editors) on Manifold. We are therefore writing to the University of Minnesota Press to request permission to reproduce the full text in the course site for college-in-prison, so that students can read it offline.
 
 Non-incarcerated readers with internet connections can read these selections for free on Manifold. The first text we will read is:
 
