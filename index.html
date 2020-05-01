@@ -46,3 +46,17 @@ title: "Intro to DH"
   {% endfor %}
   </ul>
 </div>
+
+<div class="toc">
+  <h2>Part 3: Some History and Other Pieces for Thought</h2>
+  <ul class="freadings">
+  {% for item in site.freadings %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
