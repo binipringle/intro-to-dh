@@ -25,7 +25,7 @@ toc:
 
 *The following is an open pdf excerpt from Digital_Humanities (MIT Press, 2012).*
 
-# Questions & answers 1 - Digital Humanities fundamentals
+## Questions & answers 1 - Digital Humanities fundamentals
 
 # What is the Digital Humanities?
 
@@ -69,7 +69,7 @@ This integration has matured over the past decades and given Web culture its pro
 
 Contemporary Digital Humanities stands not in opposition to the past, but on its shoulders. It honors the pioneering labors carried out over the past seven decades in the form of statistical processing (computational linguistics), linking (hypertext), modeling (architectural and visual displays), the creation of structured data (XML), and iterative editing and version control (for critical editions as well as analysis and creative practices), even as it seeks to move beyond repository building and editing to new synthetic practices. It is inspired by the same core conviction that animated computational humanities and early Digital Humanities pioneers: the conviction that computational tools have the potential to transform the content, scope, methodologies, and audience of humanistic inquiry.
 
-# Questions & answers 2 - the project as basic unit
+## Questions & answers 2 - the project as basic unit
 
 # Why projects?
 
