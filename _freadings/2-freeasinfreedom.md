@@ -14,7 +14,7 @@ toc:
 > Permission is granted to copy, distribute and/or modify this document under  the  terms  of  the  GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the section entitled “GNU Free Documentation License.”
 
 
-## Foreword by Richard M. Stallman
+# Foreword by Richard M. Stallman
 
 I have aimed to make this edition[^1] combine the advantages of my knowledge and Williams’ interviews and outside viewpoint.  The reader canjudge to what extent I have achieved this.
 
@@ -35,7 +35,7 @@ Williams’  version  contained  many  quotations  that  are  critical  of me.  
 
 In this edition, the complete system that combines GNU and Linux is always “GNU/Linux,” and “Linux” by itself always refers to Torvalds’  kernel,  except  in  quotations  where  the  other  usage  is  marked with “[sic]”. See http://www.gnu.org/gnu/gnu-linux-faq.html for more explanation of why it is erroneous and unfair to call the whole system “Linux.” I would like to thank John Sullivan for his many useful criticisms and suggestions
 
-## Preface by Sam Williams
+# Preface by Sam Williams
 
 This summer marks the 10th anniversary of the email exchange that set-in motion the writing of *Free as in Freedom:  Richard Stallman’s Crusade for Free Software* and, by extension, the work prefaced here, *Richard Stallman and the Free Software Revolution*.
 
