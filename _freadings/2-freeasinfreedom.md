@@ -6,10 +6,10 @@ editor: Sabina Pringle
 source:
 ---
 
-This is *Free  as  in  Freedom  2.0:  Richard  Stallman  and  the  Free  Software Revolution*, a revision of *Free as in Freedom:  Richard Stallman’s Crusade for Free Software.* Copyright 2002, 2010 Sam Williams
+>> This is *Free  as  in  Freedom  2.0:  Richard  Stallman  and  the  Free  Software Revolution*, a revision of *Free as in Freedom:  Richard Stallman’s Crusade for Free Software.* Copyright 2002, 2010 Sam Williams
 Copyright 2010 Richard M. Stallman
 
-> Permission is granted to copy, distribute and/or modify this document under  the  terms  of  the  GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the section entitled “GNU Free Documentation License.” Published by the Free Software Foundation, 51 Franklin St., Fifth Floor, Boston, MA 02110-1335USAISBN: 9780983159216
+>> Permission is granted to copy, distribute and/or modify this document under  the  terms  of  the  GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the section entitled “GNU Free Documentation License.” Published by the Free Software Foundation, 51 Franklin St., Fifth Floor, Boston, MA 02110-1335USAISBN: 9780983159216
 
 ## Foreword by Richard M. Stallman
 
