@@ -1,10 +1,9 @@
 ---
-layout: drama
-title: Glossary of Technical Terms
+layout: narrative
+title: Accessibility
 author:
 editor: Sabina Pringle
 source:
-
 ---
 
 Forthcoming
