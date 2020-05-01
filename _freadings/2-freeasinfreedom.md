@@ -3,7 +3,12 @@ layout: narrative
 title: Free as in Freedom 2.0 Richard Stallman and the Free Software Revolution
 author: by Sam Williams; second edition revisions by Richard M. Stallman
 editor: Sabina Pringle
-source:
+rights: GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation
+source: Free Software Foundation
+toc:
+- Foreword by Richard M. Stallman
+- Preface by Sam Williams
+---
 ---
 
 > Permission is granted to copy, distribute and/or modify this document under  the  terms  of  the  GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the section entitled “GNU Free Documentation License.” Published by the Free Software Foundation, 51 Franklin St., Fifth Floor, Boston, MA 02110-1335USAISBN: 9780983159216
@@ -13,8 +18,7 @@ source:
 I have aimed to make this edition[^1] combine the advantages of my knowledge and Williams’ interviews and outside viewpoint.  The reader canjudge to what extent I have achieved this.
 
 
-[^1]: This is *Free  as  in  Freedom  2.0:  Richard  Stallman  and  the  Free  Software Revolution*, a revision of *Free as in Freedom:  Richard Stallman’s Crusade for Free Software.* Copyright 2002, 2010 Sam Williams
-Copyright 2010 Richard M. Stallman
+[^1]: This edition is *Free  as  in  Freedom  2.0:  Richard  Stallman  and  the  Free  Software Revolution*, a revision of *Free as in Freedom:  Richard Stallman’s Crusade for Free Software.* Copyright 2002, 2010 Sam Williams; Copyright 2010 Richard M. Stallman
 
 I read the published text of the English edition for the first time in 2009 when I was asked to assist in making a French translation ofFree as in Freedom.  It called for more than small changes.
 
