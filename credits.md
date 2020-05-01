@@ -12,7 +12,7 @@ Graduate Center Digital Initiatives (GCDI) Digital Fellows created the technical
 
 Terry Catapano is a Librarian in Columbia University Libraries' Digital Program Division. He was Chair of the Society of American Archivists' Schema Development Team, responsible for the development of Encoded Archival Description version 3, and is a member of the ArchivesSpace Technical Advisory Group and the Editorial Board for the Metadata Encoding and Transmission Standard (METS). As Vice President of Plazi Verein, he leads the development of the TaxPub extension of the National Library of Medicine/National Center for Biotechnology Information Journal Publishing DTD, and has worked on digitizing, text mining, and providing open access to the literature of biological systematics, including collaborations with WikiData, the Encylopedia of Life, the Global Biodiversity Information Facility (GBIF), ZooBank, and CERN.
 
-### [Sabina Pringle](https://sabinapringle.commons.gc.cuny.edu/) | Resident minimalist
+### [Sabina Pringle](https://sabinapringle.commons.gc.cuny.edu/) | Adjunct Lecturer, Digital Humanist, Legal Assistant
 
 Sabina is adjunct Lecturer in English at City College of New York, Legal Assistant in the Office of Legal Affairs and Labor Relations at Baruch College and candidate for Master of Arts in Digital Humanities at The Graduate Center – CUNY in May 2020. Was Fulbright Teaching Assistant at Universidad del Atlántico, Barranquilla, Colombia for academic years 2015-16 and 2016-17. BA in English Literature, City College of New York. Sabina will be a student in the JD in Public Interest Law evening program at CUNY School of Law from August 2020.
 
