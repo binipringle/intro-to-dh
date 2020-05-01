@@ -29,7 +29,8 @@ collections:
     output: true
   readings:
     output: true
-
+  freadings:
+    output: true
 
 # Markdown specs
 markdown: kramdown
