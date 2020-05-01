@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: A Short Guide to the Digital_Humanities
-author: by Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner, Jeffrey Schnapp
+author: Part of an open pdf excerpt from Digital_Humanities by Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012)
 editor: Sabina Pringle
 rights: License (specify)
 source: open pdf excerpt from Digital_Humanities, MIT Press, 2012, pp. 121–136.
@@ -22,10 +22,7 @@ toc:
 - What are the prevailing crediting and attribution conventions and authorship models for Digital Humanities projects?
 - License
 ---
-
-*The following is an open pdf excerpt from Digital_Humanities (MIT Press, 2012).*
-
-## Questions & answers 1 - Digital Humanities fundamentals
+*## Questions & answers 1 - Digital Humanities fundamentals ##*
 
 # What is the Digital Humanities?
 
@@ -124,6 +121,8 @@ Sustaining such projects requires that faculty and students who assume leadershi
 # What are the prevailing crediting and attribution conventions and authorship models for Digital Humanities projects?
 
 Traditional authorship and crediting practices in the humanities are based on single authorship. Although practices of attribution are still fluid in the Digital Humanities community, the emerging model recognizes that many, if not most, Digital Humanities projects are analogous either to natural science laboratory projects or to the collaborative attribution system used in the performing arts.  No standardized crediting system for Digital Humanities projects has been embraced universally. But the dominant trend is toward the differentiation of roles such as principal investigator, researcher, designer, programmer, modeler, editor, and the like.
+
+![worddoc]({{"/assets/img/shortguide-1.png" | absolute_url}})
 
 # License
 
