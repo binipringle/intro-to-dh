@@ -6,7 +6,7 @@ editor: Sabina Pringle
 source: Debates in the Digital Humanities 2019
 ---
 
-Because incarcerated students usually do not have access to the internet, they will not be able to read "A DH That Matters" by Matthew K. Gold and Lauren F. Klein in *Debates in the Digital Humanities* on Manifold. We are writing to the University of Minnesota Press to request permission to reproduce the full text on the college-in-prison course site, so that students can read it offline.
+Because incarcerated students do not usually have access to the internet, they will not be able to read "A DH That Matters" by Matthew K. Gold and Lauren F. Klein in *Debates in the Digital Humanities* on Manifold. We are writing to the University of Minnesota Press to request permission to reproduce the full text on the college-in-prison course site, so that students can read it offline.
 
 Non-incarcerated readers with internet connections can read "A DH That Matters" for free on Manifold.
 
