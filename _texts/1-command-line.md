@@ -54,6 +54,8 @@ In this session, we will:
 
 # What is the command line?
 
+![worddoc]({{"/assets/img/comline0-iliangise.png" | absolute_url}})
+
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
 What does "text-based" mean?
@@ -70,11 +72,11 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields David Greetham lays out in Textual Scholarship (I could maybe add this to the resources page - see also the text referred to in the introduction - Kelshey's not my adaptation), "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![worddoc]({{"/assets/img/command-line-1-worddoc.jpg" | absolute_url}})
+![worddoc]({{"/assets/img/comline1-worddoc.jpg" | absolute_url}})
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
-![worddoc]({{"/assets/img/command-line-2-catworddoc.jpg" | absolute_url}})
+![worddoc]({{"/assets/img/comline2-catworddoc.jpg" | absolute_url}})
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
