@@ -12,16 +12,12 @@ toc:
 - Why is the command line useful?
 - Getting to the command line
 - Navigation
-- Chapter IV
-- Chapter V
-- Chapter VI
-- Chapter VII
-- Chapter VIII
-- Chapter IX
-- Chapter X
-- Chapter XI
-- Appendix
-- A Parody
+- Creating files and folders
+- Creating a cheat sheet
+- Pipes
+- Exploring text data
+- Searching text data
+
 ---
 
 ---
@@ -190,7 +186,7 @@ Your computer's files are organized in what's known as a hierarchical filesystem
 
     Users
     |
-    -- binipringle
+    -- bini
       |
       -- Applications
       -- Desktop
@@ -254,3 +250,349 @@ It's important to note that this is the same old information you can get by poin
 Go ahead and use pointing and clicking to navigate to your working directory--you can get there a few ways, but try starting from "Files" and clicking down from there. You'll notice that the folder names should match the ones that the command line spits out for you, since it's the same information! We're just using a different mode of navigation around your computer to see it.
 
 ---
+
+# Creating files and folders
+
+## Creating a file
+
+So far, we've only performed commands that give us information. Let's use a command that creates something on the computer.
+
+First, make sure you're in the home directory:
+
+```
+$ pwd
+/Users/bini
+```
+
+Let's move to the Desktop folder, or "change directory" with `cd`:
+
+```
+cd Desktop
+```
+
+Once you've made sure you're in the Desktop folder with `pwd`, let's try a new command:
+
+```
+touch foo.txt
+```
+
+If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" on the desktop. Pretty cool, right?
+
+## Handy tip: up arrow
+
+Let's say you liked that "foo.txt" file so much you'd like another! In the terminal window, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt," (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to "foot.txt" to create something different.
+
+As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing.
+
+## Creating folders
+
+OK, so we're going to be doing a lot of work during the Digital Research Institute. Let's create a project folder in our Desktop so that we can keep all our work in one place.
+
+First, let's check to make sure we're still in the Desktop folder with `pwd`:
+
+```
+$ pwd
+/Users/bini/Desktop
+```
+
+Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called "projects":
+
+```
+mkdir projects
+```
+
+Now run `ls` to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, `cd` into it.
+
+```
+$ cd projects
+$ pwd
+/Users/bini/Desktop/projects
+```
+
+OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier.
+
+---
+
+# Creating a cheat sheet
+
+In this section, we'll create a text file that we can use as a cheat sheet. You can use it to keep track of all the awesome commands you're learning.
+
+## Echo
+
+Instead of creating an empty file like we did with `touch`, let's try creating a file with some text in it. But first, let's learn a new command: `echo`
+
+```
+$ echo "Hello from the command line"
+Hello from the command line
+```
+
+## Redirect (`>`)
+
+By default, the echo command just prints out the text we give it. Let's use it to create a file with some text in it:
+
+```
+echo "This is my cheat sheet" > cheat-sheet.txt
+```
+
+Now let's check the contents of the directory:
+
+```
+$ pwd
+/Users/bini/projects
+$ ls
+cheat-sheet.txt
+```
+
+OK, so the file has been created. But what was the `>` in the command we used? On the command line, a `>` is known as a "redirect." It takes the output of a command and puts it in a file. Be careful, since it's possible to overwrite files with the `>` command.
+
+If you want to add text to a file but *not* overwrite it, you can use the `>>` command, known as the redirect and append command, instead. If there's already a file with text in it, this command can add text to the file *without* destroying and recreating it.
+
+## Cat
+
+Let's check if there's any text in cheat-sheet.txt.
+
+```
+cat cheat-sheet.txt
+This is my cheat sheet
+```
+
+As you can see, the `cat` command prints the contents of a file to the screen. `cat` stands for "concatenate," because it can link strings of characters or files together from end to end.  
+
+## A note on file naming
+
+Your cheat sheet is titled `cheat-sheet.txt` instead of `cheat sheet.txt` for a reason. Can you guess why?
+
+Try to make a file titled `cheat sheet.txt` and report to the class what happens.
+
+Now imagine you're attempting to open a very important data file using the command line that is titled `cheat sheet.txt`.
+
+For your digital best practices, we recommend making sure that file names contain no spaces--you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the OS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files.  
+
+## Using a text editor
+
+The challenge for this section will be using a text editor, specifically Visual Studio Code, to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (comma-separated values, also known as spreadsheet files).
+
+## Challenge
+
+You *could* use the GUI to open your Visual Studio Code text editor--from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows--and then click "File" and then "Open" from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
+
+*OR*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command in the command line:
+
+	code cheat-sheet.txt
+
+Now that you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
+
+Save the file.
+
+Once you're done, check the contents of the file on the command line with the `cat` command:
+
+```
+$ cat cheat-sheet.txt
+My Institute Cheat Sheet
+
+ls
+lists files and folders in a directory
+
+cd ~
+change directory to home folder
+
+...
+```
+---
+
+# Pipes
+
+So far, you've learned a number of commands and one special symbol, the `>` or redirect. Now we're going to learn another, the `|` or "pipe."
+
+Pipes let you take the output of one command and use it as the input for another.
+
+Let's start with a simple example:
+
+```
+$ echo "Hello from the command line" | wc -w
+5
+```
+
+In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered.
+
+Let's try another. What if we wanted to put the commands in our cheat sheet in alphabetical order?
+
+Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
+
+```
+cat cheat-sheet.txt | sort
+```
+
+You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
+
+```
+cat cheat-sheet.txt | sort > new-cheat-sheet.txt
+```
+
+---
+
+# Exploring text data
+
+So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
+
+Let's retrieve the data we're going to work with:
+
+From your GUI (the front end of your computer), go to Files and open your USB flash drive called USB30FD. Locate the file called
+
+  nypl_items.csv
+
+Drag and drop this file into your `Downloads` folder.
+
+Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
+
+### Move command  
+
+Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop--either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
+
+To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
+```
+mv nypl_items.csv ~/Desktop/projects/  
+```
+You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.  
+
+### Viewing data in the command line
+
+Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click `Control` and `C` on your keyboard to cancel the output if it's taking too long.)
+
+Instead, let's use another tool, the `less` command, to get the data one page at a time:
+
+```
+$ less nypl_items.csv
+[...]
+```
+
+`Less` gives you a paginated view of the data; it will show you contents of a file or the output from a command or string of commands, page by page.
+
+To view the file contents page by page, you may use the following keyboard shortcuts (that should work on Windows using Git Bash or on Mac):
+Click the `f` key to view forward one page, or the `b` key to view back one page.
+
+Once you're done, click the `q` key to return to the command line.
+
+Let's try two more commands for viewing the contents of a file:
+
+```
+$ head nypl_items.csv
+[...]
+$ tail nypl_items.csv
+[...]
+```
+
+These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
+
+### Pro-Tip: tab completion.
+
+When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
+
+When you need to type out a file or folder name--for example, the name of that csv file we've been working with: nypl_items.csv--in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the `tab` key. And voilà! Clicking that `tab` key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
+
+In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and `tab` complete the rest!  
+
+### Note: Clearing Text
+
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. In Mac OS terminal, clicking the `command` and `l` keys will clear the output from your most recent command.  
+
+### Cleaning the data
+
+We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our .csv file:
+
+```
+$ cat nypl_items.csv | wc -l
+100001
+```
+
+This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands. See the [glossary](sections/glossary.md) for more information about flags and options.
+
+To find and remove duplicate lines, we can use the `uniq` command. Let's try it out:
+
+```
+$ cat nypl_items.csv | uniq | wc -l
+99999
+```
+
+OK, the count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
+
+```
+$ $ cat nypl_items.csv | uniq -d
+[...]
+```
+
+The `uniq` command with the `-d` flag prints out the lines that have duplicates.
+
+### Challenge
+
+Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: your cheat sheet is your friend.)
+
+---
+
+# Searching text data
+
+So we've cleaned our data set, but how do we find entries that use a particular term?
+
+Let's say I want to find all the entries in our data set that use the term "Paris."
+
+Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are infamously human-illegible commands that use character by character matching to return a pattern. `grep` gives us access to the power of regular expressions as we search for text.
+
+```
+$ cat nypl_items.csv | grep -i "paris"
+[...]
+```
+
+This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
+
+```
+$ $ cat nypl_items.csv | grep -i "paris" | wc -l
+191
+```
+
+Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word "paris." We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
+
+## Challenge
+
+Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set? What does this say about the items in the New York Public Library public domain?
+
+## Before we finish...
+
+Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder on the desktop, we're going to create a folder to house our cheat sheets for the week, as well as a new folder for the upcoming databases workshop.
+
+```
+$ pwd
+/Users/bini/Desktop/projects
+$ mkdir cheatsheets
+$ mkdir databases
+```
+
+Then move your `cheat-sheet.txt` file into your `cheatsheets` folder and your `nypl_items.csv` into your `databases` folder with the `mv` command:
+
+```
+$ mv cheat-sheet.txt cheatsheets
+$ mv nypl_items.csv databases
+```
+---
+# What we've learned
+
+You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the course - you'll work with the command line interface to set up your `version control with git`  and you'll have your text editor open for the rest of the week as you write python scripts and build basic websites with `HTML and CSS`.
+
+Now is a good time to do a quick review!
+
+In this session, we learned:
+- how to use `touch` and `echo` to create files
+- how to use `mkdir` to create folders
+- how to navigate our file structure by `cd`(change directory), `pwd` (print working directory), and `ls` (list)
+- how to use redirects (`>`) and pipes (`|`) to create a pipeline
+- how to explore a comma separated values (.csv) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
+- how to search text files using the `grep` command
+
+and we made a cheat sheet for reference!
+
+When we started, we reviewed what text is--whether plain or enriched. We learned that text editors that don't fix formatting of font, color, and size, do allow for more flexible manipulation and multi-program use. If text is allowed to be a string of characters (and not specific characters chosen for their compliance with a designer's intention), that text can be fed through programs and altered with automated regularity. Text editors are different software than Bash (or Terminal), which is a text-based shell that allows you to interact directly with your operating system giving direct input and receiving output.
+
+Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
+
+### Moving forward
+
+What you have learned will be useful as you move forward through these tutorials. The command line will be immediately necessary for setting up your computer for version control with git in the next session! You'll find that knowing a few commands can help immeasurably as you find new tools to use.
