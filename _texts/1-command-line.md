@@ -24,8 +24,7 @@ toc:
 
 ## Editor's note
 
-This session was adapted from *Introduction to the Command LIne* session created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GCDHI) in January 2020, and based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GC website and GitHub repositories are in the [Documentation]({{ site.baseurl }}/documentation/). I want to say in the bibliography or references but I have to get this together.
-
+This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GCDHI) in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDRI website and GitHub repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
 ---
 
 # Introduction to the command line
@@ -446,7 +445,7 @@ Drag and drop this file into your `Downloads` folder.
 
 Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
-### Move command  
+## Move command  
 
 Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop--either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
 
@@ -456,7 +455,7 @@ mv nypl_items.csv ~/Desktop/projects/
 ```
 You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.  
 
-### Viewing data in the command line
+## Viewing data in the command line
 
 Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click `Control` and `C` on your keyboard to cancel the output if it's taking too long.)
 
@@ -485,7 +484,7 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-### Pro-Tip: tab completion.
+## Pro-Tip: tab completion.
 
 When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
 
@@ -493,11 +492,11 @@ When you need to type out a file or folder name--for example, the name of that c
 
 In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and `tab` complete the rest!  
 
-### Note: Clearing Text
+## Note: Clearing Text
 
 If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. In Mac OS terminal, clicking the `command` and `l` keys will clear the output from your most recent command.  
 
-### Cleaning the data
+## Cleaning the data
 
 We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our .csv file:
 
@@ -524,7 +523,7 @@ $ $ cat nypl_items.csv | uniq -d
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
-### Challenge
+## Challenge
 
 Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: your cheat sheet is your friend.)
 
@@ -594,6 +593,6 @@ When we started, we reviewed what text is--whether plain or enriched. We learned
 
 Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
-### Moving forward
+## Moving forward
 
 What you have learned will be useful as you move forward through these tutorials. The command line will be immediately necessary for setting up your computer for version control with git in the next session! You'll find that knowing a few commands can help immeasurably as you find new tools to use.
