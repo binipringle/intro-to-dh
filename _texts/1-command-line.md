@@ -66,7 +66,7 @@ Let's take a quick moment to discuss text and text editors.
 
 ## What is text?
 
-Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields David Greetham lays out in Textual Scholarship (I could maybe add this to the resources page - see also the text referred to in the introduction - Kelshey's not my adaptation), "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or other subfields, the word "text" has different and specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![worddoc]({{"/assets/img/comline1-worddoc.jpg" | absolute_url}})
 
@@ -82,7 +82,7 @@ For the purposes of communicating with machines and between machines, we need ch
 
 According to the Unicode Standard,[^1].
 
-[^1]: There is a definition of Unicode in the glossary in case you are wondering what Unicode is and want to look it up.
+[^1]: Unicode is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. The standard is maintained by the Unicode Consortium, and as of March 2020, there is a repertoire of 143,859 characters, with Unicode 13.0 (these characters consist of 143,696 graphic characters and 163 format characters) covering 154 modern and historic scripts, as well as multiple symbol sets and emoji (Wikipedia contributors, “Unicode”).
 
 > Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
@@ -140,7 +140,8 @@ First way:
 
 Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
 
-INSERT command-line-3-terminal-icon.png
+![worddoc]({{"/assets/img/comline3-terminal-icon.jpg" | absolute_url}})
+
 
 Second way:
 
@@ -150,7 +151,7 @@ Second way:
 
 The terminal will look like this:
 
-INSERT command-line-4-terminal.png
+![worddoc]({{"/assets/img/comline4-terminal.jpg" | absolute_url}})
 
 When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
