@@ -20,11 +20,9 @@ toc:
 
 ---
 
----
+### Editor's note
 
-## Editor's note
-
-This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GCDHI) in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDRI website and GitHub repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
+#### This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GC DRI), offered by the Graduate Center Digital Initiatives (GCDI), in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
 ---
 
 # Introduction to the command line
@@ -596,3 +594,5 @@ Having a grasp of command line basics will not only make you more familiar with 
 ## Moving forward
 
 What you have learned will be useful as you move forward through these tutorials. The command line will be immediately necessary for setting up your computer for version control with git in the next session! You'll find that knowing a few commands can help immeasurably as you find new tools to use.
+
+---
