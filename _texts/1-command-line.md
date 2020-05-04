@@ -3,7 +3,7 @@ layout: narrative
 title: Command Line
 author:
 editor: Sabina Pringle
-rights: License (specify)
+rights: Introduction to the Command LIne is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to the Command Line is based on Introduction to the Command Line of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 source: Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction to the command line
@@ -22,9 +22,8 @@ toc:
 
 ### Editor's note:
 
-#### This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GC DRI), offered by the Graduate Center Digital Initiatives (GCDI), in January 2020.[^1] Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
+#### This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GC DRI), offered by the Graduate Center Digital Initiatives (GCDI), in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
 
-[^1]: Introduction to the Command LIne is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to the Command Line is based on Introduction to the Command Line of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 ---
 
 # Introduction to the command line
@@ -79,9 +78,9 @@ Word documents which look like "just words!" are actually comprised of an archiv
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text includes characters of readable material but not graphical representation.
 
-According to the Unicode Standard,[^2].
+According to the Unicode Standard,[^1].
 
-[^2]: Unicode is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. The standard is maintained by the Unicode Consortium, and as of March 2020, there is a repertoire of 143,859 characters, with Unicode 13.0 (these characters consist of 143,696 graphic characters and 163 format characters) covering 154 modern and historic scripts, as well as multiple symbol sets and emoji (Wikipedia contributors, “Unicode”).
+[^1]: Unicode is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. The standard is maintained by the Unicode Consortium, and as of March 2020, there is a repertoire of 143,859 characters, with Unicode 13.0 (these characters consist of 143,696 graphic characters and 163 format characters) covering 154 modern and historic scripts, as well as multiple symbol sets and emoji (Wikipedia contributors, “Unicode”).
 
 > Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
@@ -131,9 +130,9 @@ In the next section, we'll make this a little more clear by getting started with
 
 ## Ubuntu
 
-The operating system you are using is Ubuntu[^3].There are two ways to get to the command line in Ubuntu.
+The operating system you are using is Ubuntu[^2].There are two ways to get to the command line in Ubuntu.
 
-[^3]:  Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system (all definitions from Wikipedia).
+[^2]:  Ubuntu (pronounced "uh-BUN-two") is a free and open-source Linux distribution based on Debian. Debian, also known as Debian GNU/Linux, is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project, which was established by Ian Murdock on August 16, 1993. A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system (all definitions from Wikipedia).
 
 First way:
 
