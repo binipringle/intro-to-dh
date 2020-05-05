@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: Introduction to Git
+title: Introduction to Git (and Markdown too!)
 author:
 editor: Sabina Pringle
 rights: This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
@@ -86,9 +86,9 @@ By using Git for version control you only need to have one document. Git tracks 
 
 # Review of the Command Line
 
-In this session, we'll be using the command line (terminal, bash) which you saw in the command line session. We'll also use your text editor and the USB flash drives. We'll be moving between these three spaces throughout the workshop.
+In this session, we'll be using the command line (terminal, bash) which you saw in the command line session. We'll also use your text editor. We'll be moving between these two spaces throughout the session.
 
-To begin with, we'll review some command line basics, including navigation.
+First, let's review some command line basics, including navigation.
 
 ## Accessing the Terminal
 
@@ -110,19 +110,13 @@ The terminal will look like this:
 
 ## Practice navigating the command line
 
-In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder
-
-	cd <directory-name>
-
-will let you navigate inside a directory of your choosing.
-
-Type
+In your terminal, type
 
 	cd Desktop
 
-and hit `Enter`. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
+and hit enter. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
-To check your current directory, type
+To check what directory you are in, type
 
 	pwd
 
@@ -140,7 +134,7 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 
 ## Making a Git Project Folder
 
-If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it with
+In the command line session you created a **projects** folder on your Desktop. Navigate into it with
 
 	cd projects
 
@@ -148,17 +142,17 @@ If you don't have a projects folder on your desktop, create one with
 
 	mkdir projects
 
-From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the below command:
+From **Desktop**, navigate into your **projects** folder. Then create a **git-practice** folder with the below command:
 
 	mkdir git-practice
 
-Enter the new `git` folder with
+Enter the new folder with
 
 	cd git-practice
 
 At this point, when you type `pwd`, your folder structure should look like this:
 
-	/home/<username>/Desktop/projects/git-practice
+	/home/<your-user-name>/Desktop/projects/git-practice
 
 ---
 # Setting Up Git
@@ -177,10 +171,10 @@ If you see a version number, you're all set. If not, ask the instructor for help
 
 Before we get started, we'll want to configure git so that it can identify who we are. This information is useful because it connects identifying information with the changes you make in your repository.
 
-Type the following into your command line, filling in the sections—below labelled "John Doe"—for your name and email. You can use whatever name you like and you can invent an email. John Doe is an example. Please don't call yourself John Doe.
+Type the following into your command line, filling in the sections—below labelled "yourusername" — for your name and email. Use the username you designated for your computer (my username, for example, is bini). If you have not designated a username for your computer ask the instructor to show you how to do this. You can invent an email address.
 
-	git config --global user.name "John Doe"
-	git config --global user.email johndoe@example.com
+	git config --global user.name "yourusername"
+	git config --global user.email yourusername@anymail.com
 
 To check your set-up, use:
 
@@ -188,10 +182,10 @@ To check your set-up, use:
 
 You'll get something that looks like this:
 
-	user.name=John Doe
-	user.email=johndoe@example.com
+	user.name=bini
+	user.email=bini@gmail.com
 
-Don't call yourself John Doe!
+Now we're ready to start using Git.
 
 ---
 
