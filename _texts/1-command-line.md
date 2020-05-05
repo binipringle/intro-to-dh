@@ -22,7 +22,7 @@ toc:
 
 ### Editor's note:
 
-#### This session was adapted from *Introduction to the Command LIne* created by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GC DRI), offered by the Graduate Center Digital Initiatives (GCDI), in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
+#### This session was adapted from *Introduction to the Command LIne* led by Kelsey Chatlosh for the Graduate Center Digital Research Institute (GC DRI) by the Graduate Center Digital Initiatives (GCDI) in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
 
 ---
 
