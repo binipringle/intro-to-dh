@@ -88,7 +88,7 @@ By using Git for version control you only need to have one document. Git tracks 
 
 # Review of the Command Line
 
-In this session, we'll be using the command line (terminal, bash) which you learned to use in the command line session. We'll also use a text editor called Visual Studio Code, or VS Code. We'll be moving between these two spaces throughout the session. In addition to these, in the second part of the session we will use remote repositories on USB sticks.
+In this session, we'll be using the command line (terminal, bash) which you learned to use in the command line session. We'll also use a text editor called Visual Studio Code, or VS Code. We'll be moving between these two spaces throughout the session. In addition to these, in the second part of the session we'll use remote repositories on USB sticks.
 
 First, let's quickly review some command line basics, including navigation.
 
@@ -144,17 +144,17 @@ If you don't have a projects folder on your desktop, create one with
 
 	mkdir projects
 
-From **Desktop**, navigate into your **projects** folder. Then create a **git-practice** folder with the below command:
+From **Desktop**, navigate into your **projects** folder. Then create a **git-practice** folder by typing
 
 	mkdir git-practice
 
-Enter the new folder with
+Go into the new folder by typing
 
 	cd git-practice
 
 At this point, when you type `pwd`, your folder structure should look like this:
 
-	/home/<your-user-name>/Desktop/projects/git-practice
+	/home/yourusername/Desktop/projects/git-practice
 
 ---
 # Setting Up Git
