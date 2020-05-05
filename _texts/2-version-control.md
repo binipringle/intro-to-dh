@@ -233,17 +233,24 @@ A sub-heading (H2) heading uses two hash marks like this:
 To provide emphasis, place asterisks around some text:
 
 \*This text will appear italicized.*
+
 \**This text will appear bold.**
 
 For emphasis, you need to mark where it should start and where it should end, so you need asterisks at the beginning and end of whatever text is being emphasized. 	
 
-To create a bulleted list, put a hyphen at the beginning of each list item:
+To create a bulleted list, put a hyphen at the beginning of each list item, like this:
 
 \- went over command line
+
 \- learned to do stuff with Git
+
 \- created a VS code file
 
-Paragraphs of text are denoted by putting a blank line between them:
+Paragraphs of text are made with a sideways carrot thing:
+
+\> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
+
+This is how the paragraph is rendered:
 
 > This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
 
