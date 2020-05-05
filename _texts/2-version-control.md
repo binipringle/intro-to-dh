@@ -229,7 +229,7 @@ Hit return. You should see a window appear that looks similar to this:
 
 We'll be typing our markdown into this VS Code window. At any time, you can save your file by pressing the control (Ctrl) and the s keys at the same time. Alternatively, you can click the File menu on the top left, then select Save from the dropdown menu.
 
-Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
+Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text. Markdown files usually have a .md extension.
 
 In markdown, we insert headings with a single hash mark like this:
 
@@ -243,9 +243,7 @@ To provide emphasis, place asterisks around some text:
 
 \*This text will appear italicized.*
 
-\**This text will appear bold.**
-
-For emphasis, you need to mark where it should start and where it should end, so you need asterisks at the beginning and end of whatever text is being emphasized. 	
+\**This text will appear bold.** 	
 
 To create a bulleted list, put a hyphen at the beginning of each list item, like this:
 
@@ -263,7 +261,7 @@ This is how the paragraph is rendered:
 
 > This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
 
-Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a journal entry. Have a main heading that gives the journal title (one `#`), then subheadings for, at least, a couple of things you want to mention. Use emphasis (`*`) for some words and try to get a list in there somewhere.
+Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a journal entry. Have a main heading that gives the journal title (one \#), then subheadings (two \#\#) for, at least, a couple of things you want to mention. Use emphasis (\* or \*\*) for some words and try to get a list in there somewhere.
 
 ![git-2]({{"/assets/img/git-2.png" | absolute_url}})
 
@@ -281,12 +279,12 @@ Remember to save your work with Control-s.
 
 Git's primary function is to track a project as it exists at different points in time. Now that we have a file to track — our technical journal — let's use Git to save the current state of the repository as it exists now.
 
-## A Metaphor for adding and committing
+## A commit is a snapshot
 
 In Git, a **commit** is a snapshot of a repository that is entered into its permanent history. To commit a change to a repository, we take two steps:
 
-1. Adding files to a "staging area," meaning that we intend to commit them.
-2. Finalizing the commit.
+1. Adding files to a "staging area," meaning that we intend to commit them
+2. Finalizing the commit
 
 Making a commit is a lot like taking a photo. First, you have to decide who will be in the photo and arrange your friends or family in front of the camera. Once everyone is present and ready, you take the picture, entering that moment into the permanent record.
 
@@ -294,7 +292,7 @@ Making a commit is a lot like taking a photo. First, you have to decide who will
 
 First, let's use a useful command to see what state Git is currently in. It's a good idea to use this command before and after doing anything in Git so you can always be on the same page as the computer.
 
-Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
+Make sure you're in your `/home/yoursusername/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
 
 	git status
 
@@ -371,7 +369,7 @@ You should see output similar to this:
 
 ```
 commit 0606d3482b04ccbc62b0afd55520ee13c34c05a3 (HEAD -> master)
-Author: bini <bini.jones@gmail.com>
+Author: bini <bini@gmail.com>
 Date:   Mon May 4 21:43:23 2020 -0400
 
     initial commit of journal file    
@@ -391,7 +389,7 @@ If you're ever stuck or "trapped" on the command line, try running through these
 
 Control-c attempts to abort the current task and restore user control. Control-d escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is used to escape from specific utilities. `:q` first changes the mode in `vi`, allowing you to enter the `q` key to quit, so it's a command specific to `vi`.
 
-When we start working on collaborative projects we will start sharing files on USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to repositories on USB sticks. For now, however, get used to keeping everything up to date by regularly typing git status and adding, committing and pushing your files to the repositories you create.  
+In order to work together on collaborative projects we will share files with USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to remote repositories housed on these USB sticks.
 
 ----
 # Pushing to a remote repository
@@ -402,19 +400,23 @@ Plug the USB drive into Desktop, and assuming it's showing up as J:
 
 Initialise a bare repo that will act as the remote:
 
-  git init --bare J:\repo_name
+    git init --bare J:\repo_name
 
 cd to the local repo and:
 
-  git remote add usb J:\repo_name
-  git checkout master
-  git push usb master
+```
+git remote add usb J:\repo_name
+git checkout master
+git push usb master
+```
 
 The master branch is synced with the usb remote. Now plug the USB drive into Laptop, and assuming it's showing up as D:
 
-  git remote add usb D:\repo_name
-  git checkout master
-  git pull usb master
+```
+git remote add usb D:\repo_name
+git checkout master
+git pull usb master
+```
 
 If you're trying to pull a branch that doesn't exist on Laptop but does on Desktop, you can just do git checkout the_branch and it will automatically pull it from usb (unless the_branch also exists in origin, in which case you have to do git checkout -b the_branch usb\the_branch)
 
@@ -422,7 +424,7 @@ You might have to git fetch if it doesn't find the remote usb branch.
 
 If, later, you plug in the USB drive and it shows up as a different letter, e.g., K:, then do:
 
-  git remote set-url usb K:\repo_name
+    git remote set-url usb K:\repo_name
 
 This is a lot to remember! A lot of it will become automatic with time, but there is no way anyone will remember all the prompts and commands they need, so take some time to update and save your cheat-sheet. You will be grateful to have it as we move on.
 
