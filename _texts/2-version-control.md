@@ -6,6 +6,7 @@ editor: Sabina Pringle
 rights: This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
 source: Graduate Center Digital Humanities Research Institute
 ---
+##### This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
 
 Git is version control software used to track the state of files associated with a project. Users can take snapshots of files, travel through the history of a project, collaborate transparently with others, and easily keep compatible data in many locations.
 
@@ -385,3 +386,38 @@ Control-c attempts to abort the current task and restore user control. Control-d
 When we start working on collaborative projects we will start sharing files on USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to repositories on USB sticks. For now, however, get used to keeping everything up to date by regularly typing git status and adding, committing and pushing your files to the repositories you create.  
 
 ----
+# Pushing to a removable memory
+
+Now, let's connect the directory you made to a removable memory, or USB stick.
+
+Plug the USB drive into Desktop, and assuming it's showing up as J:
+
+Initialise a bare repo that will act as the remote:
+
+  git init --bare J:\repo_name
+
+cd to the local repo and:
+
+  git remote add usb J:\repo_name
+  git checkout master
+  git push usb master
+
+The master branch is synced with the usb remote. Now plug the USB drive into Laptop, and assuming it's showing up as D:
+
+  git remote add usb D:\repo_name
+  git checkout master
+  git pull usb master
+
+If you're trying to pull a branch that doesn't exist on Laptop but does on Desktop, you can just do git checkout the_branch and it will automatically pull it from usb (unless the_branch also exists in origin, in which case you have to do git checkout -b the_branch usb\the_branch)
+
+You might have to git fetch if it doesn't find the remote usb branch.
+
+If, later, you plug in the USB drive and it shows up as a different letter, e.g., K:, then do:
+
+  git remote set-url usb K:\repo_name
+
+This is a lot to remember! A lot of it will become automatic with time, but there is no way anyone will remember all the prompts and commands they need, so take some time to update and save your cheat-sheet. You will be grateful to have it as we move on.
+
+The next technical skills session will be on HTML and CSS. :)
+
+---
