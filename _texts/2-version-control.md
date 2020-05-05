@@ -20,9 +20,9 @@ toc:
 
 ---
 
-This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing your work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine.
+This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine. You will also learn some basics of Markdown, a lightweight markup language with plain-text-formatting syntax.
 
-To complete this workshop, you will use Visual Studio Code (VS Code) and Git. Both of these are already installed on your laptop. To make sure that they are up to date type `code --version` in your terminal and hit enter. The computer should tell you what version of VS code is installed. Then, type `git --version` and hit enter, and you should see what Git version you have.
+To complete this workshop, you will use Visual Studio Code (VS Code) and Git. Both of these are already installed on your computer. To make sure that they are up to date type `code --version` in your terminal and hit enter. The computer should tell you what version of VS code is installed. Then, type `git --version` and hit enter, and you should see what version of Git you have.
 
 # What is Git?
 
