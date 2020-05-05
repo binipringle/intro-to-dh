@@ -20,17 +20,17 @@ toc:
 
 ---
 
-Git is version control software used to track the state of files associated with a project. Users can take snapshots of files, travel through the history of a project, collaborate transparently with others, and easily keep compatible data in many locations.
-
 This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing your work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine.
 
-To complete this workshop, you will use Visual Studio Code (VS Code) and Git. We have installed both of these on your laptop. To make sure they are up to date, type `code --version` in your terminal and hit enter. The computer should give you the version of VS code. Then, type `git --version` and enter, and you should see the version number of Git.
+To complete this workshop, you will use Visual Studio Code (VS Code) and Git. Both of these are already installed on your laptop. To make sure that they are up to date type `code --version` in your terminal and hit enter. The computer should tell you what version of VS code is installed. Then, type `git --version` and hit enter, and you should see what Git version you have.
 
 # What is Git?
 
 Git is software used for version control. Version control is tracking the state of files. Using Git, you designate certain folders as repositories, then use commands to save the state of the repository at certain points in time. A repository is a place where things can be stored, and in this context indicates a folder that is being tracked by Git. With Git, you can perform tasks such as reverting back to previous versions of a repository, copying or sharing repositories across computers, and comparing different versions of a project.
 
-You may have heard of GitHub. In this course we will not use GitHub because it doesn't work without the internet.  Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community. As a workaround, in this course we will share code and writing with each other on USB sticks. However, on these sticks we will use Git for version control.
+You may have heard of GitHub, which is sometimes confused with Git. In this course we won't use GitHub because it doesn't work without the internet.  But just so you know, Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community.
+
+In this course we will share code and writing with each other with USB sticks. To keep track of project contributions, share comments and be able to go back to older versions or retrieve parts of them, we will do version control with Git on the USB sticks.
 
 ---
 
@@ -68,7 +68,7 @@ In case a computer crashes and sections of a collaborative project get lost, if 
 
 ### Versions Across Time
 
-Have you ever had a folder full of multiple and conflicting versions of documents that looked like this?
+Naming versions of a document can get messy. Have you ever had a folder full of multiple and conflicting versions of documents that looked like this?
 
 ```
 |
@@ -90,7 +90,7 @@ By using Git for version control you only need to have one document. Git tracks 
 
 In this session, we'll be using the command line (terminal, bash) which you saw in the command line session. We'll also use your text editor. We'll be moving between these two spaces throughout the session.
 
-First, let's review some command line basics, including navigation.
+First, let's quickly review some command line basics, including navigation.
 
 ## Accessing the Terminal
 
