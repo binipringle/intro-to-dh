@@ -88,7 +88,7 @@ By using Git for version control you only need to have one document. Git tracks 
 
 # Review of the Command Line
 
-In this session, we'll be using the command line (terminal, bash) which you saw in the command line session. We'll also use your text editor. We'll be moving between these two spaces throughout the session.
+In this session, we'll be using the command line (terminal, bash) which you learned to use in the command line session. We'll also use VS Code. We'll be moving between these two spaces throughout the session.
 
 First, let's quickly review some command line basics, including navigation.
 
