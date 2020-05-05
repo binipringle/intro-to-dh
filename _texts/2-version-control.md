@@ -224,30 +224,28 @@ Markdown allows us to format textual features like headings, emphasis, links, an
 
 In markdown, we insert headings with a single hash mark like this:
 
-	# My Journal Heading
+\# My Journal Heading
 
 A sub-heading (H2) heading uses two hash marks like this:
 
-	## Second technical skills session
+\## Second technical skills session
 
 To provide emphasis, place asterisks around some text:
 
-	*This text will appear italicized.*
-	**This text will appear bold.**
+\*This text will appear italicized.*
+\**This text will appear bold.**
 
 For emphasis, you need to mark where it should start and where it should end, so you need asterisks at the beginning and end of whatever text is being emphasized. 	
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
 
-	- went over command line
-	- learned to do stuff with Git
-	- created a VS code file
+\- went over command line
+\- learned to do stuff with Git
+\- created a VS code file
 
 Paragraphs of text are denoted by putting a blank line between them:
 
 > This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
->
-> This is a second paragraph in markdown, which I'll use to tell you what I like about markdown. I like markdown because it looks pretty good, if minimal, whether you're looking at the rendered or unrendered version. It's like tidy HTML.
 
 Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a journal entry. Have a main heading that gives the journal title (one `#`), then subheadings for, at least, a couple of things you want to mention. Use emphasis (`*`) for some words and try to get a list in there somewhere.
 
