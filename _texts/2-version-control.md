@@ -3,35 +3,25 @@ layout: narrative
 title: Introduction to Git
 author:
 editor: Sabina Pringle
+rights: This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
 source: Graduate Center Digital Humanities Research Institute
 ---
 
 Git is version control software used to track the state of files associated with a project. Users can take snapshots of files, travel through the history of a project, collaborate transparently with others, and easily keep compatible data in many locations.
 
-In this session, we'll learn what makes Git such a powerful tool for both collaborative and individual projects. This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing your work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine.
+This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing your work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine.
 
-To complete this workshop, you will need to have VS Code and Git installed on your local machine. We have already installed them for you, but just to see for yourself, in your terminal type `code --version` to make sure that you have VS Code and `git --version` to make sure that you have Git properly installed.
-
-
-# What are Git, GitHub and Markdown?
+To complete this workshop, you will use Visual Studio Code (VS Code) and Git. We have installed both of these on your laptop. To make sure they are up to date, type `code --version` in your terminal and hit enter. The computer should give you the version of VS code. Then, type `git --version` and enter, and you should see the version number of Git.
 
 ## What is Git?
 
-**Git** is software used for version control—that is, tracking the state of files. Using Git, you designate certain folders as repositories, then use commands to save the state of the repository at certain points in time. A *repository* is a place where things can be stored, and in this context indicates a folder that is being tracked by Git. You can perform tasks such as reverting back to previous versions of the repository, copying or sharing the repository across computers, and comparing different versions of a project.
+Git is software used for version control. Version control is tracking the state of files. Using Git, you designate certain folders as repositories, then use commands to save the state of the repository at certain points in time. A repository is a place where things can be stored, and in this context indicates a folder that is being tracked by Git. With Git, you can perform tasks such as reverting back to previous versions of a repository, copying or sharing repositories across computers, and comparing different versions of a project.
 
-## What is GitHub?
-
-**GitHub** is a cloud service for hosting Git repositories. It's something of a social network for programmers and is frequently used as a portfolio for sharing work. GitHub is used to share code and writing with a wider community and also to find the code and writing of others. It can also be used to host websites. In this course we will not use GitHub because it requires a connection to the internet. To work around this, we will share code and writing on USB sticks. We will use Git to control versions of the code and writing that we share in this way.
-
-## What is Markdown?
-
-Markdown is a markup language for formatting text. Unlike HTML, markdown is designed to be human-readable, which makes it much easier to write and edit.
-
-You can think of markdown as a language read by many platforms and sites to style text. Since markdown is plain text, it's more sustainable and accessible than formats like .docx.
+You may have heard of GitHub. In this course we will not use GitHub because it doesn't work without the internet.  Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community. As a workaround, in this course we will share code and writing with each other on USB sticks. However, on these sticks we will use Git for version control.
 
 ---
 
-# What You Can Do with Git
+# What you can do with Git
 
 Git is used for a diverse range of activities, such as:
 
@@ -97,7 +87,6 @@ Double-click on the terminal icon on the left hand side of your screen. The term
 
 ![worddoc]({{"/assets/img/comline3-terminal-icon.jpg" | absolute_url}})
 
-
 Second way:
 
 1. Double-click on the word "Activities" in the top left corner of your screen.
@@ -108,7 +97,7 @@ The terminal will look like this:
 
 ![worddoc]({{"/assets/img/comline4-terminal.jpg" | absolute_url}})
 
-## Practice Navigating the Command Line
+## Practice navigating the command line
 
 In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder
 
@@ -209,7 +198,11 @@ You should see output like this:
 
 	Initialized empty Git repository in /home/bini/projects/git-practice/.git/
 
-Now Git is tracking our directory. But before that's useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a  journal — we'll create that next.
+Now Git is tracking our directory. But before that's useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a  journal — we'll create that next, using Markdown.
+
+## What is Markdown?
+
+Markdown is a markup language for formatting text. Unlike HTML, markdown is designed to be human-readable, which makes it much easier to learn than other computer languages. Since markdown is plain text, it's more sustainable and accessible than formats like .docx.
 
 ## Writing a journal entry with Markdown
 
@@ -227,7 +220,7 @@ We'll be typing our markdown into this VS Code window. At any time, you can save
 
 ## Using Markdown
 
-We'll be using markdown to create a journal entry, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
+Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
 
 In markdown, we insert headings with a single hash mark like this:
 
@@ -264,7 +257,7 @@ VS Code also has a preview feature for your markdown. Hit the preview button on 
 
 You'll get two side-by-side panels. Your markdown file will be on the left, and your rendered preview will be on the right:
 
-![Side by side markdown and preview in VS Code](../images/vscode4.png)
+![git-3]({{"/assets/img/git-3.png" | absolute_url}})
 
 Remember to save your work with Control-s.
 
@@ -387,11 +380,3 @@ Control-c attempts to abort the current task and restore user control. Control-d
 When we start working on collaborative projects we will start sharing files on USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to repositories on USB sticks. For now, however, get used to keeping everything up to date by regularly typing git status and adding, committing and pushing your files to the repositories you create.  
 
 ----
-This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute
-
-Session Leader: Patrick Sweeney  
-Based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh  
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-[Digital Research Institute (DRI) Curriculum](http://purl.org/dc/terms/) by [Graduate Center Digital Initiatives](https://gcdi.commons.gc.cuny.edu/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). Based on a work at <https://github.com/DHRI-Curriculum>. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
