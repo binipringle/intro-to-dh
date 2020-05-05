@@ -5,6 +5,16 @@ author:
 editor: Sabina Pringle
 rights: This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
 source: Graduate Center Digital Humanities Research Institute
+toc:
+- What is Git?
+- What you can do with Git
+- Review of the Command Line
+- Setting Up Git
+- Initializing a Git repository
+- Using Markdown
+- Staging and committing changes
+- Pushing to a remote repository
+
 ---
 ##### This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
 
@@ -14,7 +24,7 @@ This session will show how to use Git for a variety of digital undertakings, inc
 
 To complete this workshop, you will use Visual Studio Code (VS Code) and Git. We have installed both of these on your laptop. To make sure they are up to date, type `code --version` in your terminal and hit enter. The computer should give you the version of VS code. Then, type `git --version` and enter, and you should see the version number of Git.
 
-## What is Git?
+# What is Git?
 
 Git is software used for version control. Version control is tracking the state of files. Using Git, you designate certain folders as repositories, then use commands to save the state of the repository at certain points in time. A repository is a place where things can be stored, and in this context indicates a folder that is being tracked by Git. With Git, you can perform tasks such as reverting back to previous versions of a repository, copying or sharing repositories across computers, and comparing different versions of a project.
 
@@ -32,7 +42,7 @@ Git is used for a diverse range of activities, such as:
 - Writing research papers, articles and books
 - Keeping research notes
 
-## Why Use Git in collaborative work?  
+## Why use Git in collaborative work?  
 
 Git is useful in digital humanities work for several reasons. In particular, it facilitates:
 
@@ -201,6 +211,10 @@ You should see output like this:
 
 Now Git is tracking our directory. But before that's useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a  journal — we'll create that next, using Markdown.
 
+---
+
+# Using Markdown
+
 ## What is Markdown?
 
 Markdown is a markup language for formatting text. Unlike HTML, markdown is designed to be human-readable, which makes it much easier to learn than other computer languages. Since markdown is plain text, it's more sustainable and accessible than formats like .docx.
@@ -218,8 +232,6 @@ Hit return. You should see a window appear that looks similar to this:
 ![git-1]({{"/assets/img/git-1.png" | absolute_url}})
 
 We'll be typing our markdown into this VS Code window. At any time, you can save your file by pressing the control (Ctrl) and the s keys at the same time. Alternatively, you can click the File menu on the top left, then select Save from the dropdown menu.
-
-## Using Markdown
 
 Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
 
@@ -386,7 +398,7 @@ Control-c attempts to abort the current task and restore user control. Control-d
 When we start working on collaborative projects we will start sharing files on USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to repositories on USB sticks. For now, however, get used to keeping everything up to date by regularly typing git status and adding, committing and pushing your files to the repositories you create.  
 
 ----
-# Pushing to a removable memory
+# Pushing to a remote repository
 
 Now, let's connect the directory you made to a removable memory, or USB stick.
 
