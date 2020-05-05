@@ -16,7 +16,7 @@ toc:
 - Pushing to a remote repository
 
 ---
-##### This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
+#### *Adapted from the Introduction to Git and Github session at the CUNY Graduate Center Digital Humanities Research Institute in January 2020, led by Patrick Sweeney and based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.*
 
 Git is version control software used to track the state of files associated with a project. Users can take snapshots of files, travel through the history of a project, collaborate transparently with others, and easily keep compatible data in many locations.
 
