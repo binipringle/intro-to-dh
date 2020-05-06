@@ -8,12 +8,12 @@ source:
 toc:
 - Command line session
 - Intro to git session
-- Resources for intro to HTML and CSS session
-- Resources for intro to Jekyll session
-- Resources for intro to Python session
-- Resources for Accessibility session
-- Notes on glossary of technical terms
-- Notes on course readings
+- Intro to HTML and CSS session
+- Intro to Jekyll session
+- Intro to Python session
+- Accessibility session
+- Glossary of technical terms
+- Course readings
 
 ---
 
