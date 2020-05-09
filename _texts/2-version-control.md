@@ -106,10 +106,6 @@ Second way:
 2. Type "terminal" into the bar that appears.
 3. Select the first item that appears in the list.
 
-The terminal will look like this:
-
-![worddoc]({{"/assets/img/comline4-terminal.jpg" | absolute_url}})
-
 ## Practice navigating the command line
 
 In your terminal, type
@@ -225,7 +221,7 @@ In terminal, check to make sure you are in your git-practice folder. (HINT: use 
 
 Hit return. You should see a window appear that looks similar to this:
 
-![git-1]({{"/assets/img/git-1.png" | absolute_url}})
+![git-1](https://binipringle.github.io/intro-to-dh/assets/img/git-1.png)
 
 We'll be typing our markdown into this VS Code window. At any time, you can save your file by pressing the control (Ctrl) and the s keys at the same time. Alternatively, you can click the File menu on the top left, then select Save from the dropdown menu.
 
@@ -263,13 +259,13 @@ This is how the paragraph is rendered:
 
 Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a journal entry. Have a main heading that gives the journal title (one \#), then subheadings (two \#\#) for, at least, a couple of things you want to mention. Use emphasis (\* or \*\*) for some words and try to get a list in there somewhere.
 
-![git-2]({{"/assets/img/git-2.png" | absolute_url}})
+![git-2](https://binipringle.github.io/intro-to-dh/assets/img/git-2.png)
 
 VS Code also has a preview feature for your markdown. Hit the preview button on the top right while editing your markdown file (the preview button looks like an open bobok with a magnifying glass on it).
 
 You'll get two side-by-side panels. Your markdown file will be on the left, and your rendered preview will be on the right:
 
-![git-3]({{"/assets/img/git-3.png" | absolute_url}})
+![git-3](https://binipringle.github.io/intro-to-dh/assets/img/git-3.png)
 
 Remember to save your work with Control-s.
 
