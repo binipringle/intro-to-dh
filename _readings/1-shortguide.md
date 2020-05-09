@@ -1,9 +1,9 @@
 ---
 layout: narrative
 title: A Short Guide to the Digital_Humanities
-author: Part of an open pdf excerpt from Digital_Humanities by Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012)
+author: excerpts from an open pdf excerpt from Digital_Humanities by Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012)
 editor: Sabina Pringle
-rights: License (specify)
+rights: Creative Commons Attribution-non Commercial-ShareAlike
 source: open pdf excerpt from Digital_Humanities, MIT Press, 2012, pp. 121–136.
 toc:
 - What is the Digital Humanities?
