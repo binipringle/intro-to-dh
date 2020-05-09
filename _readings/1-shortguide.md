@@ -70,6 +70,8 @@ For nearly six centuries, humanistic models of knowledge have been shaped by the
 
 ![worddoc]({{"/assets/img/shortguide-1.png" | absolute_url}})
 
+<img src="/intro-to-dh/assets/img/shortguide-1.png" alt=cover-of-open-pdf-excerpt-from-digital_humanities>
+
 ---
 
 # License
