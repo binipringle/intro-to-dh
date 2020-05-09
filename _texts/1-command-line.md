@@ -50,7 +50,11 @@ In this session, we will:
 
 ![worddoc]({{"/assets/img/comline0-iliangise.png" | absolute_url}})
 
-![comline0](/assets/img/comline0-iliangise.png){:class="img-responsive"}
+![comline0](/assets/img/comline0-iliangise.png){:class="img"}
+
+![comline0](/assets/img/comline0-iliangise.png)
+
+![comline0](assets/img/comline0-iliangise.png)
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
