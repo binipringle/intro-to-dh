@@ -7,11 +7,11 @@ rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital I
 source: CUNY Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction
-- Opening Activity
-- Basic Template for HTML
-- Setting Up Git
+- Example
+- Basic template for HTML
+- Setting up Git
 - Initializing a Git repository
-- Using Markdown
+- Using markdown
 - Staging and committing changes
 - Pushing to a remote repository
 ---
@@ -34,7 +34,7 @@ By the end of this workshop, participants will:
 
 Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
 
-*Fun fact*: **Nearly 80% of all websites (whose markup language we know) use HTML.**
+*Fun fact*: Nearly 80% of all websites (whose markup language we know) use HTML.
 
 ## Hypertext Markup Language (HTML)
 
@@ -62,7 +62,7 @@ However, internet access is necessary if you plan on making your website availab
 
 ---
 
-# Opening Activity
+# Example
 
 1. Look at this screenshot of a webpage.
 
@@ -79,7 +79,7 @@ This is the underlying code of the page. This is the code that is used to make a
 In this session, we are going to learn how to read and write this code, and render it in the browser on your local computer.
 
 ---
-# Basic Template for HTML
+# Basic template for HTML
 
 Below is a basic template for an empty HTML Document.
 
@@ -116,8 +116,9 @@ Let's use the command line to create the new folder and file:
 
 1. Open your terminal.
 2. Navigate to your projects folder using this command: `cd ~/Desktop/projects`.
-3. Create a new folder: `mkdir htmlpractice`.
-4. Use your VS Code text editor to create a file called `index.html`: `code index.html`.
+3. Create a new folder: `mkdir htmlpractice`
+4. Go into your new folder by typing `cd htmlpractice`.
+4. Use your VS Code text editor to create a file called **index.html**. To create this file, type `code index.html`in your terminal. Your new file will open in the VS Code text editor.
 5. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website.
@@ -140,7 +141,7 @@ No content renders on the page, because there is no content in the template at t
 
 ---
 
-# Tags and Elements
+# Tags and elements
 
 Tags and elements are the structuring components of html webpages.
 
@@ -181,7 +182,7 @@ If you look back at the basic template in your `index.html` file, you'll see tha
 
 ---
 
-# Paragraphs and Headings
+# Paragraphs and headings
 
 Paragraphs and headings are the main textual elements of the body of your webpages. Because these contain content that you want to organize and display on your webpage, these are entered in the body element.
 
@@ -237,7 +238,7 @@ Links are the foundation of the World Wide Web, and thus are an important compon
 
 The `<a>` tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web.
 
-## Option One: Relative Links
+## Option one: relative links
 
 Relative links take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
 
@@ -277,9 +278,9 @@ The `<a>` tag, or anchor tag, creates a link. The text within the `<a>` and `</a
 
 There is another technical difference between the two options above.
 
-## Relative vs. Absolute Links: When to use which
+## Relative vs. absolute Links: when to use which
 
-Use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
+In general, you should always use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
 
 ## Activity
 
