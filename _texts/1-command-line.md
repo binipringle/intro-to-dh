@@ -58,6 +58,35 @@ In this session, we will:
 
 ![comline0](assets/img/comline0-iliangise.png | https://github.com/binipringle/intro-to-dh/blob/gh-pages/assets/img/comline0-iliangise.png)
 
+html code below
+
+ <ul>
+<li  markdown="1">
+![comline0]({{site.url}}/assets/img/comline0-iliangise.png )
+</li>
+</ul>
+
+kramdown list 1
+
+- ![comline0]({{site.url}}/assets/img/comline0-iliangise.png )
+
+kramdown list 2
+
+- ![comline0](https://binipringle.github.io/intro-to-dh//assets/img/comline0-iliangise.png)
+
+kramdown list 2 modified
+
+- ![comline0](https://binipringle.github.io//assets/img/comline0-iliangise.png)
+
+kramdown list 3
+
+- ![comline0]({{"/assets/img/comline0-iliangise.png"| absolute_url}})
+
+kramdown list 4
+
+- ![comline0](/img/comline0-iliangise.png)
+
+
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
