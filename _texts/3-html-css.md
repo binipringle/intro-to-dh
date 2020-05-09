@@ -67,7 +67,7 @@ However, internet access is necessary if you plan on making your website availab
 
 ![html-1](https://binipringle.github.io/intro-to-dh//assets/img/html-1.png)
 
-2. If you were to open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on computers with a track pad, this is usually a two-finger press on the right side of the track pad,  or you can press the "control" button then click the track pad), and selected ‘View Page Source’ from the dropdown menu, this is what you would see:
+2. If you were connected to the internet you would be able to open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on computers with a track pad, this is usually a two-finger press on the right side of the track pad,  or you can press the "control" button then click the track pad), and selected ‘View Page Source’ from the dropdown menu, this is what you would see:
 
 ![html-2](https://binipringle.github.io/intro-to-dh//assets/img/html-2.png)
 
