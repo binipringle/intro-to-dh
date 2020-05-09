@@ -15,6 +15,7 @@ toc:
 - License
 ---
 
+---
 # What is the Digital Humanities?
 
 Digital Humanities refers to new modes of scholarship and institutional units for collaborative, trans-disciplinary, and computationally engaged research, teaching, and publication.
