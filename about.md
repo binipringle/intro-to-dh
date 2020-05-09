@@ -21,3 +21,5 @@ This site is built with <a href="http://elotroalex.github.io/ed//">Ed.</a>, a <a
 [documentation page](http://minicomp.github.io/ed/documentation).
 
 <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and focused on legibility, durability, ease and flexibility. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this site. If you are interested in using the framework rather than the content of this site, consider setting it up directly from <a href="http://elotroalex.github.io/ed//">Ed.</a>, which has excellent documentation and is what I used to build this site.
+
+My work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license, which means that you are free to share, copy, redistribute, adapt, remix, transform, and build upon it. The copyrights and licenses of work by others published on this site are clearly indicated and should be abided to respectively. If you would like to contribute to this project and/or are interested in collaborating with me in the next stage of the project (maybe look for a grant?) please write to me or write to dhinprison@gmail.com.  
