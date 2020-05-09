@@ -100,6 +100,10 @@ Double-click on the terminal icon on the left hand side of your screen. The term
 
 ![worddoc]({{"/assets/img/comline3-terminal-icon.jpg" | absolute_url}})
 
+![terminal-icon](https://binipringle.github.io/intro-to-dh//assets/img/comline3-terminal-icon.jpg)
+
+![terminal-icon](https://binipringle.github.io/intro-to-dh/assets/img/comline3-terminal-icon.jpg)
+
 Second way:
 
 1. Double-click on the word "Activities" in the top left corner of your screen.
