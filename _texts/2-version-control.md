@@ -98,10 +98,6 @@ First way:
 
 Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
 
-![worddoc]({{"/assets/img/comline3-terminal-icon.jpg" | absolute_url}})
-
-![terminal-icon](https://binipringle.github.io/intro-to-dh//assets/img/comline3-terminal-icon.jpg)
-
 ![terminal-icon](https://binipringle.github.io/intro-to-dh/assets/img/comline3-terminal-icon.jpg)
 
 Second way:

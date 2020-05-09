@@ -16,7 +16,7 @@ By the end of this workshop, participants will:
     Engage with error output and use the internet and documentation to independently research language features.
     Learn how to find and import code from external sources to solve more complex problems.
 
-![dhp-4](https://binipringle.github.io/intro-to-dh//assets/img/dhp-4.png)
+![dhp-4](https://binipringle.github.io/intro-to-dh/assets/dhp-4.png)
 
 Get Started >>>
 Glossary >>>
