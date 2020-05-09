@@ -29,10 +29,9 @@ By the end of this workshop, participants will:
 ---
 # Introduction
 
-Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, travelling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
+Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
 
 *Fun fact*: **Nearly 80% of all websites (whose markup language we know) use HTML.**
-[(w3techs.com)](https://w3techs.com/technologies/details/ml-html/all/all)
 
 ## Hypertext Markup Language (HTML)
 
@@ -56,7 +55,7 @@ CSS is a language for describing style in markup languages, and is usually used 
 
 Together, these languages can be used to write and style a website using a text editor (i.e. VS Code) directly from your computer. No internet access needed.
 
-However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](public.md).
+However, internet access is necessary if you plan on making your website available to the public.
 
 ---
 
@@ -64,11 +63,11 @@ However, internet access is necessary if you plan on making your website availab
 
 1. Look at this screenshot of a webpage.
 
-![html-1]({{"/assets/img/html-1.png" | absolute_url}})
+![html-1](https://binipringle.github.io/intro-to-dh//assets/img/html-1.png)
 
 2. If you were to open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on computers with a track pad, this is usually a two-finger press on the right side of the track pad,  or you can press the "control" button then click the track pad), and selected ‘View Page Source’ from the dropdown menu, this is what you would see:
 
-![html-2]({{"/assets/img/html-2.png" | absolute_url}})
+![html-2](https://binipringle.github.io/intro-to-dh//assets/img/html-2.png)
 
 ## What you're seeing
 
@@ -208,7 +207,7 @@ The `<p>` tags denote **paragraphs**, or blocks of text.
 ```
 Note that the `<title>` is in the `<head>` element, which is where information about the webpage goes. The title doesn't appear on the page, but instead elsewhere in the browser when the page is displayed. For example, in Chrome, the title appears on the tab above the navbar.
 
-![html-4]({{"/assets/img/html-4.png" | absolute_url}})
+![html-4](https://binipringle.github.io/intro-to-dh//assets/img/html-4.png)
 
 ## Activity
 
@@ -225,7 +224,7 @@ What do you notice about how the information is organized in the webpage? In oth
 ## What should you see?
 The heading should appear at the top of the page, followed by the paragraph text. The heading text should be larger. The title should appear in the browser window tab.
 
-![html-5]({{"/assets/img/html-5.png" | absolute_url}})
+![html-5](https://binipringle.github.io/intro-to-dh//assets/img/html-5.png)
 
 ---
 
@@ -265,7 +264,7 @@ On your webpage it will appear as:
 
 This pathway is directing your browser to look online for this text document at the URL address provided. Because your browser is not connected to the internet, you will probably get an Unable to connect error.
 
-![html-6]({{"/assets/img/html-6.png" | absolute_url}})
+![html-6](https://binipringle.github.io/intro-to-dh//assets/img/html-6.png)
 
 ## More on links
 
