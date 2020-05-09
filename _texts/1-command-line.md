@@ -66,11 +66,11 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, the word "text" has different and specific meanings in different fields and subfields. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![worddoc]({{"/assets/img/comline1-worddoc.jpg" | absolute_url}})
+![worddoc](https://binipringle.github.io/intro-to-dh//assets/img/comline1-worddoc.jpg)
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
-![worddoc]({{"/assets/img/comline2-catworddoc.jpg" | absolute_url}})
+![catworddoc](https://binipringle.github.io/intro-to-dh//assets/img/comline2-catworddoc.jpg)
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
@@ -138,8 +138,7 @@ First way:
 
 Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
 
-![worddoc]({{"/assets/img/comline3-terminal-icon.jpg" | absolute_url}})
-
+![terminal-icon](https://binipringle.github.io/intro-to-dh//assets/img/comline3-terminal-icon.jpg)
 
 Second way:
 
@@ -149,7 +148,7 @@ Second way:
 
 The terminal will look like this:
 
-![worddoc]({{"/assets/img/comline4-terminal.jpg" | absolute_url}})
+![terminal](https://binipringle.github.io/intro-to-dh//assets/img/comline4-terminal.jpg)
 
 When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command. The command prompt is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
