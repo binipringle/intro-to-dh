@@ -26,7 +26,9 @@ By the end of this workshop, participants will:
 - Familiarize themselves with the anatomy of a webpage and how the Internet works.
 - Understand the basics of the HTML and CSS markup languages.
 - Use HTML, CSS, and a text editor to build a small website.
+
 ---
+
 # Introduction
 
 Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
