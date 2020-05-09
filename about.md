@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-This project is part of a capstone/thesis for the Master of Arts in Digital Humanities at The Graduate Center - CUNY. It grew out of conversations in the Introduction to Digital Humanities course I took in Fall 2018, about how digital humanities had shifted from seeing itself in its early days as a big tent[^1] to becoming an expanded field[^2] and then allying itself with social justice advocates, activists, organizers, and others to help bring about much-needed change.[^3]  
+This project is the capstone part of a capstone/thesis for the Master of Arts in Digital Humanities at The Graduate Center - CUNY. It grew out of conversations in the Introduction to Digital Humanities course I took in Fall 2018, about how digital humanities had shifted from seeing itself in its early days as a big tent[^1] to becoming an expanded field[^2] and then allying itself with social justice advocates, activists, organizers, and others to help bring about much-needed change.[^3]  
 
 [^1]: see Patrick Svensson, "Beyond the Big Tent." Debates in the Digital Humanities 2012. Chapter 4. <a href="https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/38531431-5bd6-4eb1-95f5-fa49c025322d">dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/38531431-5bd6-4eb1-95f5-fa49c025322d</a>
 
