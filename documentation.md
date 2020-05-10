@@ -30,7 +30,7 @@ $ gem install bundler
 $ bundle install
 ~~~
 
-Done! To see if DH in Prison is working properly, tell Jekyll to serve by typing
+Done! To see if Intro to DH is working properly, tell Jekyll to serve by typing
 
 ~~~ bash
 $ jekyll serve
