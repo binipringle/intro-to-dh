@@ -17,7 +17,7 @@ Ilian Sanchez is an artist who works with a variety of media including paint, sp
 
 ### [Sabina Pringle](https://sabinapringle.commons.gc.cuny.edu/) | Digital Humanist,  Legal Assistant, Adjunct Lecturer in English
 
-Sabina is a candidate for the Master of Arts in Digital Humanities at The Graduate Center – CUNY in May 2020. She is adjunct Lecturer in English at City College of New York and Legal Assistant in the Office of Legal Affairs and Labor Relations at Baruch College and will be a student in the JD in Public Interest Law evening program at CUNY School of Law from August 2020. Sabina was Fulbright Teaching Assistant at Universidad del Atlántico, Barranquilla, Colombia for academic years 2015-16 and 2016-17. BA in English Literature, City College of New York.
+Sabina Pringle is a candidate for the Master of Arts in Digital Humanities at The Graduate Center – CUNY in May 2020. She is adjunct Lecturer in English at City College of New York and Legal Assistant in the Office of Legal Affairs and Labor Relations at Baruch College and will be a student in the JD in Public Interest Law evening program at CUNY School of Law from August 2020. Sabina was Fulbright Teaching Assistant at Universidad del Atlántico, Barranquilla, Colombia for academic years 2015-16 and 2016-17. BA in English Literature, City College of New York.
 
 ---
 
