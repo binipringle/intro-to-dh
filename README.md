@@ -3,7 +3,7 @@
 
 ## About
 
-"Introduction to Digital Humanities" is a model for a one semester 3-credit course that aims to introduce students in college-in-prison to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects. Its aim is to help students explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research, and learn the digital skills they need to get started. Students will learn to use the command line, version control (git), HTML and CSS, Python, and Jekyll (Ruby). In addition, they will produce a series of digital projects individually and in collaboration with others, and learn how to present their digital work effectively.
+"Introduction to Digital Humanities" is a model for a one semester 3-credit course that aims to introduce students in college-in-prison to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects. Its aim is to help students explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research, and learn the digital skills they need to get started. Students will learn to use the command line, version control (Git), HTML and CSS, Python, and Jekyll (Ruby). In addition, they will produce a series of digital projects individually and in collaboration with others, and learn how to present their digital work effectively.
 
 This course lives on a static Jekyll site so that it can be used on a fairly simple computer network with no internet connection.
 
