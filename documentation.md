@@ -32,8 +32,8 @@ $ cd projects
 Now type or paste the following commands:
 
 ~~~ bash
-$ git clone https://github.com/binipringle/dh-in-prison.git
-$ cd dh-in-prison
+$ git clone https://github.com/binipringle/intro-to-dh.git
+$ cd intro-to-dh
 $ gem install bundler
 $ bundle install
 ~~~
@@ -44,12 +44,12 @@ Done! To see if DH in Prison is working properly, tell Jekyll to serve by typing
 $ jekyll serve
 ~~~
 
-If the site was rendered, copy the url from your terminal log and paste it into your browser (my preference is Firefox). This url usually looks something like this `http://127.0.0.1:4000/dh-in-prison`. Now you should be looking at your own working version of DH in Prison, served from your computer without relying on the internet.
+If the site was rendered, copy the url from your terminal log and paste it into your browser (my preference is Firefox). This url usually looks something like this `http://127.0.0.1:4000/dh-in-prison`. Now you should be looking at your own working version of Intro to DH, served from your computer without relying on the internet.
 
 ### If the site did not render:
 
-And you had errors you could not resolve, follow the installation instructions in the [documentation of Ed](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "dh-in-prison" wherever necessary. Ed is the Jekyll theme that I used to build DH in Prison, so if what you want to do is to completely change the content of DH in Prison and build your own site with its framework, I strongly recommend that you clone Ed instead and use Ed to build your site because Ed's documentation is way better than mine.
+And you had errors you could not resolve, follow the installation instructions in the [documentation of Ed](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "intro-to-dh" wherever necessary. Ed is the Jekyll theme that I used to build Intro to DH, so if what you want to do is to completely change the content of Intro to DH and build your own site with its framework, I strongly recommend that you clone Ed instead and use Ed to build your site because Ed's documentation is way better than mine.
 
-If, on the other hand, you are interested in talking about, contributing to or otherwise getting involved in DH in Prison, see its sibling site [Intro to DH](https://binipringle.github.io/intro-to-dh/) and write to me at springle@ccny.cuny.edu or [https://github.com/binipringle ](https://github.com/binipringle)
+If, on the other hand, you are interested in talking about, contributing to or otherwise getting involved in Intro to DH, see its sibling site [DH in Prison](https://binipringle.github.io/dh-in-prison/) and write to me at springle@ccny.cuny.edu or [https://github.com/binipringle ](https://github.com/binipringle)
 
---- 
+---
