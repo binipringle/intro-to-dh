@@ -4,14 +4,6 @@ title: Documentation
 author: Alex Gil
 ---
 
-## Contents
-{:.no_toc}
-
-* ToC
-{:toc}
-
----
-
 This is a static site built with Jekyll using [Ed](https://elotroalex.github.io/ed/).
 
 ### To make a copy of this site and run it on your computer:
