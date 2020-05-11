@@ -15,7 +15,6 @@ toc:
 - License
 ---
 
----
 # What is the Digital Humanities?
 
 Digital Humanities refers to new modes of scholarship and institutional units for collaborative, trans-disciplinary, and computationally engaged research, teaching, and publication.
@@ -68,14 +67,10 @@ Both the traditional classroom and solitary study remain key features in the lan
 
 For nearly six centuries, humanistic models of knowledge have been shaped by the power of print as the primary medium of knowledge production and dissemination. Rather than rejecting print culture or embracing the simple pouring of print models into digital molds, Digital Humanities is engaged in developing print-plus and post-print models of knowledge. Both involve more than an updating of the knowledge delivery system. They entail the cognitive and epistemological reshaping of humanistic fields as a function of the affordances provided by the digital with respect to print. They also respect the increasing role teamwork and collaboration play in humanities research and training.
 
-![worddoc]({{"/assets/img/shortguide-1.png" | absolute_url}})
-
- <img src="intro-to-dh/assets/img/shortguide-1.png" alt=cover-of-open-pdf-excerpt-from-digital_humanities>
+![shortguide](https://binipringle.github.io/intro-to-dh/assets/img/shortguide-1.png)
 
 ---
 
-# License
-
-This work is licensed under the Creative Commons Attribution-non Commercial-ShareAlike license, available at creativecommons.org/licenses/by-nc-sa/3.0/ or by mail from Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+This work is licensed under Creative Commons Attribution-non Commercial-ShareAlike.
 
 ---
