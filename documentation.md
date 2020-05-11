@@ -33,27 +33,23 @@ If the site was rendered, copy the url from your terminal log and paste it into 
 
 ### If the site did not render:
 
-And you had errors you could not resolve, follow the installation instructions in the [Ed documentation](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "intro-to-dh" wherever necessary. Ed is the Jekyll theme that I used to build Intro to DH, so if you run into issues when making changes to Intro to DH, see the [Ed documentation](https://elotroalex.github.io/ed/documentation/).
+And you had errors you could not resolve, follow the installation instructions in the [Ed documentation](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "intro-to-dh" wherever necessary. Ed is the Jekyll theme that I used to build Intro to DH, so once you have cloned Intro to DH onto your computer, if you run into issues when making changes to Intro to DH, I recommend looking to the [Ed documentation](https://elotroalex.github.io/ed/documentation/) for help.
 
 ---
 
-## Setting up laptops so that students can access this course without an internet connection
+# To prepare student laptops for using this course:
 
-# Operating system
+The technical skills sessions are adapted to work with Ubuntu, the free open source operating system. Ubuntu therefore needs to be installed on all student and instructor laptops.
 
-On each laptop,
+# 1. Installing Ubuntu
 
-1. Install Ubuntu
-
-Follow this [easy tutorial](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview) to replace the current operating system with Ubuntu. In step 5, choose **normal installation**. In step 6, choose **Erase disk and install Ubuntu**.
+To install Ubuntu, follow this [easy tutorial](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview) to replace the current operating system with Ubuntu. In step 5, choose **normal installation**. In step 6, choose **Erase disk and install Ubuntu**. You will need a USB stick.
 
 ---
 
-# Git
+# 2. Installing Git
 
-2. Install Git
-
-Ubuntu’s default repositories provide you with a fast method to install Git.
+Ubuntu comes with Git. However, before you start using Git, you have to make it available on your computer.
 
 First, use the apt package management tools to update your local package index. With the update complete, you can download and install Git:
 
@@ -62,7 +58,7 @@ $ sudo apt update
 $ sudo apt install git
 ~~~
 
-You can confirm that you have installed Git correctly by running the following command:
+You can confirm that Git is installed by typing
 
 ~~~ bash
 $ git --version
@@ -74,18 +70,13 @@ Output should be
 git version 2.20.1
 ```
 
-If you need to update to the latest version of Git, do this:
+You may want to update to the latest version. If so, see the [Ubuntu Documentation Community Help Wiki for Git](https://help.ubuntu.com/community/Git) for instructions on how to do this.
 
-~~~ bash
-$ sudo add-apt-repository -y ppa:git-core/ppa
-$ sudo apt-get update
-$ sudo apt-get install git -y
-~~~
 ---
 
 # Text Editor
 
-Ubuntu comes with Visual Studio Code, so you will have installed it in step 1 and should see it in your GUI. If you want to check what version you have from the command line, type
+Ubuntu comes with Visual Studio Code, so you will have installed it in step 1 and should see it in your GUI. If you want to check which version you have, type
 
 ~~~ bash
 $ code --version
