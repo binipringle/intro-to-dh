@@ -71,6 +71,6 @@ For nearly six centuries, humanistic models of knowledge have been shaped by the
 
 ---
 
-This work is licensed under Creative Commons Attribution-non Commercial-ShareAlike.
+This work is copyrighted under a Creative Commons Attribution-non Commercial-ShareAlike License.
 
 ---
