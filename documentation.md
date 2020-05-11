@@ -6,11 +6,11 @@ author: Alex Gil
 
 This is a static site built with Jekyll using [Ed](https://elotroalex.github.io/ed/).
 
-### To make a copy of this site and run it on your computer:
+# To make a copy of this site and run it on your computer:
 
 You will need to use your terminal. If you don't remember much about how to use your terminal, I recommend "[Introduction to the Command Line](https://github.com/GC-DRI/command-line)."
 
-### Once you are in your terminal, first try the "easy" or "lucky" way to install:
+## Once you are in your terminal, first try the "easy" or "lucky" way to install:
 
 Go into your Desktop or wherever you want your copy of this site.
 
@@ -31,7 +31,7 @@ $ jekyll serve
 
 If the site was rendered, copy the url from your terminal log and paste it into your browser (my preference is Firefox). This url usually looks something like this `http://127.0.0.1:4000/dh-in-prison`. Now you should be looking at your own working version of Intro to DH, served from your computer without relying on the internet.
 
-### If the site did not render:
+## If the site did not render:
 
 And you had errors you could not resolve, follow the installation instructions in the [Ed documentation](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "intro-to-dh" wherever necessary. Ed is the Jekyll theme that I used to build Intro to DH, so once you have cloned Intro to DH onto your computer, if you run into issues when making changes to Intro to DH, I recommend looking to the [Ed documentation](https://elotroalex.github.io/ed/documentation/) for help.
 
@@ -39,15 +39,15 @@ And you had errors you could not resolve, follow the installation instructions i
 
 # To prepare student laptops for using this course:
 
-The technical skills sessions are adapted to work with Ubuntu, the free open source operating system. Ubuntu therefore needs to be installed on all student and instructor laptops.
+The technical skills sessions are adapted to work with Ubuntu, the free open source operating system. Ubuntu therefore needs to be installed on all student and instructor laptops. This is the first thing you should do.
 
-# 1. Installing Ubuntu
+# Installing Ubuntu
 
 To install Ubuntu, follow this [easy tutorial](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview) to replace the current operating system with Ubuntu. In step 5, choose **normal installation**. In step 6, choose **Erase disk and install Ubuntu**. You will need a USB stick.
 
 ---
 
-# 2. Installing Git
+# Installing Git
 
 Ubuntu comes with Git. However, before you start using Git, you have to make it available on your computer.
 
@@ -74,7 +74,7 @@ You may want to update to the latest version. If so, see the [Ubuntu Documentati
 
 ---
 
-# Text Editor
+# Finding the Text Editor
 
 Ubuntu comes with Visual Studio Code, so you will have installed it in step 1 and should see it in your GUI. If you want to check which version you have, type
 
@@ -94,7 +94,7 @@ If you need to reinstall or update VS Code follow the steps in [Downloading VS C
 
 ---
 
-# Python
+# Installing Python
 
 Go to the Anaconda site.
 
@@ -134,4 +134,4 @@ Yippee (unless you got errors). If you got errors, see the Anaconda troubleshoot
 
 ---   
 
-# Jekyll
+# Installing Jekyll
