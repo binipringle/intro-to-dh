@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Jekyll
-author: Patrick Smyth
+author:
 editor: Sabina Pringle
 source: CUNY Graduate Center Digital Research Institute
 rights: Introduction to Jekyll is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to Jekyll is based on Introduction to Jekyll of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
