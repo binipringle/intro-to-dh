@@ -7,7 +7,7 @@ rights:
 
 ---
 
-Here is a list of some selected projects that I think would be good to show students as examples of meaningful digital humanities work. I am beginning this list on May 10, 2020 and don't have much time because I have to deposit this capstone/thesis before May 15th and it ain't finished yet!!! So these are just some thoughts. I will add more. Please send me suggestions of projects you think should be included to write to me at springle@ccny.cuny.edu or https://github.com/binipringle
+Here is a list of some selected projects that I think would be good to show students as examples of meaningful digital humanities work. I am beginning this list on May 10, 2020 and don't have much time because I have to deposit this capstone/thesis before May 15th and it ain't finished yet!!! So these are just some thoughts. I will add more. Please send me suggestions of projects you think should be included to write to me at **springle@ccny.cuny.edu** or [https://github.com/binipringle](https://github.com/binipringle)
 
 Students will not have an internet connection. Therefore, projects that can be run on a local server are ideal. Websites that can be archived and taken to prison on a USB drive will also work.
 

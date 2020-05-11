@@ -34,7 +34,7 @@ By the end of this workshop, participants will:
 
 Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
 
-*Fun fact*: Nearly 80% of all websites (whose markup language we know) use HTML.
+### *Fun fact: Nearly 80% of all websites (whose markup language we know) use HTML.*
 
 ## Hypertext Markup Language (HTML)
 

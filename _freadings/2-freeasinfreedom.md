@@ -9,10 +9,10 @@ toc:
 - Foreword by Richard M. Stallman
 - Preface by Sam Williams
 ---
----
 
 > Permission is granted to copy, distribute and/or modify this document under  the  terms  of  the  GNU  Free  Documentation  License,  Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the section entitled “GNU Free Documentation License.”
 
+---
 
 # Foreword by Richard M. Stallman
 
@@ -110,7 +110,8 @@ In the meantime, good luck and enjoy the book!
 Sam Williams
 Staten Island, USA
 
+---
 
-The  cover  photograph  of  Richard  Stallman  is  by  Peter  Hinely.   The PDP-10 photograph in Chapter 7 is by Rodney Brooks.  The photograph of St.  IGNUcius in Chapter 8 is by Stian Eikeland.
+Editor's note: the rest of the book will be added soon.
 
 ---
