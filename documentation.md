@@ -63,7 +63,7 @@ To install Ubuntu, follow this [easy tutorial](https://ubuntu.com/tutorials/tuto
 
 Ubuntu comes with Git. However, before you start using Git, you have to make it available on your computer.
 
-First, use the apt package management tools to update your local package index. With the update complete, you can download and install Git:
+First, use the apt package management tools to update your local package index. With the update complete, you can install Git:
 
 ~~~ bash
 $ sudo apt update
