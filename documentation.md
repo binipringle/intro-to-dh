@@ -1,12 +1,23 @@
 ---
 layout: page
 title: Documentation
-author: Alex Gil
+author: Sabina Pringle
+editor: Sabina Pringle
+rights: CC Attribution-ShareAlike 4.0 International License
+source: DH in Prison
+toc:
+- Make a copy of this site
+- Installing Ubuntu
+- Installing Git
+- Finding the Text Editor
+- Installing Python
+- Installing Jekyll
+
 ---
 
 This is a static site built with Jekyll using [Ed](https://elotroalex.github.io/ed/).
 
-# To make a copy of this site and run it on your computer:
+## To make a copy of this site and run it on your computer:
 
 You will need to use your terminal. If you don't remember much about how to use your terminal, I recommend "[Introduction to the Command Line](https://github.com/GC-DRI/command-line)."
 
@@ -23,7 +34,7 @@ $ gem install bundler
 $ bundle install
 ~~~
 
-Done! To see if Intro to DH is working properly, tell Jekyll to serve by typing
+Done! To see if Intro to DH is working properly, tell Jekyll to serve it by typing
 
 ~~~ bash
 $ jekyll serve
@@ -37,9 +48,9 @@ And you had errors you could not resolve, follow the installation instructions i
 
 ---
 
-# To prepare student laptops for using this course:
+# Preparing student laptops for using Intro to DH
 
-The technical skills sessions are adapted to work with Ubuntu, the free open source operating system. Ubuntu therefore needs to be installed on all student and instructor laptops. This is the first thing you should do.
+Although the technical skills sessions should work on most operating systems such as Windows and Mac OS, they have been adapted to be used on Ubuntu, the free open source operating system. Ubuntu therefore needs to be installed on all student and instructor laptops. When you install Ubuntu on a laptop you will erase the operating system that was there before. When you are ready to set up student laptops, installing Ubuntu is the first thing you should do.
 
 # Installing Ubuntu
 
@@ -79,7 +90,7 @@ You may want to update to the latest version. If so, see the [Ubuntu Documentati
 Ubuntu comes with Visual Studio Code, so you will have installed it in step 1 and should see it in your GUI. If you want to check which version you have, type
 
 ~~~ bash
-$ code --version
+$ code -v
 ~~~
 
 You should see something like this:
@@ -104,7 +115,11 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
 
 Download the Linux Python 3.7 64-bit (x86) Installer (522 MB).
 
-Now it gets a bit confusing because instead of installing Python by double-clicking on the file you just downloaded or by dragging and dropping it into your Applications folder like I am used to doing on Mac OS or Windows, you have to install it from the command line. Follow the next steps in the instructions in the Anaconda documentation very carefully. Anaconda recommends that before you install, you verify the data integrity of the Anaconda installer hash (Anaconda walks you through how to do this). To install Python with Anaconda, I typed two commands. The first gave me an error but I gave the second command anyway and it worked.
+Now it gets a bit confusing because instead of installing Python by double-clicking on the file you just downloaded or by dragging and dropping it into your Applications folder like I am used to doing on Mac OS or Windows, you have to install it from the command line.
+
+Follow the steps in the Anaconda documentation very carefully. Anaconda recommends that before you install, you verify the data integrity of the Anaconda installer hash (Anaconda walks you through how to do this).
+
+To install Python with Anaconda, I typed two commands. The first gave me an error but I gave the second command anyway and it worked.
 
 First command (this one gave me an error):
 
@@ -121,7 +136,7 @@ $ bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
 If everything went well, you should now see Anaconda install Python 3.7 on your computer. When it has finished installing, type
 
 ~~~ bash
-$ python -- version
+$ python --version
 ~~~
 
 You should see this:
@@ -135,3 +150,34 @@ Yippee (unless you got errors). If you got errors, see the Anaconda troubleshoot
 ---   
 
 # Installing Jekyll
+
+Jekyll is a static site generator written in Ruby. Ruby is a programming language. Ruby was probably installed with Ubuntu. To check, type
+
+~~~ bash
+$ ruby -v
+~~~
+
+Output should be something like this:
+
+```
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+```
+
+If for some reason Ruby is not installed, type
+
+~~~ bash
+$ sudo apt-get install ruby-full
+~~~
+
+You should be good to go. Now, install Jekyll. To install Jekyll, follow its clear and easy guide to [install Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/). When this is done, to see that it is installed, typed
+
+~~~ bash
+$ jekyll -v
+~~~
+
+Output should be something like
+
+```
+jekyll 4.0.0
+```
+Now that you have installed Ubuntu, Git, VS Code, Python and Jekyll, the laptops are ready to go! 
