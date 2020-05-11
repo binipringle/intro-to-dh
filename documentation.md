@@ -110,7 +110,7 @@ If you need to reinstall or update VS Code follow the steps in [Downloading VS C
 
 Go to the Anaconda site.
 
-To install Anaconda on Linux you will first be directed to install the following extended dependencies for Qt (you will probably have to write ```sudo``` before the command):
+To install Anaconda on Linux you will first be directed to install the following extended dependencies for Qt (you will probably have to write ```sudo``` before the command as I did):
 
 ~~~ bash
 $ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
@@ -118,19 +118,19 @@ $ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss
 
 Next, download the Anaconda installer for Linux. Click on **Download**, scroll to the bottom and choose the **Linux Python 3.7 64-bit (x86) Installer (522 MB)**.
 
-Now it gets a bit confusing because instead of installing Python by double-clicking on the file you just downloaded or by dragging and dropping it into your Applications folder like I am used to doing on Mac OS or Windows, you have to install it from the command line.
+Now it gets a bit confusing because instead of installing Python by double-clicking on the file you just downloaded or by dragging and dropping it into your Applications folder like we are used to doing on Mac OS or Windows, you have to install it from the command line.
 
 Follow the steps in the Anaconda documentation very carefully. Anaconda recommends that before you install, you verify the data integrity of the Anaconda installer hash (Anaconda walks you through how to do this).
 
-To install Python with Anaconda, I typed two commands. The first gave me an error but I entered the second command anyway and it worked.
+To install Python with Anaconda, I typed two commands. The first gave me an error but I executed the second command anyway and it worked.
 
-First command (this one gave me an error):
+First command (this gave me an error):
 
 ~~~ bash
 $ sha256sum /Downloads/Anaconda3-2020.02-Linux-x86_64.sh
 ~~~
 
-Second command (this one worked like magic):
+Second command (this worked like magic):
 
 ~~~ bash
 $ bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
@@ -154,7 +154,7 @@ Yippee (unless you got errors). If you got errors, see the [Anaconda troubleshoo
 
 # Installing Jekyll
 
-Jekyll is a static site generator written in Ruby. Ruby was probably installed with Ubuntu. To check, type
+Jekyll is a static site generator written in Ruby. Ruby should already be installed because it is installed with Ubuntu. To check, type
 
 ~~~ bash
 $ ruby -v
@@ -172,7 +172,9 @@ If for some reason Ruby is not installed, type
 $ sudo apt-get install ruby-full
 ~~~
 
-Now you should be good to go and ready to install Jekyll. To install Jekyll, follow its clear and easy guide to [install Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/). When this is done, to see that it is installed, type
+Now you should be good to go and ready to install Jekyll.
+
+To install Jekyll, follow its clear and easy guide to [install Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/). When this is done, to see that it is installed, type
 
 ~~~ bash
 $ jekyll -v
@@ -183,4 +185,6 @@ Output should be something like
 ```
 jekyll 4.0.0
 ```
-Now that you have installed Ubuntu, Git, VS Code, Python and Jekyll, the laptops are ready to go!
+Now that you have installed Ubuntu, Git, VS Code, Python and Jekyll, the laptops are ready to go! Have fun!
+
+---
