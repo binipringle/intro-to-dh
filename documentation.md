@@ -108,9 +108,9 @@ If you need to reinstall or update VS Code follow the steps in [Downloading VS C
 
 # Installing Python
 
-Go to the Anaconda site.
+I recommend that you install Python with Anaconda. To do this, navigate to the [Anaconda documentation for installing on Linux](https://docs.anaconda.com/anaconda/install/linux/).
 
-To install Anaconda on Linux you will first be directed to install the following extended dependencies for Qt (you will probably have to write ```sudo``` before the command as I did):
+Here, you will first be directed to install the following extended dependencies for Qt (you will probably have to write ```sudo``` before the command as I did):
 
 ~~~ bash
 $ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
