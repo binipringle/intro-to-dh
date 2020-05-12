@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Python
-author: Patrick Smyth
+author:
 editor: Sabina Pringle
 source: CUNY Graduate Center Digital Research Institute
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
@@ -22,7 +22,7 @@ toc:
 
 ---
 
-##### Based on previous work by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Based on a work at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+##### Written by Patrick Smyth based on previous work by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Based on a work at https://github.com/DHRI-Curriculum. Edited by Sabina Pringle. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 
