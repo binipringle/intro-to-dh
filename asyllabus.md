@@ -21,7 +21,7 @@ In the second part of the course students will learn to use tools which are wide
 
 - Students will begin to prepare their own digital portfolios.
 
-- Students will learn technical skills including the command line, version control (Git), HTML and CSS, Python, and Jekyll (Ruby).
+- Students will learn technical skills including command line (terminal, bash), version control (Git), HTML and CSS, Python, and Jekyll (Ruby).
 
 - Students will design and develop a collaborative project or projects.
 
