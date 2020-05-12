@@ -1,11 +1,11 @@
 ---
 layout: narrative
 title: Introduction to Python
-author:
+author: Patrick Smyth
 editor: Sabina Pringle
 source: CUNY Graduate Center Digital Research Institute
-rights: Introduction to Python is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to Python is based on Introduction to Python of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
-source: Graduate Center Digital Humanities Research Institute
+rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+source: Graduate Center Digital Research Institute
 toc:
 - Interacting with Python
 - Types
@@ -15,14 +15,14 @@ toc:
 - Lists and Loops
 - Conditionals
 - Input
-- Finding answers without Google
+- Case sensitivity
 - A little motivation
 - Objects in python
 - Python resources
 
 ---
 
-#### This session was adapted from previous work by Patrick Smyth for the CUNY Graduate Center Digital Research Institute (GCDRI), with contributions from Kalle Westerling for the Graduate Center Digital Humanities Research Institute (GC DHRI) in January 2020 for the Graduate Center Digital Initiatives (GCDI).
+##### Based on previous work by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Based on a work at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 
@@ -88,11 +88,9 @@ Note the way you interact with Python at the prompt. After entering an expressio
 
 The REPL is useful for quick tests and, later, can be used for exploring and debugging your programs interactively.
 
-## Challenges
+## Challenge
 
 1. For a few minutes, practice moving in and out of Python's interactive mode (also known as the REPL). You can get out of Python by hitting `Control-d` (or `Control-z` if you're using Git Bash) or by typing `exit()`, and you can get back in by typing `python` at the `$` prompt. Remember that you're in the REPL when you see `>>>`, and you're in bash when you see the `$`.
-
-2. One "operator" (math symbol) we didn't learn is the exponent—you know, "x raised to the power of..."  If you were Guido van Rossum, the creator of Python, how would you define this operator? Look up the exponent operator in Python on Google and see how close you were.
 
 ---
 
@@ -188,8 +186,6 @@ Variables can be longer words as well:
 
 Variables can have letters, numbers, and underscores, **but should start with a letter**.
 
-If you are curious about learning more about naming conventions for variables, you can check out the PEP8 style guide's section on [Naming Conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions). PEP8 is the widely accepted guide for Python programmers everywhere.
-
 ## Challenge
 
 So I just told you that variables shouldn't start with a number or an underscore. What does that even mean? Will your computer explode if you write `3_flower = "buttercup"`?
@@ -230,15 +226,14 @@ Congratulations! You've written your first script. That's kind of a big deal.
 
 ## Challenges
 
-1. Rewrite your program so that you assign the message to a variable, then print the variable. This will make your program two lines instead of one. There's a fancy programmer word for rewriting your code without changing it's behavior—"refactoring."
+1. Rewrite your program so that you assign the message to a variable, then print the variable. This will make your program two lines instead of one. There's a fancy programmer word for rewriting your code without changing its behavior—"refactoring."
 
 2. (optional) Are you already getting sick of typing `python hello.py` again and again? Try typing `!!` in the command line (the `$`). This will run your last line of code again.
 
-3. (even more optional) If you're on Windows and have a minute, try pressing the Windows button on your keyboard and searching for a program called `IDLE` that comes with Python. It's a special editor (or IDE) that lets you run Python code from inside it. You might like it more than git bash.
 
 ## A Note on Text
 
-Fundamentally, Python programs are just text files. You can write them in any text editor, like VS Code or Notepad on Windows. When you pass the text file to Python, it runs the code in the file one line at a time. There's nothing special about `.py` files—they're just regular text files. This makes them work well with command line tools like Git. The tools you've learned so far—the command line, Git, markdown, grep—are all designed to work well together, and the medium through which they all work is plain text.
+Fundamentally, Python programs are just text files. You can write them in any text editor, like VS Code or gedit on Ubuntu. When you pass the text file to Python, it runs the code in the file one line at a time. There's nothing special about `.py` files—they're just regular text files. This makes them work well with command line tools like Git. The tools you've learned so far—the command line, Git, markdown, grep—are all designed to work well together, and the medium through which they all work is plain text.
 
 ---
 
@@ -286,7 +281,7 @@ Debugging is a fancy word for fixing problems with a program. Here are some comm
 - If the error is a syntax error, consider reading the program, or the offending line, backward. It's surprising, but this often helps to detect the issue.
 - If the error is a traceback error, first look at the line where the error occured, then consider the general category of error. What could have gone wrong?
 - If the error is a name error (NameError), check your spelling.
-- If the error is a traceback error, try copying the last line of the error and pasting it into Google. You'll often find a quick solution this way.
+- If the error is a traceback error and you have an internet connection, try copying the last line of the error and pasting it into Google. You'll often find a quick solution this way.
 - If you changed the program and expect a different output, but are getting old output, you may not have saved the file. Go back and make sure the file has been correctly saved.
 
 ## Challenge
@@ -377,21 +372,14 @@ Here's a list of numbers:
 prime_numbers = [2, 3, 5, 7, 11]
 ```
 
-Write some code to print out the square of each of these numbers. Remember that the square of a number is that number times itself. The solution is [here](solutions/loop.md), but you're not allowed to look at it until you've tried to solve it yourself for 3.5 minutes. (Seriously! That's 210 seconds.)
+Write some code to print out the square of each of these numbers. Remember that the square of a number is that number times itself. The solution is [^Here], but you're not allowed to look at it until you've tried to solve it yourself for 3.5 minutes. (Seriously! That's 210 seconds.)
 
-## Advanced Challenge
+[^Here]:```python
+  prime_numbers = [2, 3, 5, 7, 11]
+  for num in prime_numbers:
+    print(num * num)
+  ```
 
-First, ignore this challenge because it's too hard. Next, look up a new concept—"string formatting"—on Google and use it to write a loop that gives the following output:
-
-```console
-The square of 2 is 4.
-The square of 3 is 9.
-The square of 5 is 25.
-The square of 7 is 49.
-The square of 11 is 121.
-```
-
-The solution to this challenge is [here](solutions/loop_adv.md). Take a look after you've tried to solve it yourself!
 
 ## A Note on Variable Names
 
@@ -455,10 +443,7 @@ Add two more `elif` statements to this program to make it better able to handle 
 
 ---
 
-
 # Input
-
-**Note:** If you're using Python 2.7, replace all `input()` functions in the code below with `raw_input()`. You can check your version by running `python --version` in the command line.
 
 Python allows you to take input directly from the user using the `input` function. Let's use it to improve our weather application by asking for the weather before displaying the output.
 
@@ -538,7 +523,7 @@ Alternatively, mess around with `while`. Try using things other than `True` and 
 
 ---
 
-# Finding Answers Without Google
+# Case sensitivity
 
 Our weather app is working pretty well, but you may have noticed that it's case sensitive:
 
@@ -562,7 +547,14 @@ elif weather == "SNOWY":
 
 This is a lot of work, and it's a pretty ugly solution. If we wanted to add more cases to our program, we would have to write them in twice every time, and it still wouldn't fix inputs like `Snowy`. The best way to improve our program would be to convert the input to lower case before we send it to our `if/else` block.
 
-https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python
+Try to figure it out for yourself for two minutes without looking at the answer.
+
+Now look at the [^answer].
+
+[^answer]: s = "Kilometer"
+  print(s.lower())
+
+---
 
 ## Implementing our answer
 
@@ -593,16 +585,6 @@ while True:
 ```
 
 This new script should handle any combination of upper or lowercase characters. The new second line sets the weather variable to a new value, `weather.lower()`, which is a lowercase version of the original input.
-
-There's no shame in googling for answers! Error messages are especially useful to google when you run into them. Keep an eye out for Stack Overflow answers, as they tend to have useful examples. The [official Python documentation](https://docs.python.org/3/) will also frequently come up, but I would recommend avoiding it as a resource until you have more programming experience. It's a great resource, but the way information is presented can be confusing until you get the hang of reading documentation.
-
-## Challenge
-
-1. Is there something you would like to do with Python that we haven't covered yet? Do you find some language feature confusing? Take a minute now to use Google to ask a question about Python. If you can't think of something to google, look up how to append items to lists.
-
-2. (optional) OK, I told you not to look at the Python documentation. But doesn't that make you really want to go look at the Python documentation? How bad could this "documentation" really be? What terrible secrets might it hold?
-
-    Fine. Have a look at the [Python documentation on built-in functions](https://docs.python.org/3/library/functions.html). Don't say I didn't warn you.
 
 ---
 
@@ -650,21 +632,8 @@ print(random.choice(motivational_phrases))
 
 The `random.choice` function chooses a random item from a list and returns it. The `.` syntax indicates that the function is coming from the `random` library.
 
-1. The real point of this section is to learn `import`, which is where Python really starts to get interesting. Python comes with many libraries (importable collections of code), and you can install many more. Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and search google "\<thing you're interested in> python library". You're almost certain to find some useful results.
+1. The real point of this section is to learn `import`, which is where Python really starts to get interesting. Python comes with many libraries (importable collections of code), and you can install many more. Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and ask the instructor to search google for the "\<thing you're interested in> python library" and tell you in the next class what they found. You're almost certain to find some useful results.
 
-2. (optional) As with our weather app, this positive saying generator could be improved by making it so the program doesn't have to run again every time to get new output. Add a while loop for the final version. You can see a solution [here](solutions/motivation.md).
-
-# Challenge: library research
-
-As we've learned, libraries are Python code written by others that can be pulled into your program, allowing you to use that functionality. In this challenge, do a little research on Python libraries that might solve a problem for you or address a domain that you're interested in.
-
-The best way to find a Python library in a particular area is to do a Google search. For example, if you wanted to find Python libraries for dealing with cleaning up HTML files, you might search one of these:
-
-> working with html python library
-
-> html parser python library
-
-In your research, you may also want to look at the libraries that come with Python. You can find a list of libraries in these libraries [here](https://docs.python.org/3/py-modindex.html).
 
 ---
 
@@ -711,14 +680,13 @@ The above output shows all the methods and attributes available to Python string
 
 # Python resources
 
+If you want to read a book about Python ask the instructor to bring in one of these.
+
 [Learn Python the Hard Way](http://learnpythonthehardway.org/book/) - An example-driven introduction to Python.
 
 [How to Think Like a Computer Scientist - Python Edition](https://runestone.academy/runestone/static/thinkcspy/index.html) - A good intro if you're also interested in learning basic computer science concepts.
 
 [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - A fun book that teaches Python while automating some common (and annoying) tasks.
 
-[CodeAcademy: Python](https://www.codecademy.com/learn/learn-python-3) - An interactive tutorial for learning the basics of Python. (I recommend trying the books above first, as learning to use a text editor or IDE such as IPython or IDLE is an important part of the learning curve.) A good supplemental resource.
-
-[Hands-on Python Tutorial](https://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) - A more exhaustive introductory course to Python by Dr. Andrew N. Harrington; includes video demo downloads and lots of practice activities. It's all free to use!
 
 ---
