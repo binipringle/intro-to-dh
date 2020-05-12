@@ -372,13 +372,11 @@ Here's a list of numbers:
 prime_numbers = [2, 3, 5, 7, 11]
 ```
 
-Write some code to print out the square of each of these numbers. Remember that the square of a number is that number times itself. The solution is [^Here], but you're not allowed to look at it until you've tried to solve it yourself for 3.5 minutes. (Seriously! That's 210 seconds.)
+Write some code to print out the square of each of these numbers. Remember that the square of a number is that number times itself. The solution is in the footnote[^1], but you're not allowed to look at it until you've tried to solve it yourself for 3.5 minutes. (Seriously! That's 210 seconds.)
 
-[^Here]:```python
-  prime_numbers = [2, 3, 5, 7, 11]
+[^1]: prime_numbers = [2, 3, 5, 7, 11]
   for num in prime_numbers:
-    print(num * num)
-  ```
+  print(num * num)
 
 
 ## A Note on Variable Names
@@ -527,7 +525,7 @@ Alternatively, mess around with `while`. Try using things other than `True` and 
 
 Our weather app is working pretty well, but you may have noticed that it's case sensitive:
 
-```console
+```
 What is the weather like today? snowy
 Bring your wooly muffler
 What is the weather like today? SNOWY
@@ -549,9 +547,9 @@ This is a lot of work, and it's a pretty ugly solution. If we wanted to add more
 
 Try to figure it out for yourself for two minutes without looking at the answer.
 
-Now look at the [^answer].
+Now look at the answer[^2].
 
-[^answer]: s = "Kilometer"
+[^2]: s = "Kilometer"
   print(s.lower())
 
 ---
@@ -632,7 +630,7 @@ print(random.choice(motivational_phrases))
 
 The `random.choice` function chooses a random item from a list and returns it. The `.` syntax indicates that the function is coming from the `random` library.
 
-1. The real point of this section is to learn `import`, which is where Python really starts to get interesting. Python comes with many libraries (importable collections of code), and you can install many more. Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and ask the instructor to search google for the "\<thing you're interested in> python library" and tell you in the next class what they found. You're almost certain to find some useful results.
+The real point of this section is to learn `import`, which is where Python really starts to get interesting. Python comes with many libraries (importable collections of code), and you can install many more. Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and ask the instructor to search google for the "\<thing you're interested in> python library" and tell you in the next class what they found. You're almost certain to find some useful results.
 
 
 ---
@@ -688,5 +686,6 @@ If you want to read a book about Python ask the instructor to bring in one of th
 
 [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - A fun book that teaches Python while automating some common (and annoying) tasks.
 
-
 ---
+
+**Answers**
