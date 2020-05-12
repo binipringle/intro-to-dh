@@ -5,7 +5,7 @@ title: Syllabus
 
 ## Course Overview
 
-"Introduction to Digital Humanities" aims to introduce students in college-in-prison to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects. Its aim is to help students explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research, and learn the digital skills they need to get started.
+"Intro to DH" aims to introduce students in college-in-prison to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects, and to help students explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research, as well as to learn the digital skills they need to get started.
 
 The course starts by asking what the digital humanities (DH) are, and exploring how its various approaches embody new ways of knowing and thinking. What kinds of questions, for instance, does digital humanities ask? What are some of the ways its methods and practices attempt to answer these?
 
