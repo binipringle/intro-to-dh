@@ -121,10 +121,10 @@ $ jekyll new my-site
 
 This command may take some time to run, so take a break—stand up and stretch your arms—while it runs. Once it is done, your command line should have an output that looks something like this:
 
-~~~ bash
+```console
 Running bundle install in ~/Desktop/my-site...
-  Bundler: Fetching gem metadata from \https://rubygems.org/...........
-  Bundler: Fetching gem metadata from \https://rubygems.org/.
+  Bundler: Fetching gem metadata from https://rubygems.org/...........
+  Bundler: Fetching gem metadata from https://rubygems.org/.
   Bundler: Resolving dependencies...
   Bundler: Fetching public_suffix 3.0.3
   Bundler: Installing public_suffix 3.0.3
@@ -172,21 +172,21 @@ Running bundle install in ~/Desktop/my-site...
   Bundler: Fetching minima 2.5.0
   Bundler: Installing minima 2.5.0
   Bundler: Bundle complete! 4 Gemfile dependencies, 29 gems now installed.
-  Bundler: Use \`bundle info [gemname]\` to see where a bundled gem is installed.
+  Bundler: Use `bundle info [gemname]` to see where a bundled gem is installed.
   Bundler: Post-install message from sass:
   Bundler:
   Bundler: Ruby Sass has reached end-of-life and should no longer be used.
   Bundler:
   Bundler: * If you use Sass as a command-line tool, we recommend using Dart Sass, the new
-  Bundler: primary implementation: \https://sass-lang.com/install
+  Bundler: primary implementation: https://sass-lang.com/install
   Bundler:
   Bundler: * If you use Sass as a plug-in for a Ruby web framework, we recommend using the
-  Bundler: sassc gem: \https://github.com/sass/sassc-ruby#readme
+  Bundler: sassc gem: https://github.com/sass/sassc-ruby#readme
   Bundler:
   Bundler: * For more details, please refer to the Sass blog:
-  Bundler: \https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run \`bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java\`.
+  Bundler: https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
 New jekyll site installed in ~/Desktop/my-site.
-~~~
+```
 
 ---
 
@@ -236,18 +236,18 @@ We are going to work more in-depth with a site to understand Jekyll's structure 
 
 For now, let's go back to the command line where you should still see the server running:
 
-~~~ bash
-Configuration file: \~/Desktop/my-site/_config.yml
-            Source: \~/Desktop/my-site
-       Destination: \~/Desktop/my-site/_site
+```console
+Configuration file: ~/Desktop/my-site/_config.yml
+            Source: ~/Desktop/my-site
+       Destination: ~/Desktop/my-site/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
-       Jekyll Feed: Generating feed \for posts
-                    \done \in 0.891 seconds.
- Auto-regeneration: enabled for \'\~/Desktop/my-site\'
-    Server address: \http://127.0.0.1:4000
+       Jekyll Feed: Generating feed for posts
+                    done in 0.891 seconds.
+ Auto-regeneration: enabled for '~/Desktop/my-site'
+    Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
-~~~
+```
 
 Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The server should shut down and you should be back at a `$` prompt.
 
@@ -255,6 +255,8 @@ Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The serv
 
 # Generating a Jekyll static site with [No Connect](https://github.com/xpmethod/no-connect)
 
-Forthcoming
+I am working on this section! It will be forthcoming soon.
 
 ---
+
+[Next: Introduction to Python](/intro-to-dh/texts/5-python)

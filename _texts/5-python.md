@@ -155,7 +155,6 @@ These are all valid ways of thinking about functions. We'll be learning more abo
 
 ---
 
-
 # Variables
 
 A variable is **a symbol that refers to an object**, such as a string, integer, or list. If you're not already at the Python prompt, open your terminal and type `python` at the `$`. You're in the right place when you see `>>>`.
@@ -196,7 +195,6 @@ So I just told you that variables shouldn't start with a number or an underscore
 Only one way to find out. Try giving weird names to variables and see if you can learn a bit about the rules.
 
 ---
-
 
 # Running scripts
 
@@ -681,13 +679,19 @@ The above output shows all the methods and attributes available to Python string
 
 # Python resources
 
-If you want to read a book about Python ask the instructor to bring in one of these.
+If you want to read a book about Python ask the instructor to bring in one of these:
 
 [Learn Python the Hard Way](http://learnpythonthehardway.org/book/) - An example-driven introduction to Python.
 
 [How to Think Like a Computer Scientist - Python Edition](https://runestone.academy/runestone/static/thinkcspy/index.html) - A good intro if you're also interested in learning basic computer science concepts.
 
 [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - A fun book that teaches Python while automating some common (and annoying) tasks.
+
+---
+
+## Endnote
+
+Well done! You have completed all the technical skills sessions. You learned how to use the command line, use Git for version control, HTML and CSS, Jekyll and Python. What an achievement. Now you are ready to hack! 
 
 ---
 

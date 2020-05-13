@@ -447,7 +447,7 @@ In order to work together on collaborative projects we will share files with USB
 
 # Pushing to a remote repository
 
-Forthcoming: this part of the course is still in development.
+I am working on this section and will add it here soon. 
 
 ---
 
