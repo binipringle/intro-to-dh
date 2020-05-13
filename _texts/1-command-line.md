@@ -136,9 +136,7 @@ The operating system you are using is Ubuntu[^2].There are two ways to get to th
 
 First way:
 
-Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
-
-![terminal-icon](https://binipringle.github.io/intro-to-dh//assets/img/comline3-terminal-icon.jpg)
+Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks a bit like this: ```>_```
 
 Second way:
 
