@@ -251,3 +251,9 @@ Configuration file: ~/Desktop/my-site/_config.yml
 Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The server should shut down and you should be back at a `$` prompt.
 
 ---
+
+# Generating a Jekyll static site with [No Connect](https://github.com/xpmethod/no-connect)
+
+Forthcoming
+
+---

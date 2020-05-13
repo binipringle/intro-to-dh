@@ -61,7 +61,7 @@ I also enabled responsiveness on mobile devices in the following line in the **_
 
 ## Note on adding licenses
 
-Because the logo and illustrations published on this site are distributed with different licenses, I put each collection in its own folder and included its license in a LICENSE.md file in that folder. I also added the CC Attribution-ShareAlike 4.0 International license, which my work as well as the GCDRI and GC DHRI work is licensed with, to the MIT License in the LICENSE.md folder at the top level of the repository. 
+Because the logo and illustrations published on this site are distributed with different licenses, I put each collection in its own folder and included its license in a LICENSE.md file in that folder. I also added the CC Attribution-ShareAlike 4.0 International license, which my work as well as the GCDRI and GC DHRI work is licensed with, to the MIT License in the LICENSE.md folder at the top level of the repository.
 
 ---
 

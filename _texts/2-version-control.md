@@ -28,7 +28,7 @@ To complete this workshop, you will use Visual Studio Code (VS Code) and Git. Bo
 
 Git is software used for version control. Version control is tracking the state of files. Using Git, you designate certain folders as repositories, then use commands to save the state of the repository at certain points in time. A repository is a place where things can be stored, and in this context indicates a folder that is being tracked by Git. With Git, you can perform tasks such as reverting back to previous versions of a repository, copying or sharing repositories across computers, and comparing different versions of a project.
 
-You may have heard of GitHub, which is sometimes confused with Git. In this course we won't use GitHub because it doesn't work without the internet.  But just so you know, Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community.
+You may have heard of GitHub, which is sometimes confused with Git. In this course we won't use GitHub because it doesn't work without the internet.  But in case you haven't heard of GitHub and just so you know what it is, Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community.
 
 In this course we will share code and writing with each other with USB sticks. To keep track of project contributions, share comments and be able to go back to older versions or retrieve parts of them, we will do version control with Git on the USB sticks.
 
@@ -66,7 +66,7 @@ Some of us use Git to track changes (*version control* in Git parlance) in writi
 
 In case a computer crashes and sections of a collaborative project get lost, if revisions were tracked using Git the previous versions of the project would always be saved and changes documented.  
 
-### Versions Across Time
+## Versions Across Time
 
 Naming versions of a document can get messy. Have you ever had a folder full of multiple and conflicting versions of documents that looked like this?
 
@@ -94,8 +94,6 @@ In this session, we'll be using the command line (terminal, bash) which you lear
 
 First, let's quickly review some command line basics, including navigation.
 
----
-
 ## Accessing the Terminal
 
 First way:
@@ -108,25 +106,29 @@ Second way:
 2. Type "terminal" into the bar that appears.
 3. Select the first item that appears in the list.
 
----
-
 ## Practice navigating the command line
 
 In your terminal, type
 
-	cd Desktop
+~~~ bash
+$ cd Desktop
+~~~
 
 and hit enter. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 To check what directory you are in, type
 
-	pwd
+~~~ bash
+$ pwd
+~~~
 
 Try this now to make sure you're in your Desktop directory.
 
 Now, use
 
-	cd ..
+~~~ bash
+$ cd ..
+~~~
 
 to go up one directory. In this case, this will take you back to your home directory.
 
@@ -138,23 +140,33 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 
 In the command line session you created a **projects** folder on your Desktop. Navigate into it with
 
-	cd projects
+~~~ bash
+$ cd projects
+~~~
 
 If you don't have a projects folder on your desktop, create one with
 
-	mkdir projects
+~~~ bash
+$ mkdir projects
+~~~
 
 From **Desktop**, navigate into your **projects** folder. Then create a **git-practice** folder by typing
 
-	mkdir git-practice
+~~~ bash
+$ mkdir git-practice
+~~~
 
 Go into the new folder by typing
 
-	cd git-practice
+~~~ bash
+$ cd git-practice
+~~~
 
 At this point, when you type `pwd`, your folder structure should look like this:
 
-	/home/yourusername/Desktop/projects/git-practice
+```
+/home/yourusername/Desktop/projects/git-practice
+```
 
 ---
 # Setting Up Git
@@ -165,7 +177,9 @@ Our first step in working with Git is configuring it with your own name and info
 
 Let's make sure Git has been successfully installed. In your terminal, type
 
-	git --version
+~~~ bash
+$ git --version
+~~~
 
 If you see a version number, you're all set. If not, ask the instructor for help.
 
@@ -175,17 +189,23 @@ Before we get started, we'll want to configure git so that it can identify who w
 
 Type the following into your command line, filling in the sections—below labelled "yourusername" — for your name and email. Use the username you designated for your computer (my username, for example, is bini). If you have not designated a username for your computer ask the instructor to show you how to do this. You can invent an email address.
 
-	git config --global user.name "yourusername"
-	git config --global user.email yourusername@anymail.com
+~~~ bash
+$ git config --global user.name "yourusername"
+$ git config --global user.email yourusername@anymail.com
+~~~
 
 To check your set-up, use:
 
-	git config --list
+~~~ bash
+$ git config --list
+~~~
 
 You'll get something that looks like this:
 
-	user.name=bini
-	user.email=bini@gmail.com
+~~~ bash
+user.name=bini
+user.email=bini@gmail.com
+~~~
 
 Now we're ready to start using Git.
 
@@ -195,15 +215,21 @@ Now we're ready to start using Git.
 
 Using `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
 
-	cd Desktop/projects/git-practice
+~~~ bash
+cd Desktop/projects/git-practice
+~~~
 
 Now we're going to **initialize** our repository, which means telling Git to pay attention to it:
 
-	git init
+~~~ bash
+$ git init
+~~~
 
 You should see output like this:
 
-	Initialized empty Git repository in /home/bini/projects/git-practice/.git/
+~~~ bash
+Initialized empty Git repository in /home/bini/projects/git-practice/.git/
+~~~
 
 Now Git is tracking our directory. But before that's useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a  journal — we'll create that next, using Markdown.
 
@@ -221,7 +247,9 @@ To create a plain text file, we're going to switch to our text editor, VS Code, 
 
 In terminal, check to make sure you are in your git-practice folder. (HINT: use 'pwd' to see what directory you are currently in) Next, type:
 
-	code journal.md
+~~~ bash
+$ code journal.md
+~~~
 
 Hit return. You should see a window appear that looks similar to this:
 
@@ -233,29 +261,27 @@ Markdown allows us to format textual features like headings, emphasis, links, an
 
 In markdown, we insert headings with a single hash mark like this:
 
-\# My Journal Heading
+  \# My Journal Heading
 
 A sub-heading (H2) heading uses two hash marks like this:
 
-\## Second technical skills session
+  \## Second technical skills session
 
 To provide emphasis, place asterisks around some text:
 
-\*This text will appear italicized.*
+  \*This text will appear italicized.*
 
-\**This text will appear bold.** 	
+  \**This text will appear bold.** 	
 
 To create a bulleted list, put a hyphen at the beginning of each list item, like this:
 
-\- went over command line
-
-\- learned to do stuff with Git
-
-\- created a VS code file
+  \- went over command line
+  \- learned to do stuff with Git
+  \- created a VS code file
 
 Paragraphs of text are made with a sideways carrot thing:
 
-\> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
+  \> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
 
 This is how the paragraph is rendered:
 
@@ -294,11 +320,13 @@ First, let's use a useful command to see what state Git is currently in. It's a 
 
 Make sure you're in your `/home/yoursusername/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
 
-	git status
+~~~ bash
+$ git status
+~~~
 
 You should see output like this:
 
-```
+~~~ bash
 On branch master
 
 No commits yet
@@ -309,7 +337,7 @@ Untracked files:
 	journal.md
 
 nothing added to commit but untracked files present (use "git add" to track)
-```
+~~~
 
 This means we've initialized our repository, but haven't made any commits yet. If you're instead getting a message that begins with the word `fatal` when you use `git status`, you may be in the wrong directory or perhaps you haven't run the `git init` command on your directory yet.
 
@@ -317,11 +345,13 @@ Let's follow the recommendation in the status message above and use the `add` co
 
 Type this command:
 
-	git add journal.md
+~~~ bash
+$ git add journal.md
+~~~
 
 You should see no output from the command line, meaning that the above command succeeded. Let's run `git status` again to check if things have changed. You should see output like this:
 
-```
+~~~ bash
 On branch master
 
 No commits yet
@@ -330,7 +360,7 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 
 	new file:   journal.md
-```
+~~~
 
 The `new file:   journal.md` should be highlighted in green to show that it's ready for commit.
 
@@ -338,42 +368,46 @@ The `new file:   journal.md` should be highlighted in green to show that it's re
 
 Now that our files have been staged, let's commit them, making them part of the permanent record of the repository. Type:
 
-	git commit -m "Initial commit of journal file"
+~~~ bash
+$ git commit -m "Initial commit of journal file"
+~~~
 
 The `-m` flag provides a message along with the commit that will tell others — or remind a future version of yourself — what the commit was all about. Try not to type `git commit` without the `-m` flag for now — there's a note about this below.
 
 After running the command, you should see output like this:
 
-```
+~~~ bash
 [master (root-commit) 0606d34] Initial commit of journal file
  1 file changed, 16 insertions(+)
  create mode 100644 journal.md
-```
+~~~
 
 This means you have successfully made your first commit in the repository — congratulations!
 
 Let's check the state of our repository after the commit with `git status`:
 
-```
+~~~ bash
 On branch master
 nothing to commit, working tree clean
-```
+~~~
 
 This means that everything in the repository is successfully committed and up-to-date. If you edit your syllabus file or create a new file in the repository., the message you get with `git status` will instead list files that have uncommitted changes.
 
 Let's run one other command to see the effect our commit has had. Enter this command:
 
-	git log
+~~~ bash
+$ git log
+~~~
 
 You should see output similar to this:
 
-```
+~~~ bash
 commit 0606d3482b04ccbc62b0afd55520ee13c34c05a3 (HEAD -> master)
 Author: bini <bini@gmail.com>
 Date:   Mon May 4 21:43:23 2020 -0400
 
     initial commit of journal file    
-```
+~~~
 
 This is the log of commits, comprising a history of your repository. There's only one commit here now, though. If you don't see a prompt (the `$`) after running `git log`, you may need to press the `q` key (just the `q` key by itself) to return to the command line.
 
@@ -383,51 +417,24 @@ If you type `git commit` by itself, git will open the command line's default tex
 
 If you find yourself stuck in an unfamiliar screen in the command line after running `git commit`, you're probably in `vi`. Type this to leave that environment and return to the `$` prompt:
 
-	:q
+~~~ bash
+:q
+~~~
 
-If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt: Control-c, Control-z, `q` or `:q`
+If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt: Control-`c`, Control-`z`, `q` or `:q`
 
 Control-c attempts to abort the current task and restore user control. Control-d escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is used to escape from specific utilities. `:q` first changes the mode in `vi`, allowing you to enter the `q` key to quit, so it's a command specific to `vi`.
 
 In order to work together on collaborative projects we will share files with USB sticks. We will use Git to track changes in these files, and do a lot of pushing and pulling to remote repositories housed on these USB sticks.
 
 ----
+
 # Pushing to a remote repository
 
-Now, let's connect the directory you made to a removable memory, or USB stick.
+Forthcoming: this part of the course is still in development.
 
-Plug the USB drive into Desktop, and assuming it's showing up as J:
+---
 
-Initialise a bare repo that will act as the remote:
-
-    git init --bare J:\repo_name
-
-cd to the local repo and:
-
-```
-git remote add usb J:\repo_name
-git checkout master
-git push usb master
-```
-
-The master branch is synced with the usb remote. Now plug the USB drive into Laptop, and assuming it's showing up as D:
-
-```
-git remote add usb D:\repo_name
-git checkout master
-git pull usb master
-```
-
-If you're trying to pull a branch that doesn't exist on Laptop but does on Desktop, you can just do git checkout the_branch and it will automatically pull it from usb (unless the_branch also exists in origin, in which case you have to do git checkout -b the_branch usb\the_branch)
-
-You might have to git fetch if it doesn't find the remote usb branch.
-
-If, later, you plug in the USB drive and it shows up as a different letter, e.g., K:, then do:
-
-    git remote set-url usb K:\repo_name
-
-This is a lot to remember! A lot of it will become automatic with time, but there is no way anyone will remember all the prompts and commands they need, so take some time to update and save your cheat-sheet. You will be grateful to have it as we move on.
-
-The next technical skills session will be on HTML and CSS. :)
+[Next: Introduction to HTML and CSS)](/intro-to-dh/texts/3-html-css)
 
 ---

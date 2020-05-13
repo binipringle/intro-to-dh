@@ -24,8 +24,6 @@ toc:
 
 ---
 
-# Introduction to the command line
-
 Many of us have had some interaction with computers, and would be able to explain what a screen and a cursor are, and then show how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
 
 In this session we are going to explore another way to make a computer do things: through the command line. Instead of pointing and clicking, we will be typing in the laptop's terminal to tell the computer directly what task to perform.
@@ -88,7 +86,7 @@ Plain text has two main properties with regard to rich text:
 
 > Plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
-Plain text shows its cards-- if it is marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
+Plain text can be moved between programs fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
 
 A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format ".rtf" file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
 
@@ -430,7 +428,7 @@ Let's try another. What if we wanted to put the commands in our cheat sheet in a
 Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
 
 ~~~ bash
-$ cat cheat-sheet.txt \| sort
+$ cat cheat-sheet.txt | sort
 ~~~
 
 You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
@@ -449,7 +447,9 @@ Let's retrieve the data we're going to work with:
 
 From your GUI (the front end of your computer), go to Files and open your USB flash drive called USB30FD. Locate the file called
 
-**nypl_items.csv**
+```
+nypl_items.csv
+```
 
 Drag and drop this file into your `Downloads` folder.
 
