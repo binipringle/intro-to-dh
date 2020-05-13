@@ -29,6 +29,8 @@ In this session, we will use Jekyll, a popular static site generator written in 
 
 ![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
+---
+
 # What Is a Static Site?
 
 ## What's Old Is New Again
@@ -38,8 +40,6 @@ In the beginning, there was HTML. Web pages were documents that connected to oth
 In the 2000s, a broad trend toward dynamic websites began. Rather than a collection of documents, these websites consisted of template documents backed up by a database. When a user requested a page, the appropriate template would be chosen, the database would be consulted, and the page would be built on the fly and served to the user. WordPress is a well-known example of this dynamic model, but other content management systems such as Drupal as well as proprietary services such as Squarespace and Twitter also use a database-backed dynamic model.
 
 In the mid-2010s, a new paradigm for website creation, the static site generator, began seeing widespread use. Rather than build individual pages at the moment they are requested by the user, these sites take folders of content, often in markdown, and use templates to generate a complete website. The output of this process is then hosted as static HTML files. Static sites are cheaper to host, expose a smaller surface area to hackers, and tend to have more comprehensible internals than comparable dynamic sites. Though static sites are a favorite of technical bloggers, companies like MailChimp and Vox Media have begun to use them to host their primary websites.
-
----
 
 ## Advantages and Disadvantages
 
@@ -89,9 +89,9 @@ $ jekyll -v
 
 Output should be something like
 
-```
+~~~ bash
 jekyll 4.0.0
-```
+~~~
 
 This is the version number of the local Jekyll installation.
 
@@ -107,24 +107,24 @@ Now we are ready to get our first site set up and running. In order to do so, we
 
 First, you need to decide where your site should live locally. In order to navigate to the Desktop folder of your user account, run this command in your command line:
 
-```console
-cd ~/Desktop
-```
+~~~ bash
+$ cd ~/Desktop
+~~~
 
 In our example, we'll put the site on your computer's desktop but you may want to navigate to a different directory. You can do this by using `cd` as you may remember from the command line session
 
 We will create a new Jekyll site on the desktop by writing:
 
-```console
-jekyll new my-site
-```
+~~~ bash
+$ jekyll new my-site
+~~~
 
 This command may take some time to run, so take a break—stand up and stretch your arms—while it runs. Once it is done, your command line should have an output that looks something like this:
 
-```console
+~~~ bash
 Running bundle install in ~/Desktop/my-site...
-  Bundler: Fetching gem metadata from https://rubygems.org/...........
-  Bundler: Fetching gem metadata from https://rubygems.org/.
+  Bundler: Fetching gem metadata from \https://rubygems.org/...........
+  Bundler: Fetching gem metadata from \https://rubygems.org/.
   Bundler: Resolving dependencies...
   Bundler: Fetching public_suffix 3.0.3
   Bundler: Installing public_suffix 3.0.3
@@ -172,36 +172,37 @@ Running bundle install in ~/Desktop/my-site...
   Bundler: Fetching minima 2.5.0
   Bundler: Installing minima 2.5.0
   Bundler: Bundle complete! 4 Gemfile dependencies, 29 gems now installed.
-  Bundler: Use `bundle info [gemname]` to see where a bundled gem is installed.
+  Bundler: Use \`bundle info [gemname]\` to see where a bundled gem is installed.
   Bundler: Post-install message from sass:
   Bundler:
   Bundler: Ruby Sass has reached end-of-life and should no longer be used.
   Bundler:
   Bundler: * If you use Sass as a command-line tool, we recommend using Dart Sass, the new
-  Bundler: primary implementation: https://sass-lang.com/install
+  Bundler: primary implementation: \https://sass-lang.com/install
   Bundler:
   Bundler: * If you use Sass as a plug-in for a Ruby web framework, we recommend using the
-  Bundler: sassc gem: https://github.com/sass/sassc-ruby#readme
+  Bundler: sassc gem: \https://github.com/sass/sassc-ruby#readme
   Bundler:
   Bundler: * For more details, please refer to the Sass blog:
-  Bundler: https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+  Bundler: \https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run \`bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java\`.
 New jekyll site installed in ~/Desktop/my-site.
-```
+~~~
+
 ---
 
 ## Serve the Server
 
 We are now ready to navigate into our new site directory using the change directory command `cd`:
 
-```console
-cd my-site
-```
+~~~ bash
+$ cd my-site
+~~~
 
 Once inside the directory, we will build the site and make it available to us. Jekyll provides a command which you will use _a lot_ if you work with the generator (write it down on a notepad next to you!):
 
-```console
-bundle exec jekyll serve
-```
+~~~ bash
+$ bundle exec jekyll serve
+~~~
 
 Once you run this command, Jekyll will start up a local server. Copy the url from your terminal log and paste it into your browser (my preference is Firefox). This url usually looks something like this `http://127.0.0.1:4000`.
 
@@ -235,18 +236,18 @@ We are going to work more in-depth with a site to understand Jekyll's structure 
 
 For now, let's go back to the command line where you should still see the server running:
 
-```console
-Configuration file: ~/Desktop/my-site/_config.yml
-            Source: ~/Desktop/my-site
-       Destination: ~/Desktop/my-site/_site
+~~~ bash
+Configuration file: \~/Desktop/my-site/_config.yml
+            Source: \~/Desktop/my-site
+       Destination: \~/Desktop/my-site/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
-       Jekyll Feed: Generating feed for posts
-                    done in 0.891 seconds.
- Auto-regeneration: enabled for '~/Desktop/my-site'
-    Server address: http://127.0.0.1:4000/
+       Jekyll Feed: Generating feed \for posts
+                    \done \in 0.891 seconds.
+ Auto-regeneration: enabled for \'\~/Desktop/my-site\'
+    Server address: \http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
-```
+~~~
 
 Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The server should shut down and you should be back at a `$` prompt.
 

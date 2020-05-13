@@ -114,10 +114,6 @@ In your terminal, type
 $ cd Desktop
 ~~~
 
-~~~ bash
-$ whoami
-~~~
-
 and hit enter. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 To check what directory you are in, type
@@ -220,7 +216,7 @@ Now we're ready to start using Git.
 Using `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
 
 ~~~ bash
-cd Desktop/projects/git-practice
+$ cd Desktop/projects/git-practice
 ~~~
 
 Now we're going to **initialize** our repository, which means telling Git to pay attention to it:
@@ -265,27 +261,43 @@ Markdown allows us to format textual features like headings, emphasis, links, an
 
 In markdown, we insert headings with a single hash mark like this:
 
-  \# My Journal Heading
+```
+# My Journal Heading
+```
 
 A sub-heading (H2) heading uses two hash marks like this:
 
-  \## Second technical skills session
+```
+## Second technical skills session
+```
 
 To provide emphasis, place asterisks around some text:
 
-  \*This text will appear italicized.*
+```
+*This text will appear italicized.*
 
-  \**This text will appear bold.** 	
+**This text will appear bold.** 	
+```
 
 To create a bulleted list, put a hyphen at the beginning of each list item, like this:
 
-  \- went over command line
-  \- learned to do stuff with Git
-  \- created a VS code file
+```
+- went over command line
+- learned to do stuff with Git
+- created a VS code file
+```
+
+Your list will look like this:
+
+- went over command line
+- learned to do stuff with Git
+- created a VS code file
 
 Paragraphs of text are made with a sideways carrot thing:
 
-  \> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
+```
+> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. There is a little space before and after the paragraph when it is rendered.
+```
 
 This is how the paragraph is rendered:
 

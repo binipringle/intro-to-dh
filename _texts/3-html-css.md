@@ -295,4 +295,4 @@ When your pages are updated, you should be able to navigate from your Home page 
 
 ---
 
-[Next: Introduction to Jekyll)](/intro-to-dh/texts/4-jekyll)
+[Next: Introduction to Jekyll](/intro-to-dh/texts/4-jekyll)
