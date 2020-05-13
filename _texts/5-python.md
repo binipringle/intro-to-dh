@@ -37,6 +37,9 @@ By the end of this workshop, participants will:
 - Engage with error output and use the internet and documentation to independently research language features.
 - Learn how to find and import code from external sources to solve more complex problems.
 
+
+![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
+
 ---
 
 # Interacting with Python
@@ -63,8 +66,6 @@ Unlike the normal `$` terminal prompt, the Python prompt looks like this:
 ```
 
 Keep an eye on this, as a common early source of confusion is entering terminal commands into the Python prompt or entering Python commands into the terminal.
-
-![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
 
 ---
 
