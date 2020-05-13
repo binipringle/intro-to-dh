@@ -3,7 +3,7 @@ layout: narrative
 title: Introduction to Git (and Markdown too!)
 author:
 editor: Sabina Pringle
-rights: This tutorial is based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.
+rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
 toc:
 - What is Git?
@@ -16,7 +16,7 @@ toc:
 - Pushing to a remote repository
 
 ---
-#### *Adapted from the Introduction to Git and Github session at the CUNY Graduate Center Digital Humanities Research Institute in January 2020, led by Patrick Sweeney and based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for the CUNY Graduate Center Digital Humanities Research Institute.*
+#### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 

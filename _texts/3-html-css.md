@@ -3,7 +3,7 @@ layout: narrative
 title: Introduction to HTML and CSS
 author:
 editor: Sabina Pringle
-rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Based on a work at https github.com DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: CUNY Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction
@@ -15,7 +15,7 @@ toc:
 - Staging and committing changes
 - Pushing to a remote repository
 ---
-#### *Adapted from the Introduction to HTML and CSS workshop at the CUNY Graduate Center Digital Humanities Research Institute in January 2020, led by Kristen Hackett and based on previous work by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for the CUNY Graduate Center Digital Humanities Research Institute.*
+#### Introduction to HTML and CSS is an edited version of Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 

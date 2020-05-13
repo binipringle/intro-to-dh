@@ -4,7 +4,7 @@ title: Introduction to Python
 author:
 editor: Sabina Pringle
 source: CUNY Graduate Center Digital Research Institute
-rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Research Institute
 toc:
 - Interacting with Python
@@ -22,8 +22,7 @@ toc:
 
 ---
 
-##### Written by Patrick Smyth based on previous work by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Based on a work at https://github.com/DHRI-Curriculum. Edited by Sabina Pringle. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
-
+#### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 ---
 
 Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.

@@ -3,7 +3,7 @@ layout: narrative
 title: Command Line
 author:
 editor: Sabina Pringle
-rights: Introduction to the Command LIne is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to the Command Line is based on Introduction to the Command Line of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction to the command line
@@ -20,7 +20,7 @@ toc:
 
 ---
 
-#### This session was adapted from *Introduction to the Command LIne* led by Kelsey Chatlosh for the Graduate Center Digital Humanities Research Institute (GC DHRI) by the Graduate Center Digital Initiatives (GCDI) in January 2020. Kelsey's work is based on work by GC Digital Fellows Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin. Links to the GCDI website and GC Digital Fellows' Github repositories are on the [Credits]({{ site.baseurl }}/credits/) page.
+#### Command Line is adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 
@@ -170,7 +170,9 @@ Also, while copying and pasting from this handy tutorial may be tempting to avoi
 
 You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the enter key:
 
-    $ whoami
+~~~ bash
+$ whoami
+~~~
 
 The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
 
@@ -194,7 +196,9 @@ Note that we are using the word "directory" interchangeably with "folder"--they 
 
 OK, let's try a command that tells us where we are in the filesystem:
 
-    $ pwd
+~~~ bash
+$ pwd
+~~~
 
 You should get output like `bini`. That means you're in the `bini` directory in the `Users` folder inside the `/` or root directory. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
 
