@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Git (and Markdown too!)
-author:
+author: Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives,
 editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
@@ -16,8 +16,7 @@ toc:
 - Pushing to a remote repository
 
 ---
-#### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
-
+##### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 ---
 
 This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine. You will also learn some basics of Markdown, a lightweight markup language with plain-text-formatting syntax.
@@ -447,10 +446,14 @@ In order to work together on collaborative projects we will share files with USB
 
 # Pushing to a remote repository
 
-I am working on this section and will add it here soon. 
+I am working on this section and will add it here soon.
 
 ---
 
 [Next: Introduction to HTML and CSS)](/intro-to-dh/texts/3-html-css)
+
+---
+
+##### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---

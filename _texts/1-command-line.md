@@ -20,7 +20,9 @@ toc:
 
 ---
 
-#### Introduction to the Command Line is adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+##### Introduction to the Command Line is adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution. 
+
+##### The illustration is by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 
@@ -41,12 +43,10 @@ In this session, we will:
 - create and sort cheat sheets for the commands we learn
 
 ---
-
 # What is the command line?
 
 ![gise2](/intro-to-dh/assets/img/gise/gise2.png)
 
----
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 

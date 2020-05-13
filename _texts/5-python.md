@@ -22,7 +22,10 @@ toc:
 
 ---
 
-#### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+##### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+
+##### The illustration is by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
+
 ---
 
 Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
@@ -36,12 +39,11 @@ By the end of this workshop, participants will:
 - Engage with error output and use the internet and documentation to independently research language features.
 - Learn how to find and import code from external sources to solve more complex problems.
 
+---
+# Interacting with Python
 
 ![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
 
----
-
-# Interacting with Python
 
 To start an interactive session with Python, open your terminal and type
 
@@ -691,7 +693,7 @@ If you want to read a book about Python ask the instructor to bring in one of th
 
 ## Endnote
 
-Well done! You have completed all the technical skills sessions. You learned how to use the command line, use Git for version control, HTML and CSS, Jekyll and Python. What an achievement. Now you are ready to hack! 
+Well done! You have completed all the technical skills sessions. You learned how to use the command line, use Git for version control, HTML and CSS, Jekyll and Python. What an achievement. Now you are ready to hack!
 
 ---
 

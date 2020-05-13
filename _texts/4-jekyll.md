@@ -19,7 +19,9 @@ toc:
 
 ---
 
-#### Introduction to Jekyll is an edited version of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+##### Introduction to Jekyll is an edited version of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+
+##### The illustration is by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 
@@ -27,11 +29,13 @@ Static site generators provide a way to build a website that has modern function
 
 In this session, we will use Jekyll, a popular static site generator written in the Ruby programming language, to build and modify a website. In doing so, we'll learn about templates, including layouts and includes.
 
-![gise4](/intro-to-dh/assets/img/gise/gise4.png)
-
 ---
 
 # What Is a Static Site?
+
+
+![gise4](/intro-to-dh/assets/img/gise/gise4.png)
+
 
 ## What's Old Is New Again
 
@@ -256,6 +260,10 @@ Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The serv
 # Generating a Jekyll static site with [No Connect](https://github.com/xpmethod/no-connect)
 
 I am working on this section! It will be forthcoming soon.
+
+---
+
+Illustration by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 
