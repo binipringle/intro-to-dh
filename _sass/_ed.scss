@@ -191,13 +191,13 @@ blockquote p:last-child {
 /* Images */
 img {
   display: block;
-  max-width: 320px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   margin: 0 0 1rem;
   border-radius: 5px;
   text-align: left;
 }
-
 
 /* Tables */
 table {
