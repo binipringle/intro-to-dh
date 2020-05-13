@@ -7,14 +7,14 @@ source: CUNY Graduate Center Digital Research Institute
 rights: Introduction to Jekyll is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Introduction to Jekyll is based on Introduction to Jekyll of the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) at https://github.com/DHRI-Curriculum. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 source: Graduate Center Digital Humanities Research Institute
 toc:
-- What Is a Static Site?
-- Advantages and Disadvantages
+- What is a static site?
+- Advantages and disadvantages
 - Installation
-- Getting Started - Setting Up A First Website
-- Decide Location
-- Serve the Server
-- Your First Site
-- The Backend of Your First Site
+- Getting started - setting up a first website
+- Decide location
+- Serve the server
+- Your first site
+- The backend of your first site
 - Exiting
 
 ---
@@ -23,9 +23,13 @@ toc:
 
 ---
 
-Static site generators provide a way to build a website that has modern functionality—blogging, RSS, templating, markdown—without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable. They also fit neatly into a content management workflow that includes the command line, a text editor, Git, and markdown.
+Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable. They also fit neatly into a content management workflow that includes the command line, a text editor, Git, and markdown.
 
-In this session, we will use Jekyll, a popular static site generator written in the Ruby programming language, to build and modify a version of our Digital Research Institute website. In doing so, we'll learn about templates, including layouts and includes, and also how to host your static site on GitHub Pages.
+In this session, we will use Jekyll, a popular static site generator written in the Ruby programming language, to build and modify a website. In doing so, we'll learn about templates, including layouts and includes.
+
+![comline0](https://binipringle.github.io/intro-to-dh//assets/img/comline0-gise4.png)
+
+![comline0](/intro-to-dh/assets/img/comline0-gise4.png)
 
 # What Is a Static Site?
 
