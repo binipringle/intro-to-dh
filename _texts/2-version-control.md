@@ -114,6 +114,10 @@ In your terminal, type
 $ cd Desktop
 ~~~
 
+~~~ bash
+$ whoami
+~~~
+
 and hit enter. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 To check what directory you are in, type
