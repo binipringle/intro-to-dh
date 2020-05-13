@@ -24,7 +24,7 @@ toc:
 
 ##### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
-##### The illustration is by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
+##### Illustration by Ilian Sanchez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 

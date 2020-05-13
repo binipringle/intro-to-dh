@@ -21,7 +21,7 @@ toc:
 
 ##### Introduction to Jekyll is an edited version of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
-##### The illustration is by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
+##### Illustration by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 
@@ -36,8 +36,6 @@ In this session, we will use Jekyll, a popular static site generator written in 
 
 ![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
-
-## What's Old Is New Again
 
 In the beginning, there was HTML. Web pages were documents that connected to other documents, and were created by hand-writing HTML.
 
