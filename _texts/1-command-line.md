@@ -46,9 +46,7 @@ In this session, we will:
 
 # What is the command line?
 
-![comline0](https://binipringle.github.io/intro-to-dh//assets/img/comline0-gise-2.png)
-
-![comline0](/intro-to-dh/assets/img/comline0-gise-2.png)
+![comline0-gise-2](/intro-to-dh/assets/img/comline0-gise-2.png)
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 

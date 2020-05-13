@@ -27,9 +27,7 @@ Static site generators provide a way to build a website that has modern function
 
 In this session, we will use Jekyll, a popular static site generator written in the Ruby programming language, to build and modify a website. In doing so, we'll learn about templates, including layouts and includes.
 
-![comline0](https://binipringle.github.io/intro-to-dh//assets/img/comline0-gise4.png)
-
-![comline0](/intro-to-dh/assets/img/comline0-gise4.png)
+![gise4](/intro-to-dh/assets/img/gise4.png)
 
 # What Is a Static Site?
 
