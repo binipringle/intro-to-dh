@@ -86,25 +86,29 @@ Naming versions of a document can get messy. Have you ever had a folder full of 
 
 By using Git for version control you only need to have one document. Git tracks versions so you never really lose any changes you make.
 
+---
+
 # Review of the Command Line
 
 In this session, we'll be using the command line (terminal, bash) which you learned to use in the command line session. We'll also use a text editor called Visual Studio Code, or VS Code. We'll be moving between these two spaces throughout the session. In addition to these, in the second part of the session we'll use remote repositories on USB sticks.
 
 First, let's quickly review some command line basics, including navigation.
 
+---
+
 ## Accessing the Terminal
 
 First way:
 
-Double-click on the terminal icon on the left hand side of your screen. The terminal icon looks like this:
-
-![terminal-icon](https://binipringle.github.io/intro-to-dh/assets/img/comline3-terminal-icon.jpg)
+Double-click on the terminal icon on the left hand side of your screen. The symbols on the terminal icon look a bit like this: ```>_```
 
 Second way:
 
 1. Double-click on the word "Activities" in the top left corner of your screen.
 2. Type "terminal" into the bar that appears.
 3. Select the first item that appears in the list.
+
+---
 
 ## Practice navigating the command line
 
