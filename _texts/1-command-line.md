@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: Command Line
+title: Introduction to the Command Line
 author:
 editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
@@ -20,7 +20,7 @@ toc:
 
 ---
 
-#### Command Line is adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+#### Introduction to the Command Line is adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 
@@ -208,7 +208,9 @@ OK, we know where we are. But what if we want to know what files and folders are
 
 Try entering:
 
-    $ ls
+~~~ bash
+$ ls
+~~~
 
 You should see a number of folders, probably including Documents, Desktop, and so on. You may also see some files. These are the contents of the current working directory. `ls` will "list" the contents of the directory you are in.
 
@@ -220,8 +222,10 @@ The `cd` command lets us "change directory." (Make sure the "D" in "Desktop" is 
 
 So how do we know it worked? That's right, let's use our `pwd` command again. We should get:
 
-    $ pwd
-    /Users/bini/Desktop
+~~~ bash
+$ pwd
+/Users/bini/Desktop
+~~~
 
 Now try `ls` again to see what's on your desktop. These three commands — `pwd`, `ls`, and `cd` — are the most commonly used in the terminal. Between them, you can orient yourself and move around.
 
@@ -233,11 +237,15 @@ Before we move on, let's take a minute to navigate through our computer's file s
 
 Use the three commands you've just learned — `pwd`, `ls` and `cd` — eight (8) times each. Go poking around your Pictures folder, or see what's so special about that root `/` directory. When you're done, come back to the home folder with
 
-    cd ~
+~~~ bash
+$ cd ~
+~~~
 
 (That's a tilde, on the top left of your keyboard.) One more command you might find useful is
 
-    cd ..
+~~~ bash
+$ cd ..
+~~~
 
 which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
 
@@ -259,22 +267,22 @@ So far, we've only performed commands that give us information. Let's use a comm
 
 First, make sure you're in the home directory:
 
-```
+~~~ bash
 $ pwd
 /Users/bini
-```
+~~~
 
 Let's move to the Desktop folder, or "change directory" with `cd`:
 
-```
-cd Desktop
-```
+~~~ bash
+$ cd Desktop
+~~~
 
 Once you've made sure you're in the Desktop folder with `pwd`, let's try a new command:
 
-```
-touch foo.txt
-```
+~~~ bash
+$ touch foo.txt
+~~~
 
 If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" on the desktop. Pretty cool, right?
 
@@ -290,24 +298,24 @@ OK, so we're going to be doing a lot of work during the Digital Research Institu
 
 First, let's check to make sure we're still in the Desktop folder with `pwd`:
 
-```
+~~~ bash
 $ pwd
 /Users/bini/Desktop
-```
+~~~
 
 Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called "projects":
 
-```
-mkdir projects
-```
+~~~ bash
+$ mkdir projects
+~~~
 
 Now run `ls` to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, `cd` into it.
 
-```
+~~~ bash
 $ cd projects
 $ pwd
 /Users/bini/Desktop/projects
-```
+~~~
 
 OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier.
 
@@ -321,27 +329,27 @@ In this section, we'll create a text file that we can use as a cheat sheet. You 
 
 Instead of creating an empty file like we did with `touch`, let's try creating a file with some text in it. But first, let's learn a new command: `echo`
 
-```
+~~~ bash
 $ echo "Hello from the command line"
 Hello from the command line
-```
+~~~
 
 ## Redirect (`>`)
 
 By default, the echo command just prints out the text we give it. Let's use it to create a file with some text in it:
 
-```
-echo "This is my cheat sheet" > cheat-sheet.txt
-```
+~~~ bash
+$ echo "This is my cheat sheet" > cheat-sheet.txt
+~~~
 
 Now let's check the contents of the directory:
 
-```
+~~~ bash
 $ pwd
 /Users/bini/projects
 $ ls
 cheat-sheet.txt
-```
+~~~
 
 OK, so the file has been created. But what was the `>` in the command we used? On the command line, a `>` is known as a "redirect." It takes the output of a command and puts it in a file. Be careful, since it's possible to overwrite files with the `>` command.
 
@@ -351,10 +359,10 @@ If you want to add text to a file but *not* overwrite it, you can use the `>>` c
 
 Let's check if there's any text in cheat-sheet.txt.
 
-```
-cat cheat-sheet.txt
+~~~ bash
+$ cat cheat-sheet.txt
 This is my cheat sheet
-```
+~~~
 
 As you can see, the `cat` command prints the contents of a file to the screen. `cat` stands for "concatenate," because it can link strings of characters or files together from end to end.  
 
@@ -378,7 +386,9 @@ You *could* use the GUI to open your Visual Studio Code text editor--from your p
 
 *OR*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command in the command line:
 
-	code cheat-sheet.txt
+~~~ bash
+$ code cheat-sheet.txt
+~~~
 
 Now that you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
@@ -386,7 +396,7 @@ Save the file.
 
 Once you're done, check the contents of the file on the command line with the `cat` command:
 
-```
+~~~ bash
 $ cat cheat-sheet.txt
 My Institute Cheat Sheet
 
@@ -397,7 +407,7 @@ cd ~
 change directory to home folder
 
 ...
-```
+~~~
 ---
 
 # Pipes
@@ -408,10 +418,10 @@ Pipes let you take the output of one command and use it as the input for another
 
 Let's start with a simple example:
 
-```
+~~~ bash
 $ echo "Hello from the command line" | wc -w
 5
-```
+~~~
 
 In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered.
 
@@ -419,15 +429,15 @@ Let's try another. What if we wanted to put the commands in our cheat sheet in a
 
 Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
 
-```
-cat cheat-sheet.txt | sort
-```
+~~~ bash
+$ cat cheat-sheet.txt \| sort
+~~~
 
 You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
 
-```
-cat cheat-sheet.txt | sort > new-cheat-sheet.txt
-```
+~~~ bash
+$ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
+~~~
 
 ---
 
@@ -439,7 +449,7 @@ Let's retrieve the data we're going to work with:
 
 From your GUI (the front end of your computer), go to Files and open your USB flash drive called USB30FD. Locate the file called
 
-  nypl_items.csv
+**nypl_items.csv**
 
 Drag and drop this file into your `Downloads` folder.
 
@@ -450,9 +460,11 @@ Our data set is a list of public domain items from the New York Public Library. 
 Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop--either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
 
 To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
-```
-mv nypl_items.csv ~/Desktop/projects/  
-```
+
+~~~ bash
+$ mv nypl_items.csv ~/Desktop/projects/  
+~~~
+
 You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.  
 
 ## Viewing data in the command line
@@ -461,10 +473,10 @@ Try using `cat` to look at the data. You'll find it all goes by too fast to get 
 
 Instead, let's use another tool, the `less` command, to get the data one page at a time:
 
-```
+~~~ bash
 $ less nypl_items.csv
 [...]
-```
+~~~
 
 `Less` gives you a paginated view of the data; it will show you contents of a file or the output from a command or string of commands, page by page.
 
@@ -475,12 +487,12 @@ Once you're done, click the `q` key to return to the command line.
 
 Let's try two more commands for viewing the contents of a file:
 
-```
+~~~ bash
 $ head nypl_items.csv
 [...]
 $ tail nypl_items.csv
 [...]
-```
+~~~
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
@@ -500,26 +512,26 @@ If all the text remaining in your terminal window is starting to overwhelm you, 
 
 We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our .csv file:
 
-```
+~~~ bash
 $ cat nypl_items.csv | wc -l
 100001
-```
+~~~
 
 This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands. See the [glossary](sections/glossary.md) for more information about flags and options.
 
 To find and remove duplicate lines, we can use the `uniq` command. Let's try it out:
 
-```
+~~~ bash
 $ cat nypl_items.csv | uniq | wc -l
 99999
-```
+~~~
 
 OK, the count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
 
-```
+~~~ bash
 $ $ cat nypl_items.csv | uniq -d
 [...]
-```
+~~~
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
@@ -537,17 +549,17 @@ Let's say I want to find all the entries in our data set that use the term "Pari
 
 Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are infamously human-illegible commands that use character by character matching to return a pattern. `grep` gives us access to the power of regular expressions as we search for text.
 
-```
+~~~ bash
 $ cat nypl_items.csv | grep -i "paris"
 [...]
-```
+~~~
 
 This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
 
-```
-$ $ cat nypl_items.csv | grep -i "paris" | wc -l
+~~~ bash
+$ cat nypl_items.csv | grep -i "paris" | wc -l
 191
-```
+~~~
 
 Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word "paris." We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
 
@@ -559,19 +571,19 @@ Use the `grep` command to explore our .csv file a bit. What areas are best cover
 
 Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder on the desktop, we're going to create a folder to house our cheat sheets for the week, as well as a new folder for the upcoming databases workshop.
 
-```
+~~~ bash
 $ pwd
 /Users/bini/Desktop/projects
 $ mkdir cheatsheets
 $ mkdir databases
-```
+~~~
 
 Then move your `cheat-sheet.txt` file into your `cheatsheets` folder and your `nypl_items.csv` into your `databases` folder with the `mv` command:
 
-```
+~~~ bash
 $ mv cheat-sheet.txt cheatsheets
 $ mv nypl_items.csv databases
-```
+~~~
 ---
 # What we've learned
 
@@ -598,3 +610,7 @@ Having a grasp of command line basics will not only make you more familiar with 
 What you have learned will be useful as you move forward through these tutorials. The command line will be immediately necessary for setting up your computer for version control with git in the next session! You'll find that knowing a few commands can help immeasurably as you find new tools to use.
 
 ---
+
+[Next: Introduction to Git (And Markdown Too!)](/intro-to-dh/texts/2-version-control)
+
+___

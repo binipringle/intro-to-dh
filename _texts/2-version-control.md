@@ -16,7 +16,7 @@ toc:
 - Pushing to a remote repository
 
 ---
-#### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+#### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---
 

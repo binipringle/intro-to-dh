@@ -3,7 +3,7 @@ layout: narrative
 title: Teaching notes
 author:
 editor: Sabina Pringle
-rights:
+rights: Sabina Pringle with a CC Attribution-ShareAlike 4.0 International License.
 source:
 toc:
 - Command line session
@@ -25,18 +25,17 @@ Most of the resources for technical skills sessions are on those pages. Other re
 
 ## Notes
 
-At some point towards the end of this session (or in a later session), it could be a nice idea to ask students to change the sudo username on the laptops they were assigned. To change username:
+At some point towards the end of the first session (or in a later session), it might be a nice idea to ask students to change the sudo username on the laptops they were assigned. To change username:
 
-```
-sudo usermod -l newUsername oldUsername
-
-```
+~~~ bash
+$ sudo usermod -l newUsername oldUsername
+~~~
 
 This however, doesn't rename the home folder. To change home-folder, use
 
-```
-sudo usermod -d /home/newHomeDir -m newUsername
-```
+~~~ bash
+$ sudo usermod -d /home/newHomeDir -m newUsername
+~~~
 
 after you changed the username.
 
