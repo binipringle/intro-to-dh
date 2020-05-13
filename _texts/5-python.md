@@ -39,7 +39,6 @@ By the end of this workshop, participants will:
 
 ---
 
-
 # Interacting with Python
 
 To start an interactive session with Python, open your terminal and type
@@ -64,6 +63,10 @@ Unlike the normal `$` terminal prompt, the Python prompt looks like this:
 ```
 
 Keep an eye on this, as a common early source of confusion is entering terminal commands into the Python prompt or entering Python commands into the terminal.
+
+![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
+
+---
 
 ## A Little Math
 

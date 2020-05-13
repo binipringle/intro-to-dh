@@ -23,11 +23,11 @@ toc:
 
 ---
 
-Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable. 
+Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable.
 
 In this session, we will use Jekyll, a popular static site generator written in the Ruby programming language, to build and modify a website. In doing so, we'll learn about templates, including layouts and includes.
 
-![gise4](/intro-to-dh/assets/img/gise4.png)
+![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
 # What Is a Static Site?
 

@@ -7,6 +7,8 @@ rights: CC Attribution-ShareAlike 4.0 International License
 source: DH in Prison
 toc:
 - Make a copy of this site
+- Note on adding images
+- Note on adding licenses
 - Preparing student laptops for using Intro to DH
 - Installing Ubuntu
 - Installing Git
@@ -46,6 +48,20 @@ If the site was rendered, copy the url from your terminal log and paste it into 
 ## If the site did not render:
 
 And you had errors you could not resolve, follow the installation instructions in the [Ed documentation](https://elotroalex.github.io/ed/documentation/), replacing "ed" with "intro-to-dh" wherever necessary. Ed is the Jekyll theme that I used to build Intro to DH, so once you have cloned Intro to DH onto your computer, if you run into issues when making changes to Intro to DH, I recommend looking to the [Ed documentation](https://elotroalex.github.io/ed/documentation/) for help.
+
+## Note on adding images
+
+Because Ed. did not include images, I added the following code to the **_config.yml** file:
+
+I also enabled responsiveness on mobile devices in the following line in the **_ed.scss** file:
+
+```
+<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=yes" />
+```
+
+## Note on adding licenses
+
+Because the logo and illustrations published on this site are distributed with different licenses, I put each collection in its own folder and included its license in a LICENSE.md file in that folder. I also added the CC Attribution-ShareAlike 4.0 International license, which my work as well as the GCDRI and GC DHRI work is licensed with, to the MIT License in the LICENSE.md folder at the top level of the repository. 
 
 ---
 
