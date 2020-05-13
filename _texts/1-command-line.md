@@ -46,15 +46,7 @@ In this session, we will:
 
 # What is the command line?
 
-![gise2](/intro-to-dh/assets/img/gise/gise2.png)
-
-with intro-to-dh in path
-
 {% include image.html url="/intro-to-dh/assets/img/gise/gise2.png" description="Illustration by Gisella Lopez copyright 2020 (CC BY-NC 3.0)" %}
-
-without intro-to-dh in path
-
-{% include image.html url="/assets/img/gise/gise2.png" description="Illustration by Gisella Lopez copyright 2020 (CC BY-NC 3.0)" %}
 
 ---
 
