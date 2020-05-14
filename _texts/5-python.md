@@ -22,7 +22,7 @@ toc:
 
 ---
 
-##### Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Edited by Sabina Pringle for this edition.
+##### By Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Edited by Sabina Pringle for this edition.
 
 ##### Illustration by Ilian Sanchez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 

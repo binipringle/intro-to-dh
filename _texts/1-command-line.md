@@ -20,7 +20,7 @@ toc:
 
 ---
 
-###### Adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+###### Adapted from Introduction to the Command LIne by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 ###### Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
