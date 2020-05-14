@@ -8,7 +8,7 @@ source: Minimal Computing, a working group of GO::DH
 
 ---
 
-Editor's note: I need to make sure that this thought piece falls under the CC-BY 4.0 International License that covers the site it is published on. When I know that it does, I will republish it here. Until then, non-incarcerated readers with internet connections can read "The User, the Learner and the Machines We Make" on the <a href="https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/">Minimal Computing - a working group of GO::DH </a> site.
+We understand that this thought piece falls under the CC-BY 4.0 International License that covers the site it is published on and we intend to republish it here. While we work on typesetting, non-incarcerated readers with internet connections can read ["The User, the Learner and the Machines We Make"](https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/) on the **Minimal Computing - a working group of GO::DH** website.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: A Short Guide to the Digital_Humanities
-author: By Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012) (Excerpt). Licensed under a CC BY-NC-SA 3.0 License.
+author: By Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012). Licensed under a CC BY-NC-SA 3.0 License. (Excerpt)
 editor: Sabina Pringle
 rights: Creative Commons Attribution-non Commercial-ShareAlike
 source: open pdf excerpt from Digital_Humanities, MIT Press, 2012, pp. 121–136.
