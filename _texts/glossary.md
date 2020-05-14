@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Glossary of Technical Terms
-author: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+author:
 editor: Sabina Pringle
 source:
 toc:
@@ -10,6 +10,10 @@ toc:
 - HTML and CSS
 - jekyll
 - Python
+
+---
+
+##### Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 ---
 

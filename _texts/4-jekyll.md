@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Jekyll
-author: Adaptation of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+author:
 editor: Sabina Pringle
 source: Digital Research Institute (DRI) Curriculum
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
@@ -18,6 +18,10 @@ toc:
 - Exiting
 
 ---
+
+##### Adaptation of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+##### Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 
 Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable.

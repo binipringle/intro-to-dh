@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to HTML and CSS
-author: Adaptation of Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+author:
 editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: CUNY Graduate Center Digital Humanities Research Institute
@@ -16,6 +16,9 @@ toc:
 - Pushing to a remote repository
 ---
 
+###### Adaptation of Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+---
 
 HTML (Hypertext Markup Language) is a markup language used to create and organize the content of a website. CSS (Cascading Style Sheets) is a language used for design and layout. Together, these languages form the foundation of what one needs to know to create websites that are useful and well-designed.
 

@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: Introduction to Git (and Markdown too!)
-author: Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+author:
 editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
@@ -14,6 +14,10 @@ toc:
 - Using Markdown
 - Staging and committing changes
 - Pushing to a remote repository
+---
+
+###### Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
 ---
 
 This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine. You will also learn some basics of Markdown, a lightweight markup language with plain-text-formatting syntax.
