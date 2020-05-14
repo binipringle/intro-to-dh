@@ -8,12 +8,10 @@ source: CUNY Graduate Center Digital Humanities Research Institute
 toc:
 - Introduction
 - Example
-- Basic template for HTML
-- Setting up Git
-- Initializing a Git repository
-- Using markdown
-- Staging and committing changes
-- Pushing to a remote repository
+- Tags and Elements
+- Paragraphs and Headings
+- Links
+
 ---
 
 ###### Adaptation of Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.

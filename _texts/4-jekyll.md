@@ -123,7 +123,7 @@ $ jekyll new my-site
 
 This command may take some time to run, so take a break—stand up and stretch your arms—while it runs. Once it is done, your command line should have an output that looks something like this:
 
-```console
+~~~ bash
 Running bundle install in ~/Desktop/my-site...
   Bundler: Fetching gem metadata from https://rubygems.org/...........
   Bundler: Fetching gem metadata from https://rubygems.org/.
@@ -186,9 +186,9 @@ Running bundle install in ~/Desktop/my-site...
   Bundler: sassc gem: https://github.com/sass/sassc-ruby#readme
   Bundler:
   Bundler: * For more details, please refer to the Sass blog:
-  Bundler: https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+  Bundler: https://sass-lang.com/blog/posts/7828841The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, 'run bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java'.
 New jekyll site installed in ~/Desktop/my-site.
-```
+~~~
 
 ---
 
@@ -238,7 +238,7 @@ We are going to work more in-depth with a site to understand Jekyll's structure 
 
 For now, let's go back to the command line where you should still see the server running:
 
-```console
+~~~ bash
 Configuration file: ~/Desktop/my-site/_config.yml
             Source: ~/Desktop/my-site
        Destination: ~/Desktop/my-site/_site
@@ -249,7 +249,7 @@ Configuration file: ~/Desktop/my-site/_config.yml
  Auto-regeneration: enabled for '~/Desktop/my-site'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
-```
+~~~
 
 Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The server should shut down and you should be back at a `$` prompt.
 
