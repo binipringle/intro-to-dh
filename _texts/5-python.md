@@ -22,9 +22,9 @@ toc:
 
 ---
 
-##### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
+##### Introduction to Python is an edited version of Introduction to Python by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at https://github.com/DHRI-Curriculum, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
-##### Illustration by Ilian Sanchez, 2020, licensed under a CC BY-NC-SA 4.0 License.
+##### Illustration by Ilian Sanchez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 ---
 
@@ -694,6 +694,10 @@ If you want to read a book about Python ask the instructor to bring in one of th
 ## Endnote
 
 Well done! You have completed all the technical skills sessions. You learned how to use the command line, use Git for version control, HTML and CSS, Jekyll and Python. What an achievement. Now you are ready to hack!
+
+---
+
+[Home](/intro-to-dh/index)
 
 ---
 

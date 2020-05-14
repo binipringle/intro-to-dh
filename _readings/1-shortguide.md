@@ -1,7 +1,7 @@
 ---
 layout: narrative
 title: A Short Guide to the Digital_Humanities
-author: Excerpts from an excerpt from Digital_Humanities by Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012)
+author: By Anne Burdick, Johanna Drucker, Peter lunenfeld, Todd Presner and Jeffrey Schnapp (MIT Press, 2012) (Excerpt). Licensed under a CC BY-NC-SA 3.0 License.
 editor: Sabina Pringle
 rights: Creative Commons Attribution-non Commercial-ShareAlike
 source: open pdf excerpt from Digital_Humanities, MIT Press, 2012, pp. 121–136.
@@ -71,6 +71,6 @@ For nearly six centuries, humanistic models of knowledge have been shaped by the
 
 ---
 
-This work is copyrighted under a Creative Commons Attribution-non Commercial-ShareAlike License.
+[Next: A DH That Matters](/intro-to-dh/readings/2-adhthatmatters)
 
 ---

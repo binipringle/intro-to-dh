@@ -12,8 +12,12 @@ Non-incarcerated readers with internet connections can read "A DH That Matters" 
 
 <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/0cd11777-7d1b-4f2c-8fdf-4704e827c2c2#intro/">Read on Manifold</a>     
 
-We chose to assign this introduction to the most recent edition of *Debates in the Digital Humanities*, published in 2019, before the introductions to earlier editions, because it speaks urgently to the important role digital humanities work can play and is playing now, at this stricken time. Then, to explore the progression of ideas that led to these thoughts, we will back track in time and read the earlier 2016 edition of *Debates in the Digital Humanities*, "Digital Humanities: The Expanded Field," also by Matthew K. Gold and Lauren F. Klein. After that we will go even further back and read "The Digital Humanities Moment" by Matthew K. Gold, published in 2012, to compare and enjoy.
+We chose to assign this introduction to the most recent edition of **Debates in the Digital Humanities**, published in 2019, before the introductions to earlier editions, because it speaks urgently to the important role digital humanities work can play and is playing now, at this stricken time. Then, to explore the progression of ideas that led to these thoughts, we will back track in time and read the earlier 2016 edition of Debates in the Digital Humanities, "Digital Humanities: The Expanded Field," also by Matthew K. Gold and Lauren F. Klein. After that we will go even further back and read "The Digital Humanities Moment" by Matthew K. Gold, published in 2012, to compare and enjoy.
 
 <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/14b686b2-bdda-417f-b603-96ae8fbbfd0f#intro/">Digital Humanities: The Expanded Field (2016)</a>
 
 <a href="https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/fcd2121c-0507-441b-8a01-dc35b8baeec6#intro/">The Digital Humanities Moment (2012)</a>
+
+---
+
+[Next: The User, The Learner and the Machines We Make](/intro-to-dh/readings/3-userlearnermachines)
