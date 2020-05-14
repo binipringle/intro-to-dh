@@ -451,7 +451,7 @@ I am working on this section and will add it here soon.
 
 ---
 
-[Next: Introduction to HTML and CSS)](/intro-to-dh/texts/3-html-css)
+[Next: Introduction to HTML and CSS](/intro-to-dh/texts/3-html-css)
 
 ---
 
