@@ -14,4 +14,4 @@ We chose to assign this introduction to the most recent edition of *Debates in t
 
 ---
 
-[Coming up next: "The User, The Learner and the Machines We Make"](/intro-to-dh/readings/3-userlearnermachines)
+[Next: "The User, The Learner and the Machines We Make"](/intro-to-dh/readings/3-userlearnermachines)
