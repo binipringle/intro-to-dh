@@ -13,14 +13,13 @@ toc:
 
 ---
 
-##### Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+##### Selected from Digital Humanities Research Institute Glossary from the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI), licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 ---
 
 # Command Line
 
 ## Commands
-[Note that these commands are Unix Code]
 
 `pwd` - show the current (or "working") directory. Stands for "print working directory"
 
@@ -74,16 +73,15 @@ toc:
 
 `rm <filename>` - Permanently remove a file from your computer.
 
-
-## Glossary
+## Definitions
 
 ### Synonyms for the command line
 
 *bash* - the programming language used in the command line. (Yes, we tricked you, you're already programming!) Short for "Born Again SHell," for reasons people on the internet will happily tell you about.
 
-*the terminal* - Particularly used to refer to the command line on OSX. This term made more sense when universities used mainframes and every computer was only a terminal.
+*terminal* - Particularly used to refer to the command line on OSX. This term made more sense when universities used mainframes and every computer was only a terminal.
 
-*the shell* - The part of an operating system that interacts with a human. Technically, anything you do in a graphical interface is also in a shell, but in practice this is just another synonym for the command line.
+*shell* - The part of an operating system that interacts with a human. Technically, anything you do in a graphical interface is also in a shell, but in practice this is just another synonym for the command line.
 
 *cli* - "Command Language Interpreter," this is a super technical term for the command line used to impress everyone around you.
 
@@ -121,7 +119,7 @@ toc:
 
 *merge conflict* - If, when attempting to merge, there is a line that has been changed by both parties, you will experience a merge conflict. This means that Git needs your manual intervention to decide which of the two changes will be the canonical or accepted change. A merge conflict is resolved by editing the conflicting files with a text editor, then adding and committing to resolve the merge.  
 
-*merging* - If you've advanced the timeline of a repository by making commits, and someone else has advanced the timeline of a remote version of the repository, when you attempt to pull in the remote changes you will be prompted to merge the two timelines. In most cases this is an automatic process that reconciles the two timelines.  
+*merge* - If you've advanced the timeline of a repository by making commits, and someone else has advanced the timeline of a remote version of the repository, when you attempt to pull in the remote changes you will be prompted to merge the two timelines. In most cases this is an automatic process that reconciles the two timelines.  
 
 *origin* - In Git, the default remote repository. When you clone a remote repository—that is, make a local reposotry based on it—the remote repository is automatically added as "origin."
 
@@ -143,7 +141,7 @@ toc:
 
 # HTML and CSS
 
-This part of the glossary is forthcoming.
+Forthcoming.
 
 ---
 
@@ -153,9 +151,9 @@ This part of the glossary is forthcoming.
 
 These Jekyll-related commands can be entered in bash. (That's the prompt with the `$`.)
 
-`jekyll new site_name` - This command will create a jekyll instance inside the directory you are currently in (use `cwd` to see what your current working directory is).
+`jekyll new site_name` - This command will create a jekyll instance inside the directory you are currently in.
 
-`bundle exec jekyll serve` - This command will start the jekyll server in the directory you are currently in (use `cwd` to see what your current working directory is). After it is running, go to http://localhost:4000 in your preferred web browser. _Note that you must first run `jekyll new` inside your directory._
+`jekyll serve` - This command will start the jekyll server in the directory you are currently in.
 
 ---
 
@@ -313,3 +311,5 @@ print("My random number is", random_number)
 ```
 
 ---
+
+[Home](/intro-to-dh/index)

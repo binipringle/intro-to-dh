@@ -23,6 +23,7 @@ toc:
 
 ##### Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
+---
 
 Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable.
 
@@ -254,13 +255,9 @@ Hold down the `ctrl` key on your keyboard and press `c` simultaneously. The serv
 
 ---
 
-# Generating a Jekyll static site with [No Connect](https://github.com/xpmethod/no-connect)
+## Generating a Jekyll static site with No Connect
 
 I am working on this section! It will be forthcoming soon.
-
----
-
-Illustration by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 
 ---
 

@@ -16,6 +16,8 @@ These notes are mainly to keep track of where things are.
 
 Most of the resources for technical skills sessions are on this site. Other resources which are too large to be housed on this site or incompatible with Ruby are listed here. They can be stored on a USB or an external hard drive and taken into prison by the instructor. Resources required for technical skills sessions but not on this site are listed here. Some ideas and thoughts are noted here too.
 
+---
+
 # Command line session
 
 ## Notes
@@ -34,11 +36,13 @@ $ sudo usermod -d /home/newHomeDir -m newUsername
 
 after you changed the username.
 
-# Resources for command line session
+## Resources for command line session
 
 On student USB (and in GitHub repo)
 
 - nypl_items.csv
+
+---
 
 # Intro to Git session
 
@@ -61,3 +65,5 @@ I want to see how a Flask App could work as a blog. I built a Flask App followin
 I also look forward to seeing how Alex Gil and Dennis Tenen's [No Connect](https://github.com/xpmethod/no-connect) could be used by students to build their own Jekyll sites.  
 
 ---
+
+[Home](/intro-to-dh/index)

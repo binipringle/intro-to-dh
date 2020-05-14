@@ -7,7 +7,7 @@ rights:
 
 ---
 
-Here is a list of some selected projects that I think would be good to show students as examples of meaningful digital humanities work. I am beginning this list on May 10, 2020 and don't have much time because I have to deposit this capstone/thesis before May 15th and it ain't finished yet!!! So these are just some thoughts. I will add more. Please send me suggestions of projects you think should be included to write to me at **springle@ccny.cuny.edu** or [https://github.com/binipringle](https://github.com/binipringle)
+Here is a list of some selected projects I would like to show students as examples of meaningful digital humanities work. I am beginning this list on May 10, 2020 and don't have much time because I have to deposit this capstone/thesis before May 15th and it ain't finished yet!!! So these are just some thoughts. I will add more. Please send me suggestions at **springle@ccny.cuny.edu** or [https://github.com/binipringle](https://github.com/binipringle)
 
 Students will not have an internet connection. Therefore, projects that can be run on a local server are ideal. Websites that can be archived and taken to prison on a USB drive will also work.
 
@@ -16,12 +16,6 @@ Students will not have an internet connection. Therefore, projects that can be r
 [Torn Apart/Separados](http://xpmethod.plaintext.in/torn-apart/volume/2/index)
 
 Volume 2 of Torn Apart is a deep and radically new look at the territory and infrastructure of ICE’s financial regime in the USA. This data & visualization intervention peels back layers of culpability behind the humanitarian crisis of 2018.
-
----
-
-[Archipelagos](https://archipelagosjournal.org/) \| a journal of Caribbean digital praxis
-
-archipelagos is a born-digital, peer-reviewed publication devoted to creative exploration, debate, and critical thinking about and through digital practices in contemporary scholarly and artistic work in and on the Caribbean. Given the wide implications of the “digital turn” for our very conceptions of knowledge, our mission is to discern the ways in which the digital may enhance and transform our comprehension of the regional and diasporic Caribbean. archipelagos responds to this challenge with three distinct dimensions of critical production: scholarly essays; digital scholarship projects; and digital project reviews.
 
 ---
 
@@ -40,6 +34,12 @@ The East Bay Punk Digital Archive (EBP-DA) is a project spearheaded by Stefano M
 [Wax](https://minicomp.github.io/wax/)
 
 Wax is a minimal computing project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits.
+
+---
+
+[Archipelagos](https://archipelagosjournal.org/) \| a journal of Caribbean digital praxis
+
+archipelagos is a born-digital, peer-reviewed publication devoted to creative exploration, debate, and critical thinking about and through digital practices in contemporary scholarly and artistic work in and on the Caribbean. Given the wide implications of the “digital turn” for our very conceptions of knowledge, our mission is to discern the ways in which the digital may enhance and transform our comprehension of the regional and diasporic Caribbean. archipelagos responds to this challenge with three distinct dimensions of critical production: scholarly essays; digital scholarship projects; and digital project reviews.
 
 ---
 
@@ -68,3 +68,5 @@ The COVID Tracking Project is a volunteer organization launched from The Atlanti
 On April 15, The Covid Tracking Project launched the COVID Racial Data Tracker, a partnership between the COVID Tracking Project and the The Antiracist Research & Policy Center that collects, publishes, and analyzes racial data on the pandemic within the United States.
 
 ---
+
+[Home](/intro-to-dh/index)
