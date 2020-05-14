@@ -38,7 +38,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FO
 OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## All illustrations and logos on this site are released with the following Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0):
+## All illustrations and logos in the folders "assets/img/gise" and "assets/img/ilian" and "assets/logo" are released with the following Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0):
 
 Copyright (c) 2020-present Gisella Lopez Bautista and Ilian David Sanchez Rodriguez
 
