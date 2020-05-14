@@ -65,7 +65,7 @@ Disadvantages of static sites:
 
 # Installation
 
-Ruby and Jekyll are already installed on your computer. To see that they are installed,
+Ruby and Jekyll are already installed on your computer. To see that they are installed, type
 
 ~~~ bash
 $ ruby -v

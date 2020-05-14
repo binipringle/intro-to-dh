@@ -51,9 +51,17 @@ And you had errors you could not resolve, follow the installation instructions i
 
 ## Note on adding images
 
-Because Ed. did not include images, I added the following code to the **_config.yml** file:
+In order to render images, I added the following code to the **_config.yml** file:
 
-I also enabled responsiveness on mobile devices in the following line in the **_ed.scss** file:
+```
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+```
+
+I enabled responsiveness on mobile devices in the following line in the **_ed.scss** file:
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=yes" />
@@ -61,7 +69,7 @@ I also enabled responsiveness on mobile devices in the following line in the **_
 
 ## Note on adding licenses
 
-Because the logo and illustrations published on this site are distributed with different licenses, I put each collection in its own folder and included its license in a LICENSE.md file in that folder. I also added the CC Attribution-ShareAlike 4.0 International license, which my work as well as the GCDRI and GC DHRI work is licensed with, to the MIT License in the LICENSE.md folder at the top level of the repository.
+Because the logo, illustrations and some texts on this site are distributed with different licenses, I created folders for collections and put a copy of the pertinent license in that folder in a LICENSE.md file. I added the text of this CC BY-NC-SA 4.0 license CC and the text of the CC BY-SA 4.0 which my work and the GCDRI and GC DHRI work are licensed with, to the MIT License which Ed is licensed with in the LICENSE.md folder at the top level of the repository.
 
 ---
 
