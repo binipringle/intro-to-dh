@@ -23,7 +23,7 @@ In the second part of the course students will learn to use tools widely used in
 
 - Students will learn technical skills including command line (terminal, bash), version control (Git), HTML and CSS, Python, and Jekyll (Ruby).
 
-- Students will design and develop a collaborative project or projects.
+- Students will design and develop individual assignments and/or projects and a collaborative project.
 
 ---
 
@@ -53,7 +53,7 @@ Students should comment on and respond to the posts of other students.
 
 **Student Code of Conduct:** all students are expected to conduct themselves in a manner that demonstrates mutual respect for the rights and personal and academic well-being of others, preserves the integrity of the social and academic environment, and supports the mission of the Program. The Program has an inherent right to address behavior that impedes, obstructs, or threatens the maintenance of order and attainment of the aforementioned goals by violating the standards of conduct set forth in the Program’s Community Standards, as well as in Article XV of the Bylaws of the City University of New York and other policies that may be established by the respective Schools, Institutions, Global Sites, and administrative offices of the University. The goals of the Program's Community Standards are:
 
-- To promote an environment that supports the overall educational mission of the Program
+- To promote an environment that supports the overall educational mission of the University
 - To protect the Program community from disruption and harm
 - To encourage appropriate standards of individual and group behavior
 - To foster ethical values and civic virtues
