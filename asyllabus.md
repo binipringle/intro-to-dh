@@ -47,14 +47,14 @@ Students should comment on and respond to the posts of other students.
 
 ## Course Policies
 
-**Attendance:** students are expected to attend every class session of this course and to be on time. Consistent late arrivals and early departures will have a negative impact on your grade. If you have special circumstances, please talk to the instructor.
+**Attendance:** students are expected to attend every class session of this course and to be on time. If you have special circumstances, please talk to the instructor.
 
-**Academic Integrity:** plagiarism is copying and using other people’s words without  acknowledgment or citation as indicated in the CUNY Policy on Academic Integrity. All writing submitted for this course is understood to be your original work, unless you clearly indicate otherwise. Careful attention to licenses and copyrights will help you figure out what you can use and when and how you should cite and attribute other people's work.
+**Academic Integrity:** all writing submitted for this course is understood to be your original work, unless you indicate otherwise. Careful attention to licenses and copyrights will help you figure out what you can use and when and how you should cite and attribute other people's work.
 
-**Student Code of Conduct:** all students are expected to conduct themselves in a manner that demonstrates mutual respect for the rights and personal and academic well-being of others, preserves the integrity of the social and academic environment, and supports the mission of the Program. The Program has an inherent right to address behavior that impedes, obstructs, or threatens the maintenance of order and attainment of the aforementioned goals by violating the standards of conduct set forth in the Program’s Community Standards, as well as in Article XV of the Bylaws of the City University of New York and other policies that may be established by the respective Schools, Global Sites, and administrative offices of the University. The goals of the Program's Community Standards are:
+**Student Code of Conduct:** all students are expected to conduct themselves in a manner that demonstrates mutual respect for the rights and personal and academic well-being of others, preserves the integrity of the social and academic environment, and supports the mission of the Program. The Program has an inherent right to address behavior that impedes, obstructs, or threatens the maintenance of order and attainment of the aforementioned goals by violating the standards of conduct set forth in the Program’s Community Standards, as well as in Article XV of the Bylaws of the City University of New York and other policies that may be established by the respective Schools, Institutions, Global Sites, and administrative offices of the University. The goals of the Program's Community Standards are:
 
-- To promote an environment that supports the overall educational mission of the University
-- To protect the University community from disruption and harm
+- To promote an environment that supports the overall educational mission of the Program
+- To protect the Program community from disruption and harm
 - To encourage appropriate standards of individual and group behavior
 - To foster ethical values and civic virtues
 - To foster personal learning and growth while at the same time holding individuals and groups accountable to the standards of expectations established by the Program’s Community Standards
