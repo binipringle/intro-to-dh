@@ -63,7 +63,7 @@ Students should comment on and respond to the posts of other students.
 
 ## Accessibility and Reasonable Accommodations
 
-The envisioned course site follows the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG) Version 2.1 in order to make electronic content accessible to everyone who uses it. This course aims not only to be accessible but also to show students how to produce work within guidelines that makes their work accessible to everyone.
+The course site, course blog and digital materials on the course's external storage devices follow the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG) Version 2.1 in order to make electronic content accessible to everyone who uses it. This course aims not only to be accessible but also to show students how to produce work within guidelines that makes their work accessible to everyone.
 
 Any student who feels that they may need an accommodation based upon the impact of a disability should speak with the instructor privately to discuss their specific needs. If you think you need such an accommodation and have a documented disability, please reach out to coordinate reasonable accommodations.
 
