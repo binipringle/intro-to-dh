@@ -5,9 +5,9 @@ title: Syllabus
 
 ## Course Overview
 
-**Intro to DH** aims to introduce students to the landscape of digital humanities tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects, and to explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research. This course does not require prior technical skills.
+**Intro to DH** aims to introduce students to the landscape of digital humanities (DH) tools and methods through readings and classroom and online discussions, hands-on workshops, and collaborative projects, and to explore a broad range of ways to critically evaluate and incorporate digital technologies into their academic research. This course does not require prior technical skills.
 
-In the first part of the course we will ask what the digital humanities (DH) is/are, and explore how its various approaches embody new ways of knowing and thinking. What kinds of questions, for instance, does digital humanities ask? What are some of the ways its methods and practices help attempt to answer these?
+In the first part of the course we will ask what the digital humanities is/are, and explore how its various approaches embody new ways of knowing and thinking. What kinds of questions, for instance, does digital humanities ask? What are some of the ways its methods and practices help attempt to answer these?
 
 In the second part of the course students will learn to use tools widely used in digital humanities praxis. As they master these tools, students will produce a series of digital projects individually and in collaboration with others, and learn how to present their digital work effectively.
 
