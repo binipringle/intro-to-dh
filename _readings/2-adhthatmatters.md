@@ -14,7 +14,7 @@ We chose to assign this introduction to the most recent edition of *Debates in t
 
 ---
 
-<img src="/intro-to-dh/assets/img/gise/gise3-notext.png" alt=illustration-by-gisella-lopez>
+![gise3](https://binipringle.github.io/intro-to-dh/assets/img/gise/gise3-notext.png)
 
 Illustration by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
 ---
