@@ -13,11 +13,11 @@ toc:
 - Attribution
 ---
 
-In the field of Digital Humanities we use digital technologies to do humanities work and humanistic methods of inquiry to critically analyze digital technologies. This is a short answer to the question of what the digital humanities are, and one which begs further elaboration. Like most academic fields, digital humanities is constantly being defined and redefined. Therefore, a good starting point to look for a definition is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), where the entry is regularly updated and revised. For readers without internet access, the first two sections of the Wikipedia entry are published below.
+Digital Humanities uses digital technologies to do humanities work and humanistic modes of inquiry to analyze digital technologies. As a relatively new academic field, digital humanities is constantly growing and changing. Therefore, a good first place to look to for a definition of the field is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), where the entry is regularly updated and revised. For readers without internet access, the first two sections of the Wikipedia entry are published below.
 
 # Digital Humanities
 
-Digital humanities (DH) is an area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. It includes the systematic use of digital resources in the humanities, as well as the analysis of their application. [^1] [^2] DH can be defined as new ways of doing scholarship that involve collaborative, transdisciplinary, and computationally engaged research, teaching, and publishing.[3] It brings digital tools and methods to the study of the humanities with the recognition that the printed word is no longer the main medium for knowledge production and distribution. [^3]
+Digital humanities (DH) is an area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. It includes the systematic use of digital resources in the humanities, as well as the analysis of their application. [^1] [^2] DH can be defined as new ways of doing scholarship that involve collaborative, transdisciplinary, and computationally engaged research, teaching, and publishing. [^3] It brings digital tools and methods to the study of the humanities with the recognition that the printed word is no longer the main medium for knowledge production and distribution. [^3]
 
 [^1]: Drucker, Johanna (September 2013). "Intro to Digital Humanities: Introduction". UCLA Center for Digital Humanities. Retrieved December 26, 2016.
 
