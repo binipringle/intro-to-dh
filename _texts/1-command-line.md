@@ -23,8 +23,9 @@ toc:
 *Adapted from Introduction to the Command Line by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives. CC BY-SA 4.0.*
 
 ---
+# Overview and learning goals
 
-Many of us have had some interaction with computers, and would be able to explain what a screen and a cursor are, and then show how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
+Many of us have had some interaction with computers, and can explain what a screen and a cursor are, and how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
 
 In this session we are going to explore another way to make a computer do things: through the command line. Instead of pointing and clicking, we will be typing in the laptop's terminal to tell the computer directly what task to perform.
 
@@ -45,7 +46,7 @@ In this session, we will:
 
 ![gise2](/intro-to-dh/assets/img/gise/gise2.png)
 
-*Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).*
+*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez under CC BY-NC-SA 4.0.*
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
