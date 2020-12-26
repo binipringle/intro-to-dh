@@ -50,31 +50,30 @@ Digital humanities emerged from its former niche status and became "big news"[22
 ---
 # References
 
-[1] Drucker, Johanna (September 2013). "Intro to Digital Humanities: Introduction". UCLA Center for Digital Humanities. Retrieved December 26, 2016.
-
-[2] Terras, Melissa (December 2011). "Quantifying Digital Humanities" (PDF). UCL Centre for Digital Humanities. Retrieved December 26, 2016.
-
-[3] Burdick, Anne; Drucker, Johanna; Lunenfeld, Peter; Presner, Todd; Schnapp, Jeffrey (November 2012). Digital_Humanities (PDF). Open Access eBook: MIT Press. ISBN 9780262312097. Archived from the original (PDF) on 2016-10-26. Retrieved 2016-12-26.
-
-[4] Warwick, Claire; Terras, Melissa; Nyhan, Julianne (2012-10-09). Digital Humanities in Practice. Facet Publishing. ISBN 9781856047661.
-
-[5] "Debates in the Digital Humanities". dhdebates.gc.cuny.edu. Archived from the original on 2019-05-12. Retrieved 2016-12-29.
-
-[6] "Digital Humanities Network". University of Cambridge. Retrieved 27 December 2012.
-
-[7] Berry, David M.; Fagerjord (2017). Digital Humanities: Knowledge and Critique in a Digital Age. UK: Polity. p. 18. ISBN 9780745697666.
-
-[8] Berry, David M.; Fagerjord (2017). Digital Humanities: Knowledge and Critique in a Digital Age. UK: Polity. p. 19. ISBN 9780745697666.
-
-[9] Stagnaro, Angelo. "The Italian Jesuit Who Taught Computers to Talk to Us". ncregister.com. National Catholic Register. Retrieved 4 April 2020.
-
-[10] Heffernan, Laura; Sagner Buurma, Rachel (2018-04-11). "Search and Replace: Josephine Miles and the Origins of Distant Reading". Modernism / Modernity Print+. 3 (1). Retrieved 2018-08-17.
-
-[11] Svensson, Patrik (2009). "Humanities Computing as Digital Humanities". Digital Humanities Quarterly. 3 (3). ISSN 1938-4122. Retrieved 2012-05-30.
-
-[12] Hockney, Susan (2004). "The History of Humanities Computing". In Susan Schreibman; Ray Siemens; John Unsworth (eds.). Companion to Digital Humanities. Blackwell Companions to Literature and Culture. Oxford: Blackwell. ISBN 978-1405103213.
-
-[13] Wimmer, Mario (Fall 2019). "Josephine Miles (1911–1985): Doing Digital Humanism with and without Machines". History of Humanities. 4 (2): 329–334. doi:10.1086/704850. S2CID 214042140.
+1. Drucker, Johanna (September 2013). "Intro to Digital Humanities: Introduction". UCLA Center for Digital Humanities. Retrieved December 26, 2016.
+2. Terras, Melissa (December 2011). "Quantifying Digital Humanities" (PDF). UCL Centre for Digital Humanities. Retrieved December 26, 2016.
+3. Burdick, Anne; Drucker, Johanna; Lunenfeld, Peter; Presner, Todd; Schnapp, Jeffrey (November 2012). Digital_Humanities (PDF). Open Access eBook: MIT Press. ISBN 9780262312097. Archived from the original (PDF) on 2016-10-26. Retrieved 2016-12-26.
+4. Warwick, Claire; Terras, Melissa; Nyhan, Julianne (2012-10-09). Digital Humanities in Practice. Facet Publishing. ISBN 9781856047661.
+5. "Debates in the Digital Humanities". dhdebates.gc.cuny.edu. Archived from the original on 2019-05-12. Retrieved 2016-12-29.
+6. "Digital Humanities Network". University of Cambridge. Retrieved 27 December 2012.
+7. Berry, David M.; Fagerjord (2017). Digital Humanities: Knowledge and Critique in a Digital Age. UK: Polity. p. 18. ISBN 9780745697666.
+8. Berry, David M.; Fagerjord (2017). Digital Humanities: Knowledge and Critique in a Digital Age. UK: Polity. p. 19. ISBN 9780745697666.
+9. Stagnaro, Angelo. "The Italian Jesuit Who Taught Computers to Talk to Us". ncregister.com. National Catholic Register. Retrieved 4 April 2020.
+10. Heffernan, Laura; Sagner Buurma, Rachel (2018-04-11). "Search and Replace: Josephine Miles and the Origins of Distant Reading". Modernism / Modernity Print+. 3 (1). Retrieved 2018-08-17.
+11. Svensson, Patrik (2009). "Humanities Computing as Digital Humanities". Digital Humanities Quarterly. 3 (3). ISSN 1938-4122. Retrieved 2012-05-30.
+12. Hockney, Susan (2004). "The History of Humanities Computing". In Susan Schreibman; Ray Siemens; John Unsworth (eds.). Companion to Digital Humanities. Blackwell Companions to Literature and Culture. Oxford: Blackwell. ISBN 978-1405103213.
+13. Wimmer, Mario (Fall 2019). "Josephine Miles (1911–1985): Doing Digital Humanism with and without Machines". History of Humanities. 4 (2): 329–334. doi:10.1086/704850. S2CID 214042140.
+14. Feeney, Mary & Ross, Seamus (1994). "Information Technology in Humanities Scholarship, British Achievements, Prospects, and Barriers". Historical Social Research. 19 (1 (69)): 3–59. JSTOR 20755828.
+15. Berry, David M.; Fagerjord, Anders (2017). Digital Humanities: Knowledge and Critique in a Digital Age. Cambridge: Polity. ISBN 978-0-7456-9765-9.
+16. McPherson, Tara. "DH by Design: Feminism, aesthetics + the digital." Congress of the Social Science and Humanities. University of Calgary, 2016-05-31. Keynote.
+17. Jerome J. McGann (ed.), Rossetti Archive, Institute for Advanced Technology in the Humanities, University of Virginia, retrieved 2012-06-16
+18. Morris Eaves; Robert Essick; Joseph Viscomi (eds.), The William Blake Archive, retrieved 2012-06-16
+19. Liu, Alan (2004). "Transcendental Data: Toward a Cultural History and Aesthetics of the New Encoded Discourse". Critical Inquiry. 31 (1): 49–84. doi:10.1086/427302. ISSN 0093-1896. JSTOR 10.1086/427302. S2CID 144101461.
+20. Fitzpatrick, Kathleen (2011-05-08). "The humanities, done digitally". The Chronicle of Higher Education. Retrieved 2011-07-10.
+21. Berry, David (2011-06-01). "The Computational Turn: Thinking About the Digital Humanities". Culture Machine. Archived from the original on 2012-01-01. Retrieved 2012-01-31.
+22. Kirschenbaum, Matthew G. (2010). "What is Digital Humanities and What's it Doing in English Departments?" (PDF). ADE Bulletin (150).
+23. Howard, Jennifer (2009-12-31). "The MLA Convention in Translation". The Chronicle of Higher Education. ISSN 0009-5982. Retrieved 2012-05-31.
+24. Pannapacker, William (2009-12-28). "The MLA and the Digital Humanities" (The Chronicle of Higher Education). Brainstorm. Retrieved 2012-05-30.
 
 ---
 
