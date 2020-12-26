@@ -77,16 +77,7 @@ Digital humanities emerged from its former niche status and became "big news"[22
 
 ---
 
-# Attribution
-
-- Page name: Digital humanities
-- Author: Wikipedia contributors
-- Publisher: Wikipedia, The Free Encyclopedia.
-- Date of last revision: 26 November 2020 12:42 UTC
-- Date retrieved: 26 December 2020 01:05 UTC
-- Permanent link: https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761
-- Primary contributors: Revision history statistics
-- Page Version ID: 990774761  
+Wikipedia contributors. "Digital humanities." *Wikipedia, The Free Encyclopedia.* Wikipedia, The Free Encyclopedia, 26 Nov. 2020. Web. 26 Dec. 2020. https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761
 
 ---
 
