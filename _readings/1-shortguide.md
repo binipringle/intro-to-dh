@@ -6,21 +6,16 @@ editor:
 rights:
 source:
 toc:
+- Digital Humanities
 - Definition
 - History
 - References
+- Attribution
 ---
 
 Digital Humanities refers to new modes of scholarship and institutional units for collaborative scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. Because the field is constantly growing and changing, a good place to look for a definition is [Wikipedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), where the entry is most regularly updated and maintained. For students who do not have internet access, we provide the first two sections of the Wikipedia entry here:
 
-Page name: Digital humanities
-Author: Wikipedia contributors
-Publisher: Wikipedia, The Free Encyclopedia.
-Date of last revision: 26 November 2020 12:42 UTC
-Date retrieved: 26 December 2020 01:05 UTC
-Permanent link: https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761
-Primary contributors: Revision history statistics
-Page Version ID: 990774761  
+# Digital Humanities
 
 Digital humanities (DH) is an area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. It includes the systematic use of digital resources in the humanities, as well as the analysis of their application.[1] [2] DH can be defined as new ways of doing scholarship that involve collaborative, transdisciplinary, and computationally engaged research, teaching, and publishing.[3] It brings digital tools and methods to the study of the humanities with the recognition that the printed word is no longer the main medium for knowledge production and distribution.[3]
 
@@ -80,6 +75,19 @@ Digital humanities emerged from its former niche status and became "big news"[22
 [12] Hockney, Susan (2004). "The History of Humanities Computing". In Susan Schreibman; Ray Siemens; John Unsworth (eds.). Companion to Digital Humanities. Blackwell Companions to Literature and Culture. Oxford: Blackwell. ISBN 978-1405103213.
 
 [13] Wimmer, Mario (Fall 2019). "Josephine Miles (1911–1985): Doing Digital Humanism with and without Machines". History of Humanities. 4 (2): 329–334. doi:10.1086/704850. S2CID 214042140.
+
+---
+
+# Attribution
+
+- Page name: Digital humanities
+- Author: Wikipedia contributors
+- Publisher: Wikipedia, The Free Encyclopedia.
+- Date of last revision: 26 November 2020 12:42 UTC
+- Date retrieved: 26 December 2020 01:05 UTC
+- Permanent link: https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761
+- Primary contributors: Revision history statistics
+- Page Version ID: 990774761  
 
 ---
 
