@@ -6,6 +6,7 @@ editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: CUNY Graduate Center Digital Humanities Research Institute
 toc:
+- Overview and learning goals
 - Introduction
 - Example
 - Tags and Elements
@@ -14,9 +15,10 @@ toc:
 
 ---
 
-###### Adaptation of Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+*Adapted from Introduction to HTML and CSS by Kristen Hackett, Patrick Sweeney, and Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
 
 ---
+# Overview and learning goals
 
 HTML (Hypertext Markup Language) is a markup language used to create and organize the content of a website. CSS (Cascading Style Sheets) is a language used for design and layout. Together, these languages form the foundation of what one needs to know to create websites that are useful and well-designed.
 
@@ -25,7 +27,6 @@ By the end of this workshop, participants will:
 - Familiarize themselves with the anatomy of a webpage
 - Understand the basics of the HTML and CSS markup languages
 - Use HTML, CSS, and a text editor to build a small website
-
 
 ---
 

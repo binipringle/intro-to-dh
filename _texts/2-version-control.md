@@ -6,6 +6,7 @@ editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
 toc:
+- Overview and learning goals
 - What is Git?
 - What you can do with Git
 - Review of the Command Line
@@ -16,13 +17,16 @@ toc:
 - Pushing to a remote repository
 ---
 
-###### Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine Kinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+*Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine Kinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
 
 ---
+# Overview and learning goals
 
 This session will show how to use Git for a variety of digital undertakings, including collaborating with others and sharing work. This session covers initializing Git repositories, committing changes, and copying repositories to your local machine. You will also learn some basics of Markdown, a lightweight markup language with plain-text-formatting syntax.
 
 To complete this workshop, you will use Visual Studio Code (VS Code) and Git. Both of these are already installed on your computer. To make sure that they are up to date type `code --version` in your terminal and hit enter. The computer should tell you what version of VS code is installed. Then, type `git --version` and hit enter, and you should see what version of Git you have.
+
+---
 
 # What is Git?
 
@@ -30,7 +34,7 @@ Git is software used for version control. Version control is tracking the state 
 
 You may have heard of GitHub, which is sometimes confused with Git. In this course we won't use GitHub because it doesn't work without the internet.  But in case you haven't heard of GitHub and just so you know what it is, Github is a cloud service for hosting Git repositories and has become something of a social network for programmers, who use it to share code and writing with a wider community.
 
-In this course we will share code and writing with each other with USB sticks. To keep track of project contributions, share comments and be able to go back to older versions or retrieve parts of them, we will do version control with Git on the USB sticks.
+This is essentially what we are going to do here. Because we don't have access to the internet, our workaround will be to share code and writing with each other using USB sticks. To keep track of project contributions, share comments and be able to go back to older versions or retrieve parts of them, we will use Git for version control on the USB sticks.
 
 ---
 
@@ -452,9 +456,5 @@ I am working on this section and will add it here soon.
 ---
 
 [Next: Introduction to HTML and CSS](/intro-to-dh/texts/3-html-css)
-
----
-
-##### Introduction to Git (and Markdown Too!) is Adapted from Introduction to Git and GitHub by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, at <https://github.com/DHRI-Curriculum>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
 
 ---

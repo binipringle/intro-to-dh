@@ -8,12 +8,12 @@ toc:
 - Command line
 - Git
 - HTML and CSS
-- jekyll
+- Jekyll
 - Python
 
 ---
 
-##### Selected from Digital Humanities Research Institute Glossary from the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI), licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+*Selected from Digital Humanities Research Institute Glossary from the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
 
 ---
 

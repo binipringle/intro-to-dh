@@ -7,6 +7,7 @@ source: Digital Research Institute (DRI) Curriculum
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
 toc:
+- Overview and learning goals
 - What is a static site?
 - Advantages and disadvantages
 - Installation
@@ -19,11 +20,11 @@ toc:
 
 ---
 
-##### Adaptation of Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-
-##### Illustration by Gisella Lopez, 2020, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+*Adapted from Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
 
 ---
+
+# Overview and learning goals
 
 Static site generators provide a way to build a website that has modern functionality — blogging, RSS, templating, markdown — without the overhead of a database. While certain features, such as comment sections, are difficult to implement on a static site, static sites have many advantages: they are more maintainable, simpler to understand and modify, are difficult to hack, and are more archivable and sustainable.
 
@@ -36,6 +37,9 @@ In this session, we will use Jekyll, a popular static site generator written in 
 
 ![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
+*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez with CC BY-NC-SA 4.0.*
+
+---
 
 In the beginning, there was HTML. Web pages were documents that connected to other documents, and were created by hand-writing HTML.
 

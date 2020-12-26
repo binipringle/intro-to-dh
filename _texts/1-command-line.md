@@ -6,6 +6,7 @@ editor: Sabina Pringle
 rights: Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI) with CC Attribution-ShareAlike 4.0 International License.
 source: Graduate Center Digital Humanities Research Institute
 toc:
+- Overview and learning goals
 - Introduction to the command line
 - What is the command line?
 - Text editors
@@ -20,7 +21,7 @@ toc:
 
 ---
 
-*Adapted from Introduction to the Command Line by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives. CC BY-SA 4.0.*
+*Adapted from Introduction to the Command Line by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
 
 ---
 # Overview and learning goals
@@ -46,7 +47,9 @@ In this session, we will:
 
 ![gise2](/intro-to-dh/assets/img/gise/gise2.png)
 
-*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez under CC BY-NC-SA 4.0.*
+*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez with CC BY-NC-SA 4.0.*
+
+---
 
 The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them in the glossary.) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
