@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title:  What are digital humanities?
+title:  Definition
 author:
 editor:
 rights:

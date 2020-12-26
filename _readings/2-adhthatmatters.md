@@ -14,9 +14,4 @@ We chose to assign this introduction to the most recent edition of *Debates in t
 
 ---
 
-![gise3](https://binipringle.github.io/intro-to-dh/assets/img/gise/gise3-notext.png)
-
-Illustration by Gisella Lopez, 2020, licensed under a CC BY-NC-SA 4.0 License.
----
-
 [Next: "The User, The Learner and the Machines We Make"](/intro-to-dh/readings/3-userlearnermachines)
