@@ -13,7 +13,7 @@ toc:
 - Attribution
 ---
 
-Digital Humanities refers to new modes of scholarship and institutional units for collaborative scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. Because the field is constantly growing and changing, a good place to look for a definition is [Wikipedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), where the entry is most regularly updated and maintained. For students who do not have internet access, we provide the first two sections of the Wikipedia entry here:
+When I'm asked what digital humanities are, I often say that they employ digital technologies to do humanities work and humanistic methods to query and analyze digital technologies. Because the field of digital humanities is constantly growing and changing, a good place to look for a definition is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), as it is regularly updated and maintained. For readers without internet access, the first two sections of the Wikipedia entry are published here:
 
 # Digital Humanities
 
