@@ -13,7 +13,7 @@ toc:
 - Attribution
 ---
 
-In the field of Digital Humanities we use digital technologies to do humanities work and humanistic methods of inquiry to analyze digital technologies. This is a short, quick definition, and too broad to satisfactorily describe the field. Because digital humanities are constantly growing and changing, a good source for a definition is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), as it is regularly updated and maintained. For readers without internet access, the first two sections of the Wikipedia entry are published here:
+In the field of Digital Humanities we use digital technologies to do humanities work and humanistic methods of inquiry to critically analyze digital technologies. This is a short answer to the question of what the digital humanities are, and one which begs further elaboration. Like most academic fields, digital humanities is constantly being defined and redefined. Therefore, a good starting point to look for a definition is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=990774761), where the entry is regularly updated and revised. For readers without internet access, the first two sections of the Wikipedia entry are published below.
 
 # Digital Humanities
 
