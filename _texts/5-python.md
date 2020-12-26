@@ -27,6 +27,8 @@ toc:
 
 ---
 
+# Overview and learning goals
+
 Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
 
 By the end of this workshop, participants will:

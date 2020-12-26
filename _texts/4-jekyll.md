@@ -32,14 +32,13 @@ In this session, we will use Jekyll, a popular static site generator written in 
 
 ---
 
-# What Is a Static Site?
-
-
 ![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
 *Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez with CC BY-NC-SA 4.0.*
 
 ---
+
+# What Is a Static Site?
 
 In the beginning, there was HTML. Web pages were documents that connected to other documents, and were created by hand-writing HTML.
 
