@@ -1,0 +1,75 @@
+# Built with Jekyll 3.6.0
+
+# Setupš
+title:               'Intro to DH'
+tagline:             'a minimal computing project for teaching digital humanities in prison'
+description:         'This minimal computing project is an introduction to digital humanities course to be taught in prison using a fairly simple computer network with no internet connection.'
+url:                 'https://github.com/binipringle'
+baseurl:             '/intro-to-dh'
+
+# About/contact
+author:
+  name:              Sabina Pringle
+  url:               https://twitter.com/2464Pringle
+  email:             sabina.pringle@gmail.com
+
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme: blue
+
+# Permalinks
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+  readings:
+    output: true
+  freadings:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+# For inclusion of Images (added 4-11)
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor
+  - ed..gemspec
+  - Gemfile
+  - Gemfile.lock
+  - backstop_data
+  - backstop.json
+
+# Theme
+# (Used for local or custom-server deployments)
+# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
+# See https://jekyllrb.com/docs/themes/
+# theme: "ed."
+
+# Remote Theme
+# (Used only for GitHub deployments)
+# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+remote_theme: minicomp/ed
