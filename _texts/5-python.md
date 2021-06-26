@@ -23,7 +23,7 @@ toc:
 
 ---
 
-*By Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0. Edited by Sabina Pringle for this edition.*
+*By Patrick Smyth for [Graduate Center Digital Research Institute](https://gcdri.commons.gc.cuny.edu/) [January 2020 Curricula](https://github.com/DHRI-Curriculum/python). Copyright GCDI with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Edited by Sabina Pringle for this edition.*
 
 ---
 

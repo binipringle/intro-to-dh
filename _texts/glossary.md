@@ -13,7 +13,7 @@ toc:
 
 ---
 
-*Adapted from the [CUNY Graduate Center Digital Research Institute (DRI)](https://gcdri.commons.gc.cuny.edu/) [January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). (c) 2020 Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
+*Derived from the [Graduate Center Digital Research Institute (DRI)](https://gcdri.commons.gc.cuny.edu/) [January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). Copyright GCDI with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Edited by Sabina Pringle for this course.*
 
 ---
 

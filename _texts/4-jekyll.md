@@ -20,7 +20,7 @@ toc:
 
 ---
 
-*Adapted from Introduction to Jekyll by Patrick Smyth for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
+*Adapted from [Introduction to Jekyll](https://github.com/smythp/jekyll) by Patrick Smyth. Copyright (c) 2020-present Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
 
 ---
 

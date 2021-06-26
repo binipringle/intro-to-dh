@@ -21,9 +21,10 @@ toc:
 
 ---
 
-*Adapted from Introduction to the Command Line by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
+*Adapted from [Introduction to the Command Line](https://github.com/GC-DRI/command-line) by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for [Graduate Center Digital Research Institute](https://gcdri.commons.gc.cuny.edu/) [January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). Copyright (c) 2020-present Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
 
 ---
+
 # Overview and learning goals
 
 Many of us have had some interaction with computers, and can explain what a screen and a cursor are, and how to point and click on icons. When we do this, we are relying on a graphical user interface, or GUI (pronounced "gooey!").
