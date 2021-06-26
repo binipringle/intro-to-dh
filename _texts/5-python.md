@@ -23,7 +23,7 @@ toc:
 
 ---
 
-*By Patrick Smyth for [Graduate Center Digital Research Institute](https://github.com/DHRI-Curriculum/python). Copyright GCDI with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Edited by Sabina Pringle.*
+*By Patrick Smyth for [Graduate Center Digital Research Institute](https://github.com/DHRI-Curriculum/python). Copyright GCDI with a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license. Edited by Sabina Pringle.*
 
 ---
 

@@ -21,7 +21,7 @@ toc:
 
 ---
 
-*Adapted from [Introduction to the Command Line](https://github.com/GC-DRI/command-line) by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for [Graduate Center Digital Research Institute January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). Copyright (c) 2020-present Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
+*Adapted from [Introduction to the Command Line](https://github.com/GC-DRI/command-line) by Kelsey Chatlosh, Patrick Smyth, Mary Catherine Kinniburgh, and Jojo Karlin for [Graduate Center Digital Research Institute January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). Copyright (c) 2020-present Sabina Pringle with a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.*
 
 ---
 

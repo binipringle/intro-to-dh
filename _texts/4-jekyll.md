@@ -20,7 +20,7 @@ toc:
 
 ---
 
-*Adapted from [Introduction to Jekyll](https://github.com/smythp/jekyll) by Patrick Smyth. Copyright (c) 2020-present Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
+*Adapted from [Introduction to Jekyll](https://github.com/smythp/jekyll) by Patrick Smyth. Copyright (c) 2020-present Sabina Pringle with a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.*
 
 ---
 
