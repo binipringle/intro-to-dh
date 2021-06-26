@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title:  Definition
+title:  What are the Digital Humanities?
 author:
 editor:
 rights:
@@ -13,7 +13,7 @@ toc:
 - Attribution
 ---
 
-Digital Humanities uses digital technologies to do humanities work and humanistic modes of inquiry to analyze digital technologies. A relatively new field, digital humanities is constantly growing and changing. Therefore, a good first place to look to for a definition of the field is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Digital_humanities), where the entry is regularly updated and revised. For readers without internet access, the first two sections of the Wikipedia entry are published below.
+Digital Humanities uses digital technologies to do humanities work and humanistic modes of inquiry to analyze digital technologies. A relatively new field, digital humanities is constantly growing and changing. Therefore, a good first place to look to for a definition of the field is [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Digital_humanities), where the entry is regularly updated and revised. For readers without internet access, the first two sections of the Wikipedia entry (as of November 26, 2020) are published below.
 
 ---
 
