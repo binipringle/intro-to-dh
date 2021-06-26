@@ -22,9 +22,14 @@ title: "Intro to DH"
 <hr>
 
 <div class="toc">
-  <h2>Part 1: What are the Digital Humanities?</h2>
-  <ul class="readings">
-  {% for item in site.readings %}
+  <h2>Course Materials</h2>
+  <ul class="texts">
+</div>
+
+<div class="toc">
+  <h2>Technical Skills Lessons</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
@@ -36,9 +41,9 @@ title: "Intro to DH"
 </div>
 
 <div class="toc">
-  <h2>Part 2: Technical Skills</h2>
-  <ul class="texts">
-  {% for item in site.texts %}
+  <h2>Readings</h2>
+  <ul class="readings">
+  {% for item in site.readings %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
