@@ -26,7 +26,7 @@ toc:
 
 ![gise4](/intro-to-dh/assets/img/gise/gise4.png)
 
-*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez with a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
+*Illustration by Gisella Lopez, 2020. Copyright Gisella Lopez with [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 ---
 
