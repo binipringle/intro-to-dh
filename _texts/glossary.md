@@ -13,7 +13,7 @@ toc:
 
 ---
 
-*Selected from Digital Humanities Research Institute Glossary from the Digital Research Institute (DRI) Curriculum by Graduate Center Digital Initiatives (GCDI). Copyright GCDI with CC BY-SA 4.0.*
+*Adapted from the [CUNY Graduate Center Digital Research Institute (DRI)](https://gcdri.commons.gc.cuny.edu/) [January 2020 Curricula](https://gcdri.commons.gc.cuny.edu/curricula/january-2020-workshops/). (c) 2020 Sabina Pringle with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*
 
 ---
 
@@ -27,19 +27,27 @@ toc:
 
 `ls` - show the files and folders in the working directory. I think of it as standing for "list stuff," but it's probably just short for "list."
 
-- `ls -1` — show the files and folders in a nice vertical column.
-- `ls -l` — show a detailed list of all the files and folders
-- `ls -a` — show all the files (including hidden files)
-- `ls -al`, `ls -a1` — the two commands above can be combined like this, to both (a) include all files, and (b) show the list in a nice vertical column.
+`ls -1` — show the files and folders in a nice vertical column.
+
+`ls -l` — show a detailed list of all the files and folders
+
+`ls -a` — show all the files (including hidden files)
+
+`ls -al`, `ls -a1` — the two commands above can be combined like this, to both (a) include all files, and (b) show the list in a nice vertical column.
 
 `cd` - move to a directory, i.e. `cd Desktop` will move to the "Desktop" folder. Some special cases:
 
-- `cd ..` - go to the directory above
-- `cd ~` go to your "home" directory, i.e. /Users/<yourname>
-- `cd` (by itself) also goes to the home directory
-- `cd -` go to the last directory you were in before the current
-- `cd ../..` travel two directories up
-- `cd Documents/thesis-drafts` move two directories, from the home folder to "thesis-drafts," skipping "Documents"
+`cd ..` - go to the directory above
+
+`cd ~` go to your "home" directory, i.e. /Users/<yourname>
+
+`cd` (by itself) also goes to the home directory
+
+`cd -` go to the last directory you were in before the current
+
+`cd ../..` travel two directories up
+
+`cd Documents/thesis-drafts` move two directories, from the home folder to (for example) "thesis-drafts," skipping "Documents"
 
 `touch <filename>` - Create an empty text file named <filename> in your current directory.
 
