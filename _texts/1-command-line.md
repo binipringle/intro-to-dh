@@ -61,7 +61,7 @@ Let's take a quick moment to discuss text and text editors.
 
 ## What is text?
 
-Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, the word "text" has different and specific meanings in different fields and subfields. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+Before we explain which program we will use for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, the word "text" has different and specific meanings in different fields and subfields. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. If you are familiar with HTML and making websites, you might know that in order to display even the simplest text on your website, you need specific codes. When we look at a Microsoft Word or other word processing software document, many of us don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![worddoc](https://binipringle.github.io/intro-to-dh//assets/img/comline1-worddoc.jpg)
 
@@ -105,7 +105,7 @@ Visual Studio Code has been preinstalled on your laptop. We won't be using the e
 
 # Why is the command line useful?
 
-Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
+Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of getting your food made by someone else, you're cooking. It's more work, but there are also more possibilities.
 
 The command line allows you to...
 
