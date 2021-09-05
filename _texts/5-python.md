@@ -27,6 +27,12 @@ toc:
 
 ---
 
+![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
+
+*Illustration by Ilian Sanchez, 2020. Copyright Ilian Sanchez with CC BY-NC-SA 4.0.*
+
+---
+
 # Overview and learning goals
 
 Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
@@ -42,12 +48,6 @@ By the end of this workshop, participants will:
 
 ---
 # Interacting with Python
-
-![ilian1](/intro-to-dh/assets/img/ilian/ilian1.png)
-
-*Illustration by Ilian Sanchez, 2020. Copyright Ilian Sanchez with CC BY-NC-SA 4.0.*
-
----
 
 To start an interactive session with Python, open your terminal and type
 
